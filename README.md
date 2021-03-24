@@ -6,13 +6,11 @@ A kata a day keeps the doctor away
 
 ---
 
-## Introduction 
+### Introduction 
 
-In this repository provided my Python solutions of Codewars problems. 
+Python solutions to Codewars problems, grouped by difficulty 
 
-- I highly recommend you to try and solve problems yourself before look at the solutions here.
-
-- All Solutions here are in Python 3.
+- I highly recommend you to try and solve problems yourself  
 
 
 <br><br>
@@ -81,12 +79,29 @@ In this repository provided my Python solutions of Codewars problems.
 |[Easy line](https://www.codewars.com/kata/56e7d40129035aed6c000632)|Binomial expansion|[Link](/7kyu/7kyu%20-%20Easy%20line.md)
 |[Even times last](https://www.codewars.com/kata/5a1a9e5032b8b98477000004)|Arrays|[Link](/7kyu/7kyu%20-%20Even%20times%20last.md)
 |[Even and odds]()|Hexadecimal, binary|[Link]()
-|[X]()|[Link]()|
-|[X]()|[Link]()|
-|[X]()|[Link]()|
-|[X]()|[Link]()|
-|[X]()|[Link]()|
-
+|[Extended weekends]()||[Link]()
+|[Factorial]()||[Link]()
+|[Father and son]()||[Link]()
+|[Find all non-consecutive numbers]()||[Link]()
+|[Find factors of a number]()||[Link]()
+|[Find missing numbers]()||[Link]()
+|[Find the capitals]()||[Link]()
+|[Find the divisors]()||[Link]()
+|[Find the nth occurrence of a word in a string]()||[Link]()
+|[Find the vowels]()||[Link]()
+|[Fix string case]()||[Link]()
+|[Fizz buzz]()||[Link]()
+|[Fizz buzz cuckoo clock]()||[Link]()
+|[Fizz slash buzz]()||[Link]()
+|[Form the largest]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
 
 
 ---
