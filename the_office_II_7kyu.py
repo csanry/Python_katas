@@ -1,5 +1,6 @@
-'''
+# the office II - 7kyu
 
+'''
 Every now and then people in the office moves teams or departments.
 Depending what people are doing with their time they can become more or less boring.
 Time to assess the current team.

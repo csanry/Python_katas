@@ -1,5 +1,4 @@
-
-
+# the office I - 7kyu
 '''
 In a team meeting, a terrible, awful person declares to the group that you aren't working. You're in trouble.
 You quickly have to gauge the feeling in the room to decide whether or not you should gather your things and leave.
