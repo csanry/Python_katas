@@ -1,3 +1,5 @@
+# who likes it, 6kyu
+
 '''
 You probably know the "like" system from Facebook and other pages.
 Implement a function likes :: [String] -> String, which must take in input array, containing the names of people who like an item.
