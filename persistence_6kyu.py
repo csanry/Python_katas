@@ -16,10 +16,11 @@ persistence(4)  # returns 0, because 4 is already a one-digit number
 from functools import reduce
 from operator import mul
 
-def persistence(number)
+def persistence(number):
     count = 0
     while number >= 10:
         number = reduce(mul, map(int, str(number)))
         count += 1
     return count
-
+print(persistence(39))
+print(persistence(999))
