@@ -38,9 +38,12 @@ print(maskify("Nananananananananananananananana Batman!"))
 ```python
 def maskify(cc):
     return cc[-4:].rjust(len(cc), '#')
+
+# alternative
+def maskify(cc):
+    return '#' * (len(cc)-4) + cc[-4:]
 ```
 
 ---
-
 
 [Codewars link](https://www.codewars.com/kata/5412509bd436bd33920011bc)
