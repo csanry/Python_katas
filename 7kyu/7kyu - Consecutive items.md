@@ -32,6 +32,8 @@ True
 ```python
 def consecutive(arr, a, b):
     return any(a in (x, y) and b in (x, y) for x, y in zip(arr, arr[1:]))
+    # alternative
+    # return abs(arr.index(a) - arr.index(b)) == 1
 ```
 
 ---
