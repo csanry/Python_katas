@@ -1,9 +1,7 @@
 # katas
 A kata a day keeps the doctor away
 
-![Language](https://img.shields.io/badge/language-Python-blue.svg)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)&nbsp;
-![Update](https://img.shields.io/badge/update-Daily-brightgreen.svg)&nbsp;
+![Language](https://img.shields.io/badge/language-Python-blue.svg)&nbsp;[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)&nbsp;![Update](https://img.shields.io/badge/update-Daily-brightgreen.svg)&nbsp;
 <br><br>
 
 ---
@@ -39,16 +37,19 @@ In this repository provided my Python solutions of Codewars problems.
 
 ### 7kyu 
 
-|No|Kata|Solution|Notes|
+|No|<div style="width:290px">Kata</div>|<div style="width:200px">Solution</div>|<div style="width:500px">Notes</div>|
 | ---: | :---: | --- | --- |
-|1.|[After(?) midnight](https://www.codewars.com/kata/56fac4cfda8ca6ec0f001746)|[Link](/7kyu/7kyu%20-%20After%20midnight.md)|Dates and times, formatting
-|2.|[Age in days](https://www.codewars.com/kata/5803753aab6c2099e600000e)|[Link](/7kyu/7kyu%20-%20Age%20in%20days.md)|Dates and times
-|3.|[All inclusive](https://www.codewars.com/kata/5700c9acc1555755be00027e)|[Link](/7kyu/7kyu%20-%20All%20inclusive.md)|Conditionals - all True, string rotations
-|4.|[Alphabet symmetry](https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0)|[Link](/7kyu/7kyu%20-%20Alphabet%20symmetry.md)|Nested list comprehensions, enumeration
-|5.|[Alphabet war](https://www.codewars.com/kata/59377c53e66267c8f6000027)|[Link](/7kyu/7kyu%20-%20Alphabet%20war.md)|Key-values, conditionals, strings
-|6.|[Anything](https://www.codewars.com/kata/557d9e4d155e2dbf050000aa)|[Link](/7kyu/7kyu%20-%20Anything.md)|Classes, dunder methods
-|7.|[Array leaders](https://www.codewars.com/kata/5a651865fd56cb55760000e0)|[Link](/7kyu/7kyu%20-%20Array%20leaders.md)|Arrays, all comparisons
-|8.|[Basic fizz buzz](https://www.codewars.com/kata/5300901726d12b80e8000498)|[Link](/7kyu/7kyu%20-%20Basic%20fizz%20buzz.md)|Conditionals, fizzbuzz 
+|1.|[A rule of divisibility by 7](https://www.codewars.com/kata/55e6f5e58f7817808e00002e)|[Link]()|Dates and times, formatting
+|2.|[After(?) midnight](https://www.codewars.com/kata/56fac4cfda8ca6ec0f001746)|[Link](/7kyu/7kyu%20-%20After%20midnight.md)|Dates and times, formatting
+|3.|[Age in days](https://www.codewars.com/kata/5803753aab6c2099e600000e)|[Link](/7kyu/7kyu%20-%20Age%20in%20days.md)|Dates and times
+|4.|[All inclusive](https://www.codewars.com/kata/5700c9acc1555755be00027e)|[Link](/7kyu/7kyu%20-%20All%20inclusive.md)|Conditionals - all True, string rotations
+|5.|[Alphabet symmetry](https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0)|[Link](/7kyu/7kyu%20-%20Alphabet%20symmetry.md)|Nested list comprehensions, enumeration
+|6.|[Alphabet war](https://www.codewars.com/kata/59377c53e66267c8f6000027)|[Link](/7kyu/7kyu%20-%20Alphabet%20war.md)|Key-values, conditionals, strings
+|7.|[Alternate capitalization](https://www.codewars.com/kata/59cfc000aeb2844d16000075)|[Link]()|to be filled
+|8.|[Anagram detection](https://www.codewars.com/kata/529eef7a9194e0cbc1000255)|[Link]()|to be filled
+|9.|[Anything](https://www.codewars.com/kata/557d9e4d155e2dbf050000aa)|[Link](/7kyu/7kyu%20-%20Anything.md)|Classes, dunder methods
+|10.|[Array leaders](https://www.codewars.com/kata/5a651865fd56cb55760000e0)|[Link](/7kyu/7kyu%20-%20Array%20leaders.md)|Arrays, all comparisons
+|11.|[Basic fizz buzz](https://www.codewars.com/kata/5300901726d12b80e8000498)|[Link](/7kyu/7kyu%20-%20Basic%20fizz%20buzz.md)|Conditionals, fizzbuzz 
 
 
 ---
