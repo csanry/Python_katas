@@ -66,18 +66,27 @@ In this repository provided my Python solutions of Codewars problems.
 |27.|[Cost of my ride](https://www.codewars.com/kata/586430a5b3a675296a000395)|[Link](/7kyu/7kyu%20-%20Cost%20of%20my%20ride.md)|Formatting, conditionals
 |28.|[Count divisors of a number](https://www.codewars.com/kata/542c0f198e077084c0000c2e)|[Link](/7kyu/7kyu%20-%20Count%20divisors%20of%20a%20number.md)|Divisors, math
 |29.|[Count of positives sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044)|[Link](/7kyu/7kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)|Arrays, list comprehension
-|30.|[Count the digit]()|[Link]()|Mapping, strings
-|31.|[Credit card mask]()|[Link]()|Fundamentals, strings
-|32.|[Crossing sum]()|[Link]()|Sets, matrices
-|33.|[Decoding a message]()|[Link]()|Translating strings
-|34.|[Diagonals sum]()|[Link]()|Matrices, arrays
-|35.|[Disarium number]()|[Link](/7kyu/7kyu%20-%20Disarium%20Number.md)|Fundamentals
-|35.|[Distinct digit year]()|[Link]()|Sets, while-loops
-|35.|[Divisible by 3]()|[Link]()|Math, remainders, while-loops
-|35.|[X]()|[Link]()|
-|35.|[X]()|[Link]()|
-|35.|[X]()|[Link]()|
-|35.|[X]()|[Link]()|
+|30.|[Count the digit](https://www.codewars.com/kata/566fc12495810954b1000030)|[Link](/7kyu/7kyu%20-%20Count%20the%20digit.md)|Mapping, strings
+|31.|[Credit card mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)|[Link](/7kyu/7kyu%20-%20Credit%20card%20mask.md)|Fundamentals, strings
+|32.|[Crossing sum](https://www.codewars.com/kata/5889ab4928c08c08da00009b)|[Link](/7kyu/7kyu%20-%20Crossing%20sum.md)|Sets, matrices
+|33.|[Decoding a message](https://www.codewars.com/kata/565b9d6f8139573819000056)|[Link](/7kyu/7kyu%20-%20Decoding%20a%20message.md)|Translating strings
+|34.|[Diagonals sum](https://www.codewars.com/kata/5592fc599a7f40adac0000a8)|[Link](/7kyu/7kyu%20-%20Diagonals%20sum.md)|Matrices, arrays
+|35.|[Disarium number](https://www.codewars.com/kata/5a53a17bfd56cb9c14000003)|[Link](/7kyu/7kyu%20-%20Disarium%20Number.md)|Fundamentals
+|36.|[Distinct digit year](https://www.codewars.com/kata/58aa68605aab54a26c0001a6)|[Link](/7kyu/7kyu%20-%20Distinct%20digit%20year.md)|Sets, while-loops
+|37.|[Divisible by 3](https://www.codewars.com/kata/59f7fc109f0e86d705000043)|[Link](/7kyu/7kyu%20-%20Divisible%20by%203.md)|Math, remainders, while-loops
+|38.|[X]()|[Link]()|
+|39.|[X]()|[Link]()|
+|40.|[X]()|[Link]()|
+|41.|[X]()|[Link]()|
+|42.|[X]()|[Link]()|
+|43.|[X]()|[Link]()|
+|44.|[X]()|[Link]()|
+|45.|[X]()|[Link]()|
+|46.|[X]()|[Link]()|
+|47.|[X]()|[Link]()|
+|48.|[X]()|[Link]()|
+|49.|[X]()|[Link]()|
+
 
 
 ---
