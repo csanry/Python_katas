@@ -21,13 +21,13 @@ In this repository provided my Python solutions of Codewars problems.
 
 ### 8kyu
 
-|No|<div style="width:290px">Kata</div>|<div style="width:200px">Solution</div>|<div style="width:500px">Notes</div>|
-| ---: | :---: | --- | --- |
-|1.|[Count of positives / sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044)|[Link](/8kyu/8kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)|Arrays, list comprehension
-|2.|[Pole vaulter starting line](https://www.codewars.com/kata/5786f8404c4709148f0006bf)|[Link](/8kyu/8kyu%20-%20Pole%20vaulter%20starting%20line.md)|Math, logic
-|3.|[Regex count lowercase letters](https://www.codewars.com/kata/56a946cd7bd95ccab2000055)|[Link](/8kyu/8kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)|Regex, find all patterns
-|4.|[Regular ball super ball](https://www.codewars.com/kata/53f0f358b9cb376eca001079)|[Link](/8kyu/8kyu%20-%20Regular%20ball%20super%20ball.md)|Classes, OOP
-|5.|[What's up next?](https://www.codewars.com/kata/542ebbdb494db239f8000046)|[Link](8kyu/8kyu%20-%20What's%20up%20next.md)|Iterables, generators
+|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+| :---: | --- | --- |
+|[Count of positives / sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044)|Arrays, list comprehension|[Link](/8kyu/8kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)
+|[Pole vaulter starting line](https://www.codewars.com/kata/5786f8404c4709148f0006bf)|Math, logic|[Link](/8kyu/8kyu%20-%20Pole%20vaulter%20starting%20line.md)
+|[Regex count lowercase letters](https://www.codewars.com/kata/56a946cd7bd95ccab2000055)|Regex, find all patterns|[Link](/8kyu/8kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)
+|[Regular ball super ball](https://www.codewars.com/kata/53f0f358b9cb376eca001079)|Classes, OOP|[Link](/8kyu/8kyu%20-%20Regular%20ball%20super%20ball.md)
+|[What's up next?](https://www.codewars.com/kata/542ebbdb494db239f8000046)|Iterables, generators|[Link](8kyu/8kyu%20-%20What's%20up%20next.md)
 
 
 ---
@@ -35,57 +35,57 @@ In this repository provided my Python solutions of Codewars problems.
 
 ### 7kyu 
 
-|No|<div style="width:290px">Kata</div>|<div style="width:200px">Solution</div>|<div style="width:500px">Notes</div>|
-| ---: | :---: | --- | --- |
-|1.|[A rule of divisibility by 7](https://www.codewars.com/kata/55e6f5e58f7817808e00002e)|[Link](/7kyu/7kyu%20-%20A%20rule%20of%20divisibility%20by%207.md)|While loops, divmod
-|2.|[After(?) midnight](https://www.codewars.com/kata/56fac4cfda8ca6ec0f001746)|[Link](/7kyu/7kyu%20-%20After%20midnight.md)|Dates and times, formatting
-|3.|[Age in days](https://www.codewars.com/kata/5803753aab6c2099e600000e)|[Link](/7kyu/7kyu%20-%20Age%20in%20days.md)|Dates and times
-|4.|[All inclusive](https://www.codewars.com/kata/5700c9acc1555755be00027e)|[Link](/7kyu/7kyu%20-%20All%20inclusive.md)|Conditionals - all True, string rotations
-|5.|[Alphabet symmetry](https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0)|[Link](/7kyu/7kyu%20-%20Alphabet%20symmetry.md)|Nested list comprehensions, enumeration
-|6.|[Alphabet war](https://www.codewars.com/kata/59377c53e66267c8f6000027)|[Link](/7kyu/7kyu%20-%20Alphabet%20war.md)|Key-values, conditionals, strings
-|7.|[Alternate capitalization](https://www.codewars.com/kata/59cfc000aeb2844d16000075)|[Link](/7kyu/7kyu%20-%20Alternate%20capitalization.md)|Strings, list comprehension
-|8.|[Anagram detection](https://www.codewars.com/kata/529eef7a9194e0cbc1000255)|[Link](/7kyu/7kyu%20-%20Anagram%20detection.md)|Sets, anagram checking
-|9.|[Anything](https://www.codewars.com/kata/557d9e4d155e2dbf050000aa)|[Link](/7kyu/7kyu%20-%20Anything.md)|Classes, dunder methods
-|10.|[Array leaders](https://www.codewars.com/kata/5a651865fd56cb55760000e0)|[Link](/7kyu/7kyu%20-%20Array%20leaders.md)|Arrays, all comparisons
-|11.|[Basic fizz buzz](https://www.codewars.com/kata/5300901726d12b80e8000498)|[Link](/7kyu/7kyu%20-%20Basic%20fizz%20buzz.md)|Conditionals, fizzbuzz 
-|12.|[Basic sequence practice](https://www.codewars.com/kata/5436f26c4e3d6c40e5000282/train/python)|[Link](/7kyu/7kyu%20-%20Basic%20sequence%20practice.md)|Accumulate, range, step
-|13.|[Battle of the characters (easy)](https://www.codewars.com/kata/595519279be6c575b5000016)|[Link](/7kyu/7kyu%20-%20Battle%20of%20the%20characters%20(easy).md)|Enumeration, dictionaries, conditionals, strings
-|14.|[Binary operations](https://www.codewars.com/kata/560e80734267381a270000a2)|[Link](/7kyu/7kyu%20-%20Binary%20operations.md)|Binary, bits, indexing
-|15.|[Bus timer](https://www.codewars.com/kata/5736378e3f3dfd5a820000cb)|[Link](/7kyu/7kyu%20-%20Bus%20timer.md)|Time formatting, conditionals
-|16.|[C.Wars](https://www.codewars.com/kata/55968ab32cf633c3f8000008)|[Link](/7kyu/7kyu%20-%20C.Wars.md)|String manipulation
-|17.|[Calculator coin combination](https://www.codewars.com/kata/564d0490e96393fc5c000029)|[Link](/7kyu/7kyu%20-%20Calculator%20coin%20combination.md)|Divmod, integers
-|18.|[Changing letters](https://www.codewars.com/kata/5831c204a31721e2ae000294)|[Link](/7kyu/7kyu%20-%20Changing%20letters.md)|Strings, list comprehension
-|19.|[Chicken sexing](https://www.codewars.com/kata/57ed40e3bd793e9c92000fcb)|[Link](/7kyu/7kyu%20-%20Chicken%20sexing.md)|List comprehension
-|20.|[Chuck Norris IV - Bearded fist](https://www.codewars.com/kata/57066708cb7293901a0013a1)|[Link](/7kyu/7kyu%20-%20Chuck%20Norris%20IV%20-%20Bearded%20fist.md)|Chaining iterables, mapping
-|21.|[Club doorman](https://www.codewars.com/kata/5c563cb78dac1951c2d60f01)|[Link](/7kyu/7kyu%20-%20Club%20doorman.md)|Searching strings, regex, indexing
-|22.|[Complete series](https://www.codewars.com/kata/580a4001d6df740d61000301)|[Link](/7kyu/7kyu%20-%20Complete%20series.md)|Completing arrays, sets
-|23.|[Consecutive items](https://www.codewars.com/kata/5f6d533e1475f30001e47514/solutions/python)|[Link](/7kyu/7kyu%20-%20Consecutive%20items.md)|Arrays, any, zipping
-|24.|[Convert integer to binary](https://www.codewars.com/kata/55606aeebf1f0305f900006f)|[Link](/7kyu/7kyu%20-%20Convert%20integer%20to%20binary.md)|Binary two's complement
-|25.|[Cool string](https://www.codewars.com/kata/590fd3220f05b4f1ad00007c)|[Link](/7kyu/7kyu%20-%20Cool%20string.md)|Fundamentals, strings
-|26.|[Correct the time string](https://www.codewars.com/kata/57873ab5e55533a2890000c7)|[Link](/7kyu/7kyu%20-%20Correct%20the%20time%20string.md)|Regex, formatting, time
-|27.|[Cost of my ride](https://www.codewars.com/kata/586430a5b3a675296a000395)|[Link](/7kyu/7kyu%20-%20Cost%20of%20my%20ride.md)|Formatting, conditionals
-|28.|[Count divisors of a number](https://www.codewars.com/kata/542c0f198e077084c0000c2e)|[Link](/7kyu/7kyu%20-%20Count%20divisors%20of%20a%20number.md)|Divisors, math
-|29.|[Count of positives sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044)|[Link](/7kyu/7kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)|Arrays, list comprehension
-|30.|[Count the digit](https://www.codewars.com/kata/566fc12495810954b1000030)|[Link](/7kyu/7kyu%20-%20Count%20the%20digit.md)|Mapping, strings
-|31.|[Credit card mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)|[Link](/7kyu/7kyu%20-%20Credit%20card%20mask.md)|Fundamentals, strings
-|32.|[Crossing sum](https://www.codewars.com/kata/5889ab4928c08c08da00009b)|[Link](/7kyu/7kyu%20-%20Crossing%20sum.md)|Sets, matrices
-|33.|[Decoding a message](https://www.codewars.com/kata/565b9d6f8139573819000056)|[Link](/7kyu/7kyu%20-%20Decoding%20a%20message.md)|Translating strings
-|34.|[Diagonals sum](https://www.codewars.com/kata/5592fc599a7f40adac0000a8)|[Link](/7kyu/7kyu%20-%20Diagonals%20sum.md)|Matrices, arrays
-|35.|[Disarium number](https://www.codewars.com/kata/5a53a17bfd56cb9c14000003)|[Link](/7kyu/7kyu%20-%20Disarium%20Number.md)|Fundamentals
-|36.|[Distinct digit year](https://www.codewars.com/kata/58aa68605aab54a26c0001a6)|[Link](/7kyu/7kyu%20-%20Distinct%20digit%20year.md)|Sets, while-loops
-|37.|[Divisible by 3](https://www.codewars.com/kata/59f7fc109f0e86d705000043)|[Link](/7kyu/7kyu%20-%20Divisible%20by%203.md)|Math, remainders, while-loops
-|38.|[X]()|[Link]()|
-|39.|[X]()|[Link]()|
-|40.|[X]()|[Link]()|
-|41.|[X]()|[Link]()|
-|42.|[X]()|[Link]()|
-|43.|[X]()|[Link]()|
-|44.|[X]()|[Link]()|
-|45.|[X]()|[Link]()|
-|46.|[X]()|[Link]()|
-|47.|[X]()|[Link]()|
-|48.|[X]()|[Link]()|
-|49.|[X]()|[Link]()|
+|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+| :---: | --- | --- |
+|[A rule of divisibility by 7](https://www.codewars.com/kata/55e6f5e58f7817808e00002e)|While loops, divmod|[Link](/7kyu/7kyu%20-%20A%20rule%20of%20divisibility%20by%207.md)
+|[After(?) midnight](https://www.codewars.com/kata/56fac4cfda8ca6ec0f001746)|Dates and times, formatting|[Link](/7kyu/7kyu%20-%20After%20midnight.md)
+|[Age in days](https://www.codewars.com/kata/5803753aab6c2099e600000e)|Dates and times|[Link](/7kyu/7kyu%20-%20Age%20in%20days.md)
+|[All inclusive](https://www.codewars.com/kata/5700c9acc1555755be00027e)|Conditionals - all True, string rotations|[Link](/7kyu/7kyu%20-%20All%20inclusive.md)
+|[Alphabet symmetry](https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0)|Nested list comprehensions, enumeration|[Link](/7kyu/7kyu%20-%20Alphabet%20symmetry.md)
+|[Alphabet war](https://www.codewars.com/kata/59377c53e66267c8f6000027)|Key-values, conditionals, strings|[Link](/7kyu/7kyu%20-%20Alphabet%20war.md)
+|[Alternate capitalization](https://www.codewars.com/kata/59cfc000aeb2844d16000075)|Strings, list comprehension|[Link](/7kyu/7kyu%20-%20Alternate%20capitalization.md)
+|[Anagram detection](https://www.codewars.com/kata/529eef7a9194e0cbc1000255)|Sets, anagram checking|[Link](/7kyu/7kyu%20-%20Anagram%20detection.md)
+|[Anything](https://www.codewars.com/kata/557d9e4d155e2dbf050000aa)|Classes, dunder methods|[Link](/7kyu/7kyu%20-%20Anything.md)
+|[Array leaders](https://www.codewars.com/kata/5a651865fd56cb55760000e0)|Arrays, all comparisons|[Link](/7kyu/7kyu%20-%20Array%20leaders.md)
+|[Basic fizz buzz](https://www.codewars.com/kata/5300901726d12b80e8000498)|Conditionals, fizzbuzz|[Link](/7kyu/7kyu%20-%20Basic%20fizz%20buzz.md)
+|[Basic sequence practice](https://www.codewars.com/kata/5436f26c4e3d6c40e5000282/train/python)|Accumulate, range, step|[Link](/7kyu/7kyu%20-%20Basic%20sequence%20practice.md)
+|[Battle of the characters (easy)](https://www.codewars.com/kata/595519279be6c575b5000016)|Enumeration, dictionaries, conditionals, strings|[Link](/7kyu/7kyu%20-%20Battle%20of%20the%20characters%20(easy).md)
+|[Binary operations](https://www.codewars.com/kata/560e80734267381a270000a2)|Binary, bits, indexing|[Link](/7kyu/7kyu%20-%20Binary%20operations.md)
+|[Bus timer](https://www.codewars.com/kata/5736378e3f3dfd5a820000cb)|Time formatting, conditionals|[Link](/7kyu/7kyu%20-%20Bus%20timer.md)
+|[C.Wars](https://www.codewars.com/kata/55968ab32cf633c3f8000008)|String manipulation|[Link](/7kyu/7kyu%20-%20C.Wars.md)
+|[Calculator coin combination](https://www.codewars.com/kata/564d0490e96393fc5c000029)|Divmod, integers|[Link](/7kyu/7kyu%20-%20Calculator%20coin%20combination.md)
+|[Changing letters](https://www.codewars.com/kata/5831c204a31721e2ae000294)|Strings, list comprehension|[Link](/7kyu/7kyu%20-%20Changing%20letters.md)
+|[Chicken sexing](https://www.codewars.com/kata/57ed40e3bd793e9c92000fcb)|List comprehension|[Link](/7kyu/7kyu%20-%20Chicken%20sexing.md)
+|[Chuck Norris IV - Bearded fist](https://www.codewars.com/kata/57066708cb7293901a0013a1)|Chaining iterables, mapping|[Link](/7kyu/7kyu%20-%20Chuck%20Norris%20IV%20-%20Bearded%20fist.md)
+|[Club doorman](https://www.codewars.com/kata/5c563cb78dac1951c2d60f01)|Searching strings, regex, indexing|[Link](/7kyu/7kyu%20-%20Club%20doorman.md)
+|[Complete series](https://www.codewars.com/kata/580a4001d6df740d61000301)|Completing arrays, sets|[Link](/7kyu/7kyu%20-%20Complete%20series.md)
+|[Consecutive items](https://www.codewars.com/kata/5f6d533e1475f30001e47514/solutions/python)|Arrays, any, zipping|[Link](/7kyu/7kyu%20-%20Consecutive%20items.md)
+|[Convert integer to binary](https://www.codewars.com/kata/55606aeebf1f0305f900006f)|Binary two's complement|[Link](/7kyu/7kyu%20-%20Convert%20integer%20to%20binary.md)
+|[Cool string](https://www.codewars.com/kata/590fd3220f05b4f1ad00007c)|Fundamentals, strings|[Link](/7kyu/7kyu%20-%20Cool%20string.md)
+|[Correct the time string](https://www.codewars.com/kata/57873ab5e55533a2890000c7)|Regex, formatting, time|[Link](/7kyu/7kyu%20-%20Correct%20the%20time%20string.md)
+|[Cost of my ride](https://www.codewars.com/kata/586430a5b3a675296a000395)|Formatting, conditionals|[Link](/7kyu/7kyu%20-%20Cost%20of%20my%20ride.md)
+|[Count divisors of a number](https://www.codewars.com/kata/542c0f198e077084c0000c2e)|Divisors, math|[Link](/7kyu/7kyu%20-%20Count%20divisors%20of%20a%20number.md)
+|[Count of positives sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044)|Arrays, list comprehension|[Link](/7kyu/7kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)
+|[Count the digit](https://www.codewars.com/kata/566fc12495810954b1000030)|Mapping, strings|[Link](/7kyu/7kyu%20-%20Count%20the%20digit.md)
+|[Credit card mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)|Fundamentals, strings|[Link](/7kyu/7kyu%20-%20Credit%20card%20mask.md)
+|[Crossing sum](https://www.codewars.com/kata/5889ab4928c08c08da00009b)|Sets, matrices|[Link](/7kyu/7kyu%20-%20Crossing%20sum.md)
+|[Decoding a message](https://www.codewars.com/kata/565b9d6f8139573819000056)|Translating strings|[Link](/7kyu/7kyu%20-%20Decoding%20a%20message.md)
+|[Diagonals sum](https://www.codewars.com/kata/5592fc599a7f40adac0000a8)|Matrices, arrays|[Link](/7kyu/7kyu%20-%20Diagonals%20sum.md)
+|[Disarium number](https://www.codewars.com/kata/5a53a17bfd56cb9c14000003)|Fundamentals|[Link](/7kyu/7kyu%20-%20Disarium%20Number.md)
+|[Distinct digit year](https://www.codewars.com/kata/58aa68605aab54a26c0001a6)|Sets, while-loops|[Link](/7kyu/7kyu%20-%20Distinct%20digit%20year.md)
+|[Divisible by 3](https://www.codewars.com/kata/59f7fc109f0e86d705000043)|Math, remainders, while-loops|[Link](/7kyu/7kyu%20-%20Divisible%20by%203.md)
+|[Don't give me five](https://www.codewars.com/kata/5813d19765d81c592200001a)|Generators, range|[Link](/7kyu/7kyu%20-%20Don't%20give%20me%20five.md)
+|[Driving license](https://www.codewars.com/kata/586a1af1c66d18ad81000134)|Dates, strings, formatting|[Link](/7kyu/7kyu%20-%20Driving%20license.md)
+|[Drone fly by](https://www.codewars.com/kata/58356a94f8358058f30004b5/train/python)|Strings, replacing|[Link](/7kyu/7kyu%20-%20Drone%20fly%20by.md)
+|[Duplicate sandwich](https://www.codewars.com/kata/5f8a15c06dbd530016be0c19)|Enumeration, counting, array|[Link](/7kyu/7kyu%20-%20Duplicate%20sandwich.md)
+|[Easy line](https://www.codewars.com/kata/56e7d40129035aed6c000632)|Binomial expansion|[Link](/7kyu/7kyu%20-%20Easy%20line.md)
+|[Even times last](https://www.codewars.com/kata/5a1a9e5032b8b98477000004)|Arrays|[Link](/7kyu/7kyu%20-%20Even%20times%20last.md)
+|[Even and odds]()|Hexadecimal, binary|[Link]()
+|[X]()|[Link]()|
+|[X]()|[Link]()|
+|[X]()|[Link]()|
+|[X]()|[Link]()|
+|[X]()|[Link]()|
 
 
 
