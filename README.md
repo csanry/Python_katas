@@ -120,10 +120,10 @@ Python solutions to Codewars problems, grouped by difficulty
 |[Maximum length difference]()||[Link]()
 |[Maximum product]()||[Link]()
 |[Method for counting total occurrence]()||[Link]()
-|[]()||[Link]()
-|[]()||[Link]()
-|[]()||[Link]()
-|[]()||[Link]()
+|[Minimize sum of array]()||[Link]()
+|[Misspelled word]()||[Link]()
+|[Money, money, money]()||[Link]()
+|[Moves in squared strings]()||[Link]()
 
 
 ---
