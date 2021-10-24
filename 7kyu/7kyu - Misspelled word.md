@@ -1,4 +1,4 @@
-## Mispelled word - 7kyu
+## Misspelled word - 7kyu
 
 **Instructions**
 
