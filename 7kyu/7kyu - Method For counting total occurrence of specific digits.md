@@ -1,4 +1,4 @@
-## Method For Counting Total Occurence Of Specific Digits - 7kyu
+## Method For Counting Total Occurrence Of Specific Digits - 7kyu
 
 **Instructions**
 
