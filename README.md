@@ -124,6 +124,25 @@ Python solutions to Codewars problems, grouped by difficulty
 |[Misspelled word]()||[Link]()
 |[Money, money, money]()||[Link]()
 |[Moves in squared strings]()||[Link]()
+|[Mr Martingale]()||[Link]()
+|[Mumbling]()||[Link]()
+|[Naughty or nice]()||[Link]()
+|[Number increasing]()||[Link]()
+|[Numbers in strings]()||[Link]()
+|[Odd ones out]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+
 
 
 ---
@@ -133,8 +152,10 @@ Python solutions to Codewars problems, grouped by difficulty
 
 To be filled
 
-|No|<div style="width:290px">Kata</div>|<div style="width:200px">Solution</div>|<div style="width:500px">Notes</div>|
-| ---: | :---: | --- | --- |
+|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+| :---: | --- | --- |
+|[kata](link)|While loops, divmod|[Link](link)
+
 
 
 
