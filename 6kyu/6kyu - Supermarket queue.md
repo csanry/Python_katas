@@ -26,6 +26,7 @@ print(queue_time([2, 8, 16, 5, 8, 7, 17], 3))
 ```
 
 #### Output 
+
 ```
 9
 32
@@ -36,8 +37,9 @@ print(queue_time([2, 8, 16, 5, 8, 7, 17], 3))
 #### Solution
 
 ```python
+import heapq
+
 def queue_time(customers, n):
-    import heapq
     heap = [0] * n
     for time in customers:
         heapq.heapreplace(heap, heap[0] + time)
