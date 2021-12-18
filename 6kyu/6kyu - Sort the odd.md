@@ -1,25 +1,25 @@
-## Sort the Odd - 6kyu
+## Sort the odd - 6kyu
 
 **Instructions**
 
-Given an array of numbers, sort the odd numbers in ascending order while leaving the even numbers
-at their original positions.
+- Given an array of numbers, sort the odd numbers in ascending order while leaving the even numbers at their original positions.
 
 ---
 
 #### Test cases
 
 ```python
-sort_array([7, 1])
-sort_array([5, 3, 2, 8, 1, 4])
-sort_array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])
+print(sort_array([5, 3, 2, 8, 1, 4]))
+print(sort_array([5, 3, 1, 8, 0]))
+print(sort_array([]))
 ```
 
 #### Output 
+
 ```
-[1, 7]
 [1, 3, 2, 8, 5, 4]
-[1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+[1, 3, 5, 8, 0]
+[]
 ```
 
 ---
@@ -27,9 +27,11 @@ sort_array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])
 #### Solution
 
 ```python
-def sort_array(input_arr):
-    odds = sorted(x for x in input_arr if x & 1)
-    return [odds.pop(0) if n & 1 else n for n in input_arr]
+# generate an iterator that consists of sorted odd numbers
+# using list comprehension to replace any odd number with the sorted equivalent
+def sort_array(array):
+    odds = iter(sorted(x for x in array if x & 1))
+    return [next(odds) if i & 1 else i for i in array]
 ```
 
 ---
