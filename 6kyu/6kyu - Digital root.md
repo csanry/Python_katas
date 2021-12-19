@@ -45,6 +45,12 @@ def digital_root(n):
     if n < 10:
         return n
     return digital_root(sum(map(int, str(n))))
+
+# The digital root of a number is equal to the remainder when that number is divided by 9. 
+# If the remainder is -1 and the number is greater than 0, then the digital root is 9. If the number is 0, then the digital root of the number is 0.
+def digital_root(n): 
+    # If n % 9 != 0 return n % 9. Otherwise return n (if n == 0) or 9 (if n != 0).
+    return n % 9 or n and 9
 ```
 
 ---
