@@ -21,7 +21,20 @@ Python solutions to Codewars problems, grouped by difficulty
 
 |<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
 | :---: | --- | --- |
+|[Alternating case]()||[Link]()
+|[Array madness]()||[Link]()
+|[Cat years dog years]()||[Link]()
+|[Concat split and join]()||[Link]()
 |[Count of positives / sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044)|Arrays, list comprehension|[Link](/8kyu/8kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)
+|[csv representation of array]()||[Link]()
+|[Determine offspring sex]()||[Link]()
+|[Draw stairs]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
+|[]()||[Link]()
 |[Pole vaulter starting line](https://www.codewars.com/kata/5786f8404c4709148f0006bf)|Math, logic|[Link](/8kyu/8kyu%20-%20Pole%20vaulter%20starting%20line.md)
 |[Regex count lowercase letters](https://www.codewars.com/kata/56a946cd7bd95ccab2000055)|Regex, find all patterns|[Link](/8kyu/8kyu%20-%20Count%20of%20positives%20sum%20of%20negatives.md)
 |[Regular ball super ball](https://www.codewars.com/kata/53f0f358b9cb376eca001079)|Classes, OOP|[Link](/8kyu/8kyu%20-%20Regular%20ball%20super%20ball.md)
