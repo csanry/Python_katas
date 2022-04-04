@@ -43,13 +43,12 @@ Python solutions to Codewars problems, grouped by difficulty
 |[Regular ball super ball](https://www.codewars.com/kata/53f0f358b9cb376eca001079)|Classes, OOP|[Link](/8kyu/8kyu%20-%20Regular%20ball%20super%20ball.md)
 |[Removing elements](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2)|Lists, subsets|[Link](/8kyu/8kyu%20-%20Removing%20elements.md)
 |[Simple validation of a username with regex](https://www.codewars.com/kata/56a3f08aa9a6cc9b75000023)|Regex|[Link](/8kyu/8kyu%20-%20Simple%20validation%20of%20a%20username%20with%20regex.md)
-|[Sleigh authentication]()|Classes, static methods|[Link]()
-|[Sum of multiples]()|Conditionals|[Link]()
-|[Thinkful - Number drills - Blue and red marbles]()|Math, stats|[Link]()
-|[Triple trouble]()|Triple trouble|[Link]()
-|[Who ate the cookie]()|Conditionals|[Link]()
+|[Sleigh authentication](https://www.codewars.com/kata/52adc142b2651f25a8000643/python)|Classes, static methods|[Link](/8kyu/8kyu%20-%20Sleigh%20authentication.md)
+|[Sum of multiples](https://www.codewars.com/kata/57241e0f440cd279b5000829/python)|Conditionals|[Link](/8kyu/8kyu%20-%20Sum%20of%20multiples.md)
+|[Thinkful - Number drills - Blue and red marbles](https://www.codewars.com/kata/5862f663b4e9d6f12b00003b/python)|Math, stats|[Link](/8kyu/8kyu%20-%20Thinkful%20-%20Number%20drills%20-%20Blue%20and%20red%20marbles.md)
+|[Triple trouble](https://www.codewars.com/kata/5704aea738428f4d30000914/python)|List comprehensions|[Link](/8kyu/8kyu%20-%20Triple%20trouble.md)
 |[What's up next?](https://www.codewars.com/kata/542ebbdb494db239f8000046)|Iterables, generators|[Link](8kyu/8kyu%20-%20What's%20up%20next.md)
-
+|[Who ate the cookie](https://www.codewars.com/kata/55a996e0e8520afab9000055/python)|Conditionals|[Link](/8kyu/8kyu%20-%20Who%20ate%20the%20cookie.md)
 
 ---
 
