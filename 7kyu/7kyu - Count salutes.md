@@ -39,6 +39,17 @@ print(count_salutes('>-<->-<'))
 #### Solution
 
 ```python
+# more efficient 
+def count_salutes(hallway): 
+    right, salutes = 0, 0
+    for p in hallway: 
+        if p == '>': 
+            right += 1
+        elif p == '<':
+            salutes += 2 * right
+    return salutes
+
+# one liner 
 def count_salutes(hallway):
     return sum(hallway[i:].count('<') for i in range(len(hallway)) if hallway[i] == '>') * 2
 ```
