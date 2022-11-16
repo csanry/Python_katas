@@ -1,4 +1,4 @@
-## Kata name - Xkyu
+## Parts of a list - 7kyu
 
 **Instructions**
 
