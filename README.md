@@ -1,22 +1,38 @@
-# Python Katas
-A kata a day keeps the doctor away
+# <p align="center">🌟 Welcome to my katas library</h1>
 
-![Language](https://img.shields.io/badge/language-Python-blue.svg)&nbsp;[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)&nbsp;![Update](https://img.shields.io/badge/update-Daily-brightgreen.svg)&nbsp;
-<br><br>
+<br>
 
----
+<p align="center">
+  <a href=""><img alt="" src="https://img.shields.io/badge/language-Python-blue.svg"></a>
+  <a href="/LICENSE"><img alt="" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+  <a href=""><img alt="" src="https://img.shields.io/badge/updates-Frequent-brightgreen.svg"></a>
+</p>
 
-### Introduction 
+<br>
 
-Python solutions to Codewars problems, grouped by difficulty 
+## 📋 Table of Contents
+
+- [Introduction](#👋-introduction)
+- [8kyu katas](#8kyu)
+- [7kyu katas](#7kyu)
+- [6kyu katas](#6kyu)
+- [5kyu katas](#5kyu)
+
+<br>
+
+## 👋 Introduction
+
+- Solutions to [Codewars](https://www.codewars.com/) problems, grouped by difficulty
+
+- 🍎 A kata a day keeps the doctor away
 
 - It is highly recommended to attempt solving the problems on your own before checking out solutions
 
----
+<br>
 
 ### 8kyu
 
-|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
 | :---: | --- | --- |
 |[Alternating case](https://www.codewars.com/kata/56efc695740d30f963000557)|Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/8kyu/8kyu%20-%20Alternating%20case.md)
 |[Array madness](https://www.codewars.com/kata/56ff6a70e1a63ccdfa0001b1)|Arrays|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/8kyu/8kyu%20-%20Array%20madness.md)
@@ -47,12 +63,15 @@ Python solutions to Codewars problems, grouped by difficulty
 |[What's up next?](https://www.codewars.com/kata/542ebbdb494db239f8000046)|Iterables, generators|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](8kyu/8kyu%20-%20What's%20up%20next.md)
 |[Who ate the cookie](https://www.codewars.com/kata/55a996e0e8520afab9000055/python)|Conditionals|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/8kyu/8kyu%20-%20Who%20ate%20the%20cookie.md)
 
----
+<br>
 
+[Back to TOC](#📋-table-of-contents)
 
-### 7kyu 
+<br>
 
-|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+### 7kyu
+
+|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
 | :---: | --- | --- |
 [A gift well spent](https://www.codewars.com/kata/54554846126a002d5b000854/python)|Generators, iterators|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/7kyu/7kyu%20-%20A%20gift%20well%20spent.md)
 |[A rule of divisibility by 7](https://www.codewars.com/kata/55e6f5e58f7817808e00002e)|While loops, divmod|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/7kyu/7kyu%20-%20A%20rule%20of%20divisibility%20by%207.md)
@@ -307,14 +326,15 @@ Python solutions to Codewars problems, grouped by difficulty
 |[Write out expression](https://www.codewars.com/kata/57e2afb6e108c01da000026e)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/7kyu/7kyu%20-%20Write%20out%20expression.md)
 |[You got change](https://www.codewars.com/kata/5966f6343c0702d1dc00004c)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/7kyu/7kyu%20-%20You%20got%20change.md)
 
+<br>
 
----
+[Back to TOC](#📋-table-of-contents)
 
-### 6kyu 
+<br>
 
-To be filled
+### 6kyu
 
-|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
 | :---: | --- | --- |
 |[All star code challenge 15](https://www.codewars.com/kata/586560a639c5ab3a260000f3)|Data structures, deques|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/6kyu/6kyu%20-%20All%20star%20code%20challenge%2015.md)
 |[All star code challenge 23](https://www.codewars.com/kata/5865dd726b56998ec4000185)|Sorting, dictionaries|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/6kyu/6kyu%20-%20All%20star%20code%20challenge%2023.md)
@@ -389,42 +409,28 @@ To be filled
 |[Who likes it](https://www.codewars.com/kata/5266876b8f4bf2da9b000362)|Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/6kyu/6kyu%20-%20Who%20likes%20it.md)
 |[Your order please](https://www.codewars.com/kata/55c45be3b2079eccff00010f)|Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/6kyu/6kyu%20-%20Your%20order%20please.md)
 
+<br>
 
----
+[Back to TOC](#📋-table-of-contents)
 
-### 5kyu 
+<br>
 
-To be filled
+### 5kyu
 
-|<div style="width:500px">Kata</div>|<div style="width:1000px">Notes</div>|<div style="width:200px">Solution</div>|
+|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
 | :---: | --- | --- |
-|[Bulk up](https://www.codewars.com/kata/5863f1c8b359c4dd4e000001)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Bulk%20up.md)
-|[Can you get the loop](https://www.codewars.com/kata/52a89c2ea8ddc5547a000863)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Can%20you%20get%20the%20loop.md)
-|[Extract the domain name from a url](https://www.codewars.com/kata/514a024011ea4fb54200004b)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Extract%20the%20domain%20name%20from%20a%20url.md)
-|[Greed is good](https://www.codewars.com/kata/5270d0d18625160ada0000e4)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Greed%20is%20good.md)
-|[Josephus survivor](https://www.codewars.com/kata/555624b601231dc7a400017a)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Josephus%20survivor.md)
-|[Largest product in a series](https://www.codewars.com/kata/529872bdd0f550a06b00026e)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Largest%20product%20in%20a%20series.md)
-|[Maximum subarray sum](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Maximum%20subarray%20sum.md)
-|[Moving zeros to the end](https://www.codewars.com/kata/52597aa56021e91c93000cb0)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Moving%20zeros%20to%20the%20end.md)
-|[Number of trailing zeros of N factorial](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Number%20of%20trailing%20zeros%20of%20N%20factorial.md)
-|[Pete the baker](https://www.codewars.com/kata/525c65e51bf619685c000059)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Pete%20the%20baker.md)
-|[Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Scramblies.md)
-|[Simple pig latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Simple%20pig%20latin.md)
-|[Sum of pairs](https://www.codewars.com/kata/54d81488b981293527000c8f)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Sum%20of%20pairs.md)
-|[Valid parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Valid%20parentheses.md)
-|[Where are my anagrams](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Where%20are%20my%20anagrams.md)
-|[Bulk up](https://www.codewars.com/kata/5863f1c8b359c4dd4e000001)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Bulk%20up.md)
-|[Can you get the loop](https://www.codewars.com/kata/52a89c2ea8ddc5547a000863)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Can%20you%20get%20the%20loop.md)
-|[Extract the domain name from a url](https://www.codewars.com/kata/514a024011ea4fb54200004b)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Extract%20the%20domain%20name%20from%20a%20url.md)
-|[Greed is good](https://www.codewars.com/kata/5270d0d18625160ada0000e4)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Greed%20is%20good.md)
-|[Josephus survivor](https://www.codewars.com/kata/555624b601231dc7a400017a)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Josephus%20survivor.md)
-|[Largest product in a series](https://www.codewars.com/kata/529872bdd0f550a06b00026e)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Largest%20product%20in%20a%20series.md)
-|[Maximum subarray sum](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Maximum%20subarray%20sum.md)
-|[Moving zeros to the end](https://www.codewars.com/kata/52597aa56021e91c93000cb0)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Moving%20zeros%20to%20the%20end.md)
-|[Number of trailing zeros of N factorial](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Number%20of%20trailing%20zeros%20of%20N%20factorial.md)
-|[Pete the baker](https://www.codewars.com/kata/525c65e51bf619685c000059)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Pete%20the%20baker.md)
-|[Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Scramblies.md)
-|[Simple pig latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Simple%20pig%20latin.md)
-|[Sum of pairs](https://www.codewars.com/kata/54d81488b981293527000c8f)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Sum%20of%20pairs.md)
-|[Valid parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Valid%20parentheses.md)
-|[Where are my anagrams](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)||[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Where%20are%20my%20anagrams.md)
+|[Bulk up](https://www.codewars.com/kata/5863f1c8b359c4dd4e000001)|Arrays, strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Bulk%20up.md)
+|[Can you get the loop](https://www.codewars.com/kata/52a89c2ea8ddc5547a000863)|Algorithms, linked lists|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Can%20you%20get%20the%20loop.md)
+|[Extract the domain name from a url](https://www.codewars.com/kata/514a024011ea4fb54200004b)|Regex|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Extract%20the%20domain%20name%20from%20a%20url.md)
+|[Greed is good](https://www.codewars.com/kata/5270d0d18625160ada0000e4)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Greed%20is%20good.md)
+|[Josephus survivor](https://www.codewars.com/kata/555624b601231dc7a400017a)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Josephus%20survivor.md)
+|[Largest product in a series](https://www.codewars.com/kata/529872bdd0f550a06b00026e)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Largest%20product%20in%20a%20series.md)
+|[Maximum subarray sum](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)|Algorithms, Dynamic Progamming|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Maximum%20subarray%20sum.md)
+|[Moving zeros to the end](https://www.codewars.com/kata/52597aa56021e91c93000cb0)|Arrays, algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Moving%20zeros%20to%20the%20end.md)
+|[Number of trailing zeros of N factorial](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Number%20of%20trailing%20zeros%20of%20N%20factorial.md)
+|[Pete the baker](https://www.codewars.com/kata/525c65e51bf619685c000059)|Algorithms|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Pete%20the%20baker.md)
+|[Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)|Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Scramblies.md)
+|[Simple pig latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f)|Regex|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Simple%20pig%20latin.md)
+|[Sum of pairs](https://www.codewars.com/kata/54d81488b981293527000c8f)|Memoization|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Sum%20of%20pairs.md)
+|[Valid parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688)|Algorithms, Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Valid%20parentheses.md)
+|[Where are my anagrams](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)|Algorithms, Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Where%20are%20my%20anagrams.md)
