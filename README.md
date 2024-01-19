@@ -1,26 +1,28 @@
 # <p align="center">🌟 Welcome to my katas library</h1>
 
-<br>
-
 <p align="center">
-  <a href=""><img alt="" src="https://img.shields.io/badge/language-Python-blue.svg"></a>
-  <a href="/LICENSE"><img alt="" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
-  <a href=""><img alt="" src="https://img.shields.io/badge/updates-Frequent-brightgreen.svg"></a>
+  <a href=""><img alt="" src="https://img.shields.io/badge/python%20katas-blue?style=for-the-badge"></a>
+  <a href="/LICENSE"><img alt="" src="https://img.shields.io/badge/mit%20license-yellow?style=for-the-badge"></a>
+  <a href=""><img alt="" src="https://img.shields.io/badge/frequent%20updates-brightgreen?style=for-the-badge"></a>
 </p>
 
 <br>
 
+<a name="toc"></a>
+
 ## 📋 Table of Contents
 
-- [Introduction](#👋-introduction)
-- [8kyu katas](#8kyu)
-- [7kyu katas](#7kyu)
-- [6kyu katas](#6kyu)
-- [5kyu katas](#5kyu)
+1. [Introduction](#intro)
+2. [8kyu katas](#8kyu)
+3. [7kyu katas](#7kyu)
+4. [6kyu katas](#6kyu)
+5. [5kyu katas](#5kyu)
 
 <br>
 
 ## 👋 Introduction
+
+<a name="intro"></a>
 
 - Solutions to [Codewars](https://www.codewars.com/) problems, grouped by difficulty
 
@@ -32,7 +34,7 @@
 
 ### 8kyu
 
-|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
+| <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
 |[Alternating case](https://www.codewars.com/kata/56efc695740d30f963000557)|Strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/8kyu/8kyu%20-%20Alternating%20case.md)
 |[Array madness](https://www.codewars.com/kata/56ff6a70e1a63ccdfa0001b1)|Arrays|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/8kyu/8kyu%20-%20Array%20madness.md)
@@ -65,13 +67,13 @@
 
 <br>
 
-[Back to TOC](#📋-table-of-contents)
+[Back to TOC](#toc)
 
 <br>
 
 ### 7kyu
 
-|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
+| <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
 [A gift well spent](https://www.codewars.com/kata/54554846126a002d5b000854/python)|Generators, iterators|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/7kyu/7kyu%20-%20A%20gift%20well%20spent.md)
 |[A rule of divisibility by 7](https://www.codewars.com/kata/55e6f5e58f7817808e00002e)|While loops, divmod|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/7kyu/7kyu%20-%20A%20rule%20of%20divisibility%20by%207.md)
@@ -328,13 +330,13 @@
 
 <br>
 
-[Back to TOC](#📋-table-of-contents)
+[Back to TOC](#toc)
 
 <br>
 
 ### 6kyu
 
-|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
+| <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
 |[All star code challenge 15](https://www.codewars.com/kata/586560a639c5ab3a260000f3)|Data structures, deques|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/6kyu/6kyu%20-%20All%20star%20code%20challenge%2015.md)
 |[All star code challenge 23](https://www.codewars.com/kata/5865dd726b56998ec4000185)|Sorting, dictionaries|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/6kyu/6kyu%20-%20All%20star%20code%20challenge%2023.md)
@@ -411,13 +413,13 @@
 
 <br>
 
-[Back to TOC](#📋-table-of-contents)
+[Back to TOC](#toc)
 
 <br>
 
 ### 5kyu
 
-|<div style="width:500px">🥷 Kata</div>|<div style="width:1000px">📒 Notes</div>|<div style="width:200px">🐍 Solution</div>|
+| <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
 |[Bulk up](https://www.codewars.com/kata/5863f1c8b359c4dd4e000001)|Arrays, strings|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Bulk%20up.md)
 |[Can you get the loop](https://www.codewars.com/kata/52a89c2ea8ddc5547a000863)|Algorithms, linked lists|[![Link](https://img.shields.io/badge/Code-Link-brightgreen.svg)](/5kyu/5kyu%20-%20Can%20you%20get%20the%20loop.md)
