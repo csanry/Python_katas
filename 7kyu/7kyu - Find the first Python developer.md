@@ -30,7 +30,7 @@ print(get_first_python(list1))
 print(get_first_python(list2))
 ```
 
-#### Output 
+#### Output
 
 ```
 Victoria, Puerto Rico
@@ -43,8 +43,8 @@ There will be no Python developers
 
 ```python
 def get_first_python(users):
-    for d in users: 
-        if d['language'] == 'Python': 
+    for d in users:
+        if d['language'] == 'Python':
             return f'{d["first_name"]}, {d["country"]}'
     return 'There will be no Python developers'
 ```

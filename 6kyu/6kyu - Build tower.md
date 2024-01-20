@@ -27,7 +27,7 @@ print(tower_builder(5))
 print(tower_builder(8))
 ```
 
-#### Output 
+#### Output
 ```
 ['*']
 [' * ', '***']

@@ -15,11 +15,11 @@
 #### Test cases
 
 ```python
-delete_nth([1, 1, 1, 1], 2) 
-delete_nth([20, 37, 20, 21], 1) 
+delete_nth([1, 1, 1, 1], 2)
+delete_nth([20, 37, 20, 21], 1)
 ```
 
-#### Output 
+#### Output
 ```
 [1, 1]
 [20, 37, 21]

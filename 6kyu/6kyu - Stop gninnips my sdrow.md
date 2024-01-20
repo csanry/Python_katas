@@ -18,7 +18,7 @@ print(spin_words("This is a test"))
 print(spin_words("This is another test"))
 ```
 
-#### Output 
+#### Output
 ```
 Hey wollef sroirraw
 This is a test

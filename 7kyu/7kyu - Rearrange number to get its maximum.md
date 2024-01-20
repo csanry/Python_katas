@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Create a function that takes one positive three digit integer and rearranges its digits to get the maximum possible number. 
+- Create a function that takes one positive three digit integer and rearranges its digits to get the maximum possible number.
 
-- Assume that the argument is an integer. 
+- Assume that the argument is an integer.
 
 - Return null if the argument is not valid.
 
@@ -21,7 +21,7 @@ print(max_redigit(99))
 print(max_redigit(1000))
 ```
 
-#### Output 
+#### Output
 
 ```
 321

@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- You will be given a string (x) featuring a cat 'C' and a mouse 'm'. 
+- You will be given a string (x) featuring a cat 'C' and a mouse 'm'.
 
 - The rest of the string will be made up of '.'.
 
@@ -24,7 +24,7 @@ print(cat_mouse('C.m'))
 print(cat_mouse('m...C'))
 ```
 
-#### Output 
+#### Output
 
 ```
 Escaped!
@@ -39,7 +39,7 @@ Caught!
 #### Solution
 
 ```python
-import re 
+import re
 
 def cat_mouse(x):
     obs = len(re.findall(r'[Cm](.*)[Cm]', x)[0])

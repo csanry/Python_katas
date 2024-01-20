@@ -27,7 +27,7 @@ print(all_continents(list1))
 print(all_continents(list2))
 ```
 
-#### Output 
+#### Output
 
 ```
 True
@@ -39,7 +39,7 @@ False
 #### Solution
 
 ```python
-def all_continents(lst): 
+def all_continents(lst):
     return set(['Africa', 'Americas', 'Asia', 'Europe', 'Oceania']) == set(d['continent'] for d in lst)
 ```
 

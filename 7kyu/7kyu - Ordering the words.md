@@ -16,7 +16,7 @@ print(order_word("bobby"))
 print(order_word(""))
 ```
 
-#### Output 
+#### Output
 ```
  !,HWdellloor
 bbboy

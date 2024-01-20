@@ -2,13 +2,13 @@
 
 **Instructions**
 
-- Complete the method so that it formats the words into a single comma separated value. 
+- Complete the method so that it formats the words into a single comma separated value.
 
-- The last word should be separated by the word 'and' instead of a comma. 
+- The last word should be separated by the word 'and' instead of a comma.
 
-- The method takes in an array of strings and returns a single formatted string. 
+- The method takes in an array of strings and returns a single formatted string.
 
-- Empty string values should be ignored. 
+- Empty string values should be ignored.
 
 - Empty arrays or `null` values being passed into the method should result in an empty string being returned.
 
@@ -27,7 +27,7 @@ print(format_words(None))
 print(format_words(['']))
 ```
 
-#### Output 
+#### Output
 
 ```
 one, two, three and four
@@ -46,8 +46,8 @@ one and two
 
 ```python
 def format_words(words):
-    if not words or words == ['']: 
-        return '' 
+    if not words or words == ['']:
+        return ''
     words = [w for w in words if w]
     if len(words) == 1:
         return words[0]

@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- In this Kata, you will be given a multi-dimensional array containing 2 or more sub-arrays of integers. 
+- In this Kata, you will be given a multi-dimensional array containing 2 or more sub-arrays of integers.
 
 - Your task is to find the maximum product that can be formed by taking any one element from each sub-array.
 
@@ -19,7 +19,7 @@ print(solve([[14,2],[0,-16],[-12,-16]]))
 print(solve([[-3,-4],[1,2,-3]]))
 ```
 
-#### Output 
+#### Output
 
 ```
 8

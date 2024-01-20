@@ -14,7 +14,7 @@ print(word_splitter("23;RPM;300;PSI;MODE;FORWARD"))
 print(word_splitter("340000.00*-140.49902*ELEVATION*24000000*END"))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['12', '56C', '144', '1000', '1200']

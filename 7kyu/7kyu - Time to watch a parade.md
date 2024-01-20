@@ -2,23 +2,23 @@
 
 **Instructions**
 
-- You're going to watch a parade, but you only care about one of the groups marching. 
+- You're going to watch a parade, but you only care about one of the groups marching.
 
-- The parade passes through the street where your house is. 
+- The parade passes through the street where your house is.
 
-- Your house is at number location of the street. 
+- Your house is at number location of the street.
 
 - Write a function `parade_time` that will tell you the times when you need to appear to see all appearances of that group.
 
-- It's possible the group won't be at your location at an exact time. 
+- It's possible the group won't be at your location at an exact time.
 
 - In that case, just be sure to get there right before it passes (i.e. the largest integer time before the float passes the position).
 
 **Parameters**
 
-- A list of strings containing `groups` in the parade, in order of appearance. 
+- A list of strings containing `groups` in the parade, in order of appearance.
 
-    - A group may appear multiple times. 
+    - A group may appear multiple times.
 
     - You want to see all the parts of your favorite group.
 
@@ -52,7 +52,7 @@ print(parade_time(['a','b','c','d','e','f'],3,2,'c'))
 print(parade_time(['c','b','c','d','e','f'],3,2,'c'))
 ```
 
-#### Output 
+#### Output
 
 ```
 [3]

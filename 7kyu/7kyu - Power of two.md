@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Write a function that returns if a given non-negative integer is a power of two. 
+- Write a function that returns if a given non-negative integer is a power of two.
 
 ---
 
@@ -17,7 +17,7 @@ print(power_of_two(6))
 print(power_of_two(4096))
 ```
 
-#### Output 
+#### Output
 ```
 False
 True

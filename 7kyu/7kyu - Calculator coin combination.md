@@ -6,13 +6,13 @@
 
 - The function should return an array where
     - coins[0] = pennies ==> $00.01
-    
+
     - coins[1] = nickels ==> $00.05
-    
+
     - coins[2] = dimes ==> $00.10
-    
+
     - coins[3] = quarters ==> $00.25
-    
+
 ---
 
 #### Test cases
@@ -27,7 +27,7 @@ print(coin_combo(23))
 print(coin_combo(934))
 ```
 
-#### Output 
+#### Output
 ```
 [1, 0, 2, 93]
 [0, 0, 0, 13]

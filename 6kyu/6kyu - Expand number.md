@@ -17,7 +17,7 @@ print(expanded_form(3273))
 print(expanded_form(70304))
 ```
 
-#### Output 
+#### Output
 ```
 10 + 2
 40 + 2

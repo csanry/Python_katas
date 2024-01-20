@@ -2,11 +2,11 @@
 
 **Instructions**
 
-- Tap code is a way to communicate using a series of taps and pauses for each letter. 
+- Tap code is a way to communicate using a series of taps and pauses for each letter.
 
 - For this function, we will use dots . for the taps and whitespaces for the pauses.
 
-- The number of taps needed for each letter matches its coordinates in the following polybius square (note the c/k position). 
+- The number of taps needed for each letter matches its coordinates in the following polybius square (note the c/k position).
 
 - Then you "tap" the row, a pause, then the column. Each letter is separated from others with a pause too.
 
@@ -31,7 +31,7 @@ print(tap_code_translation("taps"))
 print(tap_code_translation("knocks"))
 ```
 
-#### Output 
+#### Output
 
 ```
 . .. .... .. . ..... . . . ... .... ...
@@ -51,7 +51,7 @@ def tap_code_translation(text):
     v = (' '.join(c) for c in product(base, base))
     k = 'abcdefghijlmnopqrstuvwxyz'
     d = {k: v for (k, v) in zip(k, v)}
-    
+
     return ' '.join(d.get(c, '. ...') for c in text)
 ```
 

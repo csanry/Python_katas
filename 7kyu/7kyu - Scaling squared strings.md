@@ -36,7 +36,7 @@ print(scale("Kj\nSH", 1, 2))
 print(scale("abcd\nefgh\nijkl\nmnop", 2, 3))
 ```
 
-#### Output 
+#### Output
 ```
 ""
 "Kj\nKj\nSH\nSH"
@@ -49,12 +49,12 @@ print(scale("abcd\nefgh\nijkl\nmnop", 2, 3))
 
 ```python
 def scale(strng, k, v):
-    if not strng: 
+    if not strng:
         return ''
     res = []
-    for part in strng.split('\n'): 
+    for part in strng.split('\n'):
         line = ''.join(let * k for let in part)
-        for _ in range(v): 
+        for _ in range(v):
             res.append(line)
     return '\n'.join(res)
 ```

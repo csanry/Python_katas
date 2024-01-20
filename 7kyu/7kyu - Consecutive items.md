@@ -18,7 +18,7 @@ print(consecutive([1, 3, 5, 7], 3, 1))
 print(consecutive([1, 6, 9, -3, 4, -78, 0], -3, 4))
 ```
 
-#### Output 
+#### Output
 ```
 False
 True

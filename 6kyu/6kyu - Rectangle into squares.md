@@ -19,7 +19,7 @@ print(sq_in_rect(20, 14))
 print(sq_in_rect(37, 14))
 ```
 
-#### Output 
+#### Output
 
 ```
 None

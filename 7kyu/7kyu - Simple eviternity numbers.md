@@ -28,7 +28,7 @@ print(solve(0,100000))
 print(solve(0,500000))
 ```
 
-#### Output 
+#### Output
 ```
 4
 14
@@ -45,13 +45,13 @@ print(solve(0,500000))
 from itertools import product
 from collections import Counter
 
-def is_evit(n): 
+def is_evit(n):
     cnt = Counter(n)
     return cnt[8] >= cnt[5] >= cnt[3]
 
-eviternity = [*map(int, (''.join(map(str, digs)) 
-                                for nd in range(1, 7) 
-                                for digs in product((3, 5, 8), repeat = nd) 
+eviternity = [*map(int, (''.join(map(str, digs))
+                                for nd in range(1, 7)
+                                for digs in product((3, 5, 8), repeat = nd)
                                 if is_evit(digs)))]
 def solve(a, b):
     return sum(a <= n < b for n in eviternity)

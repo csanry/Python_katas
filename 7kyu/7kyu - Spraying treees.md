@@ -4,7 +4,7 @@
 
 - There are five workers : James, John, Robert, Michael and William.
 
-- They work one by one and on weekends they rest. 
+- They work one by one and on weekends they rest.
 
 - Order is same as in the description (James works on Monday,John works on Tuesday and so on).
 
@@ -32,7 +32,7 @@ print(task('Tuesday',6,1))
 print(task('Thursday',5,3))
 ```
 
-#### Output 
+#### Output
 ```
 It is Wednesday today, Robert, you have to work, you must spray 10 trees and you need 20 dollars to buy liquid
 It is Monday today, James, you have to work, you must spray 4 trees and you need 12 dollars to buy liquid

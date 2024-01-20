@@ -20,7 +20,7 @@ print(vowel_indices('YmvM3oxbpK07vCV'))
 print(vowel_indices('E6q7yb7C4aPfuWFdelFbl'))
 ```
 
-#### Output 
+#### Output
 ```
 [2, 4, 6, 10]
 [1, 2, 9]

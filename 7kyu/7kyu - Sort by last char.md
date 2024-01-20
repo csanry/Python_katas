@@ -18,7 +18,7 @@ print(last("massage yes massage yes massage"))
 print(last("take bintang and a dance please"))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']

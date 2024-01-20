@@ -7,7 +7,7 @@
 - Implement the `riders` function, to return how many riders are necessary to get the mail from one end to the other.
 
 - NOTE: Each rider travels as far as he can, but never more than 100 miles.
-    
+
 ---
 
 #### Test cases
@@ -19,7 +19,7 @@ print(riders([33, 8, 16, 47, 30, 30, 46]))
 print(riders([6, 24, 6, 8, 28, 8, 23, 47, 17, 29, 37, 18, 40, 49]))
 ```
 
-#### Output 
+#### Output
 
 ```
 1
@@ -33,14 +33,14 @@ print(riders([6, 24, 6, 8, 28, 8, 23, 47, 17, 29, 37, 18, 40, 49]))
 #### Solution
 
 ```python
-def riders(stations): 
+def riders(stations):
     dist, ans = 0, 1
 
-    for s in stations: 
-        if dist + s > 100: 
+    for s in stations:
+        if dist + s > 100:
             ans += 1
             dist = s
-        else: 
+        else:
             dist += s
     return ans
 ```

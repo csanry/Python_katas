@@ -21,7 +21,7 @@ print(special_number(970569))
 print(special_number(11350224))
 ```
 
-#### Output 
+#### Output
 ```
 Special!!
 NOT!!

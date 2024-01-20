@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- When provided with a string, capitalize all vowels. 
+- When provided with a string, capitalize all vowels.
 
-- Note: Y is not a vowel. 
+- Note: Y is not a vowel.
 
 ---
 
@@ -15,7 +15,7 @@ print(swap("HelloWorld!"))
 print(swap("Sunday"))
 ```
 
-#### Output 
+#### Output
 ```
 HEllOWOrld!
 SUndAy

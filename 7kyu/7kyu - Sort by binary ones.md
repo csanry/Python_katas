@@ -5,9 +5,9 @@
 - In this example you need to implement a function that sort a list of integers based on it's binary representation.
 
     1. Sort the list based on the amount of 1's in the binary representation of each number.
-    
+
     2. If two numbers have the same amount of 1's, the shorter string goes first. (ex: "11" goes before "101" when sorting 3 and 5 respectively)
-    
+
     3. If the strings have the same length, lower decimal number goes first. (ex: 21 = "10101" and 25 = "11001", then 21 goes first as is lower)
 
 ---
@@ -24,7 +24,7 @@ print(sort_by_binary_ones([80, 21]))
 print(sort_by_binary_ones([0, 1024, 33]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [3, 1]

@@ -20,7 +20,7 @@ print(scramble('scriptjava', 'javascript'))
 print(scramble('scriptingjava', 'javascript'))
 ```
 
-#### Output 
+#### Output
 ```
 True
 True
@@ -36,7 +36,7 @@ True
 ```python
 def scramble(s1, s2):
     from collections import Counter
-    return not(Counter(s2) - Counter(s1)) 
+    return not(Counter(s2) - Counter(s1))
 ```
 
 ---

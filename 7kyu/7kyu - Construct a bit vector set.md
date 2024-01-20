@@ -6,10 +6,10 @@
 
 ```
 sort_by_bit([1, 2, 0, 4]) # returns 23 as binary representation:
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1      
-                                          . . . . . 5 4 3 2 1 0  <--- indices     
-                                                      |   | | |                       
-                                                      |   | | |                       
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1
+                                          . . . . . 5 4 3 2 1 0  <--- indices
+                                                      |   | | |
+                                                      |   | | |
                             these bits are 1 due to the corresponding indices in the given array
 ```
 
@@ -24,7 +24,7 @@ print(sort_by_bit([14, 12, 11, 24, 2, 31, 15, 18, 4]))
 print(sort_by_bit([7, 23, 14, 9, 6, 20, 29, 5, 18, 13, 12, 2, 26, 27, 10, 31, 0, 25, 19, 1]))
 ```
 
-#### Output 
+#### Output
 
 ```
 0

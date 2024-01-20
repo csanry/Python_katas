@@ -17,7 +17,7 @@ print(averages([1, 3, 5, 1, -10]))
 print(averages([]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [2.0, 2.0, 2.0, 2.0]

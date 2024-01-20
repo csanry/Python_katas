@@ -13,7 +13,7 @@ print(remove_every_other(['Hello', 'Goodbye', 'Hello Again']))
 print(remove_every_other([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['Hello', 'Hello Again']

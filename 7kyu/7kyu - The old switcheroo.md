@@ -16,7 +16,7 @@ print(vowel_2_index('Codewars is the best site in the world'))
 print(vowel_2_index('Tomorrow is going to be raining'))
 ```
 
-#### Output 
+#### Output
 
 ```
 th3s 6s my str15ng

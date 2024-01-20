@@ -5,9 +5,9 @@
 - Check if it is possible to convert a string to a palindrome by changing one character.
 
 ```
-solve ("abbx") = True, because we can convert 'x' to 'a' and get a palindrome. 
-solve ("abba") = False, because we cannot get a palindrome by changing any character. 
-solve ("abcba") = True. We can change the middle character. 
+solve ("abbx") = True, because we can convert 'x' to 'a' and get a palindrome.
+solve ("abba") = False, because we cannot get a palindrome by changing any character.
+solve ("abcba") = True. We can change the middle character.
 ```
 
 ---
@@ -23,7 +23,7 @@ print(solve("ab"))
 print(solve("abcba"))
 ```
 
-#### Output 
+#### Output
 
 ```
 False

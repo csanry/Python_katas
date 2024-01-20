@@ -5,7 +5,7 @@
 - Write a function that will be able to sum elements of list continuously and return a new list of sums.
 
 ```
-add [1,2,3,4,5] == [1, 3, 6, 10, 15], because it's calculated like 
+add [1,2,3,4,5] == [1, 3, 6, 10, 15], because it's calculated like
 this : [1, 1 + 2, 1 + 2 + 3, 1 + 2 + 3 + 4, 1 + 2 + 3 + 4 + 5]
 ```
 
@@ -21,7 +21,7 @@ print(add([1,4,9,16,25,36]))
 print(add([1,8,27,64,125]))
 ```
 
-#### Output 
+#### Output
 ```
 [1, 3, 6, 10, 15]
 [20, 41, 63, 86, 110, 135]

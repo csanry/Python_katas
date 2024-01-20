@@ -2,11 +2,11 @@
 
 **Instructions**
 
-- Greed is a dice game played with five six-sided dice. 
+- Greed is a dice game played with five six-sided dice.
 
-- Your mission is to score a throw according to these rules. 
+- Your mission is to score a throw according to these rules.
 
-**Scoring scheme** 
+**Scoring scheme**
 
 ```
  Three 1's => 1000 points
@@ -21,7 +21,7 @@
 
 - You will always be given an array with five six-sided dice values.
 
-- A single die can only be counted once in each roll. 
+- A single die can only be counted once in each roll.
 
 - For example, a given "5" can only count as part of a triplet (contributing to the 500 points) or as a single 50 points, but not both in the same roll.
 
@@ -46,7 +46,7 @@ print(score([4, 4, 4, 3, 3]))
 print(score([2, 4, 4, 5, 4]))
 ```
 
-#### Output 
+#### Output
 ```
 0
 400

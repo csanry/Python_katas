@@ -2,16 +2,16 @@
 
 **Instructions**
 
-- Given a string, return the length of the longest prefix that is also a suffix. 
+- Given a string, return the length of the longest prefix that is also a suffix.
 
-- A prefix is the start of a string while the suffix is the end of a string. 
+- A prefix is the start of a string while the suffix is the end of a string.
 
-- For instance, the prefixes of the string `"abcd"` are `["a","ab","abc"]`. The suffixes are `["bcd", "cd", "d"]`. 
+- For instance, the prefixes of the string `"abcd"` are `["a","ab","abc"]`. The suffixes are `["bcd", "cd", "d"]`.
 
 - You should not overlap the prefix and suffix.
 
 ```
-solve("abcd") = 0, because no prefix == suffix. 
+solve("abcd") = 0, because no prefix == suffix.
 solve("abcda") = 1, because the longest prefix which == suffix is "a".
 solve("abcdabc") = 3. Longest prefix which == suffix is "abc".
 solve("aaaa") = 2. Longest prefix which == suffix is "aa". You should not overlap the prefix and suffix
@@ -36,7 +36,7 @@ print(solve("aa"))
 print(solve("a"))
 ```
 
-#### Output 
+#### Output
 ```
 0
 1

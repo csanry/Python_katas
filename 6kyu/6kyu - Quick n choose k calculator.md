@@ -12,7 +12,7 @@
 # python code here
 ```
 
-#### Output 
+#### Output
 ```
 # Expected output
 ```
@@ -24,7 +24,7 @@
 ```python
 from math import comb
 def choose(n, k):
-    return comb(n, k)       
+    return comb(n, k)
 ```
 
 ---

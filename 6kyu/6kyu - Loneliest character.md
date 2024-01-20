@@ -23,7 +23,7 @@ print(sorted(loneliest('a  b  c  de  ')))
 print(sorted(loneliest('abc')))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['a']

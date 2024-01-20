@@ -16,7 +16,7 @@ print((sort_reindeer(['Daisuke Mori', 'Shiro Sanada', 'Saburo Shima', 'Juzo Yabu
 print((sort_reindeer(["Sukeharu Yamamoto", "Juzo Yabu", "Saburo Shima", "Shiro Sanada", "Daisuke Mori"]))
 ```
 
-#### Output 
+#### Output
 ```
 ['Kenjiro Mori', 'Juzo Okita', 'Akira Sanada', 'Susumu Tokugawa']
 []

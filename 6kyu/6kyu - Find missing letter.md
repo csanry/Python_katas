@@ -21,7 +21,7 @@ print(find_missing_letter(['a','b','c','d','f']))
 print(find_missing_letter(['O','Q','R','S']))
 ```
 
-#### Output 
+#### Output
 
 ```
 e

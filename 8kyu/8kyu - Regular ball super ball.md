@@ -17,7 +17,7 @@ print(Ball().ball_type)
 print(Ball('super').ball_type)
 ```
 
-#### Output 
+#### Output
 ```
 regular
 super

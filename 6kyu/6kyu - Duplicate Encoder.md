@@ -21,7 +21,7 @@ print(duplicate_encoder('Success'))
 print(duplicate_encoder('(( @'))
 ```
 
-#### Output 
+#### Output
 
 ```
 (((

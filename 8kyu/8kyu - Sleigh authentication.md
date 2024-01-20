@@ -4,7 +4,7 @@
 
 - Your task is to implement the `authenticate()` method of the sleigh class.
 
-- `authenticate()` takes the name of the person, who wants to board the sleigh and a secret password. 
+- `authenticate()` takes the name of the person, who wants to board the sleigh and a secret password.
 
 - If the name equals `Santa Claus` and the password is `Ho Ho Ho!`, return `True`. Otherwise, return `False`.
 
@@ -20,7 +20,7 @@ print(sleigh.authenticate('Santa Claus', 'Ho Ho!'))
 print(sleigh.authenticate('jhoffner', 'CodeWars'))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

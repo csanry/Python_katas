@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- You are given an array of strings `coll`, a search `term`, and two booleans fine-tuning your indexing operation. 
+- You are given an array of strings `coll`, a search `term`, and two booleans fine-tuning your indexing operation.
 
 - Return an array containing the document IDs (1-based index of documents in the array) where term occurs, sorted in ascending order.
 
@@ -29,7 +29,7 @@ print(build_inverted_index(['hello. there', 'general kenobi'],'hello', True, Tru
 print(build_inverted_index(['Im Wald gibts nicht viel zu tun', 'Oooh du schoener Westerwald'],'wald', False, True))
 ```
 
-#### Output 
+#### Output
 
 ```
 []

@@ -23,11 +23,11 @@
 #### Test cases
 
 ```python
-print(is_valid_walk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's'])) 
-print(is_valid_walk(['w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'n', 'n'])) 
+print(is_valid_walk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']))
+print(is_valid_walk(['w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'n', 'n']))
 ```
 
-#### Output 
+#### Output
 ```
 True
 False

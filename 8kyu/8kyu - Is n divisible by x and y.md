@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Create a function that checks if a number n is divisible by two numbers x AND y. 
+- Create a function that checks if a number n is divisible by two numbers x AND y.
 
 - All inputs are positive, non-zero digits.
 
@@ -17,7 +17,7 @@ print(is_divisible(12, 3, 4))
 print(is_divisible(8, 3, 4))
 ```
 
-#### Output 
+#### Output
 
 ```
 False

@@ -17,7 +17,7 @@ print(get_planet_name(8))
 print(get_planet_name(1))
 ```
 
-#### Output 
+#### Output
 
 ```
 Venus

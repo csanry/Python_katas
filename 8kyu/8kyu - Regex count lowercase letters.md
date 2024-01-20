@@ -17,7 +17,7 @@ print(lowercase_count("ABC123!@#$%^&*()_-+=}{[]|\':;?/>.<,~"))
 print(lowercase_count("abcdefghijklmnopqrstuvwxyz"))
 ```
 
-#### Output 
+#### Output
 ```
 3
 3

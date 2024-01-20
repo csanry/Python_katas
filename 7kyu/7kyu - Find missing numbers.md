@@ -26,7 +26,7 @@ print(find_missing_numbers([0]))
 print(find_missing_numbers([-4,4]))
 ```
 
-#### Output 
+#### Output
 ```
 [-1, 0, 2, 3]
 []

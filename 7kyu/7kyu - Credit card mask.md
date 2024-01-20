@@ -21,7 +21,7 @@ print(maskify("Skippy"))
 print(maskify("Nananananananananananananananana Batman!"))
 ```
 
-#### Output 
+#### Output
 ```
 ############5616
 #######5616

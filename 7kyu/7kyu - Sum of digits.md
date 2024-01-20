@@ -20,7 +20,7 @@ print(sum_of_digits(64323))
 print(sum_of_digits(None))
 ```
 
-#### Output 
+#### Output
 
 ```
 6 + 4 + 3 + 2 + 3 = 18

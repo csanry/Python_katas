@@ -19,7 +19,7 @@ print(split_and_merge("Hello World!", "."))
 print(split_and_merge("Hello World!", ","))
 ```
 
-#### Output 
+#### Output
 
 ```
 M y n a m e i s J o h n

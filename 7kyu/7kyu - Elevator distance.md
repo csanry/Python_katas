@@ -18,7 +18,7 @@ print(elevator_distance([1,2,3]))
 print(elevator_distance([7,1,7,1]))
 ```
 
-#### Output 
+#### Output
 
 ```
 9
@@ -31,7 +31,7 @@ print(elevator_distance([7,1,7,1]))
 #### Solution
 
 ```python
-def elevator_distance(arr): 
+def elevator_distance(arr):
     return sum(abs(i-j) for i, j in zip(arr, arr[1:]))
 ```
 

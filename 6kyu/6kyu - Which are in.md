@@ -14,7 +14,7 @@ print(in_array(['ohio', 'code', '1346', '1028', 'art'], ['Carolina', 'Ohio', '46
 print(in_array(['duplicates', 'duplicates'], ['duplicates', 'duplicates']))
 ```
 
-#### Output 
+#### Output
 ```
 ['cod', 'code', 'ewar', 'wars']
 []

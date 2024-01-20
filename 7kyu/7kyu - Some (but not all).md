@@ -17,7 +17,7 @@ print(some_but_not_all([1, 1], lambda x: x>3))
 print(some_but_not_all([4, 4], lambda x: x>3))
 ```
 
-#### Output 
+#### Output
 ```
 True
 False

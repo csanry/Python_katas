@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- You are given a node that is the beginning of a linked list. 
+- You are given a node that is the beginning of a linked list.
 
-- This list always contains a tail and a loop. 
+- This list always contains a tail and a loop.
 
 - Your objective is to determine the length of the loop.
 
@@ -25,7 +25,7 @@ node4.next = node2
 print(loop_size(node1))
 ```
 
-#### Output 
+#### Output
 ```
 3
 ```
@@ -39,14 +39,14 @@ print(loop_size(node1))
 def loop_size(node):
     rabbit = node.next.next
     turtle = node.next
-    
+
     while rabbit != turtle:
         rabbit = rabbit.next.next
         turtle = turtle.next
-    
+
     rabbit = rabbit.next
     cnt = 1
-    while rabbit != turtle: 
+    while rabbit != turtle:
         rabbit = rabbit.next
         cnt += 1
     return cnt

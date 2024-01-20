@@ -7,9 +7,9 @@
 - When the last vowel in the word is:
 
     - A front vowel (e, é, i, í, ö, ő, ü, ű) the suffix is -nek.
-    
+
     - A back vowel (a, á, o, ó, u, ú) the suffix is -nak.
-    
+
     - The root word otherwise.
 ---
 
@@ -21,7 +21,7 @@ print(dative("szék"))
 print(dative("otthon"))
 ```
 
-#### Output 
+#### Output
 ```
 ablaknak
 széknek

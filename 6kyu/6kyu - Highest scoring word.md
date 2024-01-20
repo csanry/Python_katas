@@ -22,7 +22,7 @@ print(high('what time are we climbing up the volcano'))
 print(high('take me to semynak'))
 ```
 
-#### Output 
+#### Output
 ```
 taxi
 volcano
@@ -35,12 +35,12 @@ semynak
 
 ```python
 def high(x):
-    words = x.split() 
+    words = x.split()
     n = [sum(ord(c) - 96 for c in w) for w in words]
     return words[n.index(max(n))]
 
 # one-liner
-def high(x): 
+def high(x):
     return max(x.split(), key=lambda k: sum(ord(c) - 96 for c in k))
 ```
 

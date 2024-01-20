@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Write a function that takes a single string as an argument. 
+- Write a function that takes a single string as an argument.
 
 - The function must return an ordered list containing the indexes of all capital letters in the string.
 
@@ -17,7 +17,7 @@ print(capitals('Xtzhl'))
 print(capitals('YwzaGfiYtz'))
 ```
 
-#### Output 
+#### Output
 
 ```
 [0, 3, 4, 6]

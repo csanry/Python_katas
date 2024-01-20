@@ -36,7 +36,7 @@ print(price(44.11, 'Heavily soiled', 7))
 print(price('pants', 6, 7))
 ```
 
-#### Output 
+#### Output
 
 ```
 $26.55

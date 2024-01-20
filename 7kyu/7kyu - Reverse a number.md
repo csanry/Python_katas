@@ -26,7 +26,7 @@ print(reverse_number(0))
 print(reverse_number(98989898))
 ```
 
-#### Output 
+#### Output
 
 ```
 321

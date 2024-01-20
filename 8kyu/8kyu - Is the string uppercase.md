@@ -18,7 +18,7 @@ print(is_uppercase("HELLO I AM DONALD"))
 print(is_uppercase("$%&"))
 ```
 
-#### Output 
+#### Output
 
 ```
 False

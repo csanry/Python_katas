@@ -6,9 +6,9 @@
 
 - Disaster!! The boat has caught fire!!
 
-- You will be provided a string that lists many boat related items. 
+- You will be provided a string that lists many boat related items.
 
-- If any of these items are "Fire" you must spring into action. Change any instance of "Fire" into "~~". 
+- If any of these items are "Fire" you must spring into action. Change any instance of "Fire" into "~~".
 
 - Then return the string.
 
@@ -22,7 +22,7 @@ print(fire_fight("Mast Deck Engine Water Fire"))
 print(fire_fight("Fire Deck Engine Sail Deck Fire Fire Fire Rudder Fire Boat Fire Fire Captain"))
 ```
 
-#### Output 
+#### Output
 
 ```
 Boat Rudder Mast Boat Hull Water ~~ Boat Deck Hull ~~ Propeller Deck ~~ Deck Boat Mast

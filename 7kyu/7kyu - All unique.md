@@ -2,11 +2,11 @@
 
 **Instructions**
 
-- Write a program to determine if a string contains only unique characters. 
+- Write a program to determine if a string contains only unique characters.
 
 - Return `True` if it does and `False` otherwise.
 
-- The string may contain any of the 128 ASCII characters. 
+- The string may contain any of the 128 ASCII characters.
 
 - Characters are case-sensitive, e.g. `a` and `A` are considered different characters.
 
@@ -20,7 +20,7 @@ print(has_unique_chars("++-"))
 print(has_unique_chars("  nAa"))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

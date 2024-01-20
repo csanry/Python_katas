@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Write a simple regex to validate a username. 
+- Write a simple regex to validate a username.
 
 - Allowed characters are lowercase letters, numbers, underscore.
 
@@ -22,7 +22,7 @@ print(validate_usr('____'))
 print(validate_usr('012'))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

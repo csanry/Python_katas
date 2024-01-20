@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Santa needs you to write two functions. Both of the functions accept a sequence of objects. 
+- Santa needs you to write two functions. Both of the functions accept a sequence of objects.
 
-- The first one returns a sequence containing only the names of the nice people, and the other returns a sequence containing only the names of the naughty people. 
+- The first one returns a sequence containing only the names of the nice people, and the other returns a sequence containing only the names of the naughty people.
 
 - Return an empty sequence [] if the result from either of the functions contains no names.
 
@@ -23,7 +23,7 @@ print(get_naughty_names(naughty))
 print(get_naughty_names(nice))
 ```
 
-#### Output 
+#### Output
 ```
 []
 ['Santa', 'Warrior reading this kata']

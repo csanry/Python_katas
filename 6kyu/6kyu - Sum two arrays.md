@@ -4,9 +4,9 @@
 
 - Your task is to create a function which takes two arrays consisting of integers, and returns the sum of those two arrays.
 
-- The twist is that `[3, 2, 9]` does not equal `3 + 2 + 9`, it would equal `'3' + '2' + '9'` converted to an integer for this kata, meaning it would equal `329`. 
+- The twist is that `[3, 2, 9]` does not equal `3 + 2 + 9`, it would equal `'3' + '2' + '9'` converted to an integer for this kata, meaning it would equal `329`.
 
-- The output should be an array of the sum in a similar fashion to the input (for example, if the sum is `341`, you would return `[3, 4, 1]`). 
+- The output should be an array of the sum in a similar fashion to the input (for example, if the sum is `341`, you would return `[3, 4, 1]`).
 
 ---
 
@@ -22,7 +22,7 @@ print(sum_arrays([0], []))
 print(sum_arrays([], [1, 2]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [3, 4, 1]
@@ -40,13 +40,13 @@ print(sum_arrays([], [1, 2]))
 
 ```python
 def sum_arrays(array1, array2):
-    if not array1 and not array2: 
+    if not array1 and not array2:
         return []
     n1 = int(''.join(map(str, array1))) if array1 else 0
     n2 = int(''.join(map(str, array2))) if array2 else 0
     nt = n1 + n2
     res = [int(x) for x in str(abs(nt))]
-    if nt < 0: 
+    if nt < 0:
         res[0] = -res[0]
     return res
 ```

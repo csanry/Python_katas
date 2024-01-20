@@ -19,7 +19,7 @@ print(is_prime(75))
 print(is_prime(-1))
 ```
 
-#### Output 
+#### Output
 
 ```
 False
@@ -35,7 +35,7 @@ False
 #### Solution
 
 ```python
-# given only one even prime (2), we only need to iterate over the odd integers up to the sqrt of n 
+# given only one even prime (2), we only need to iterate over the odd integers up to the sqrt of n
 # to find at least one divisor (if exists)
 from math import sqrt, floor
 

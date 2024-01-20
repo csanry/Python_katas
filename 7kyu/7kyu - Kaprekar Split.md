@@ -4,7 +4,7 @@
 
 - A number is a Kaprekar number if its square can be split up into two parts which sum up to the original number.
 
-- Create a function that, if the input is a Kaprekar number, outputs the index that splits the square into the two parts that sum to the original number. 
+- Create a function that, if the input is a Kaprekar number, outputs the index that splits the square into the two parts that sum to the original number.
 
 - For non-Kaprekar numbers, the output should be -1.
 
@@ -21,7 +21,7 @@ print(kaprekar_split(5050))
 print(kaprekar_split(5051))
 ```
 
-#### Output 
+#### Output
 ```
 0
 1

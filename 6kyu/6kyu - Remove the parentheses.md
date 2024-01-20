@@ -17,7 +17,7 @@ print(remove_parentheses("hello example (words(more words) here) something"))
 print(remove_parentheses("(first group) (second group) (third group)"))
 ```
 
-#### Output 
+#### Output
 ```
 exampleexample
 example  example

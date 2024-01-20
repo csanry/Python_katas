@@ -19,7 +19,7 @@ print(solve("a+b-c/d*30"))
 print(solve("a*b/c+50"))
 ```
 
-#### Output 
+#### Output
 
 ```
 y/b*100
@@ -32,7 +32,7 @@ y/b*100
 #### Solution
 
 ```python
-import re 
+import re
 def solve(eq):
     return ''.join(re.split(r'([+-/*])', eq)[::-1])
 ```

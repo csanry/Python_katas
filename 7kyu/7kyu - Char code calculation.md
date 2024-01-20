@@ -1,4 +1,4 @@
-## Char Code Calculation - 7kyu 
+## Char Code Calculation - 7kyu
 
 **Instructions**
 
@@ -36,7 +36,7 @@ print(calc('jfmgklf8hglbe'))
 print(calc('jaam'))
 ```
 
-#### Output 
+#### Output
 
 ```
 6

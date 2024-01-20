@@ -16,7 +16,7 @@ print(get_decimal(-1.2))
 print(get_decimal(10))
 ```
 
-#### Output 
+#### Output
 
 ```
 0.5
@@ -29,7 +29,7 @@ print(get_decimal(10))
 #### Solution
 
 ```python
-def get_decimal(n): 
+def get_decimal(n):
     return abs(n) % 1
 ```
 

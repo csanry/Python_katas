@@ -2,14 +2,14 @@
 
 **Instructions**
 
-- Initially a number 1 is written on a board. 
+- Initially a number 1 is written on a board.
 
 - Return if it is possible to reach `n` using a combination of the following operations:
 
     - Multiply the number by 3.
-    
+
     - Increase the number by 5.
-    
+
 ---
 
 #### Test cases
@@ -27,7 +27,7 @@ print(number_increasing(12345))
 print(number_increasing(54321))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

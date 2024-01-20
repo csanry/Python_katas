@@ -23,7 +23,7 @@ print(sum_mul(2, 9))
 print(sum_mul(4, -7))
 ```
 
-#### Output 
+#### Output
 
 ```
 INVALID

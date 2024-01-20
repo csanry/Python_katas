@@ -22,7 +22,7 @@ print(minimum_number([2, 12, 8, 4, 6]))
 print(minimum_number([50, 39, 49, 6, 17, 28]))
 ```
 
-#### Output 
+#### Output
 
 ```
 1
@@ -40,7 +40,7 @@ print(minimum_number([50, 39, 49, 6, 17, 28]))
 from itertools import count
 from math import sqrt, floor
 
-def is_prime(n): 
+def is_prime(n):
     return n == 2 or n % 2 and all(n % d for d in range(3, floor(sqrt(n)) + 1, 2))
 
 def minimum_number(numbers):

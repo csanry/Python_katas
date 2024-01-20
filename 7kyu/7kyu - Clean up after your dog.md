@@ -26,7 +26,7 @@ print(crap([['_', '_', '_', '_'], ['_', '_', '_', '_'], ['_', '_', '_', '_']], 2
 print(crap([['@', '@'], ['@', '@'], ['@', '@']], 3, 2))
 ```
 
-#### Output 
+#### Output
 
 ```
 Clean
@@ -43,7 +43,7 @@ Clean
 ```python
 def crap(garden, bags, cap):
     st = ''.join(ele for subarr in garden for ele in subarr)
-    return 'Dog!!' if 'D' in st else 'Clean' if cap * bags >= st.count('@') else 'Cr@p' 
+    return 'Dog!!' if 'D' in st else 'Clean' if cap * bags >= st.count('@') else 'Cr@p'
 ```
 
 ---

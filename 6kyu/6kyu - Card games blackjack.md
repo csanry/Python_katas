@@ -8,7 +8,7 @@
 
 - Players play against the `dealer` only, not against other players.
 
-- Each card has its value: the numerals are worth whatever their number indicates; `J`, `Q` and `K` are worth 10; `A` may be worth 11 or 1. 
+- Each card has its value: the numerals are worth whatever their number indicates; `J`, `Q` and `K` are worth 10; `A` may be worth 11 or 1.
 
 - If any player exceeds 21 points, they lose.
 
@@ -45,7 +45,7 @@ print(winners(
     ["4", "10", "Q", "K", "2", "8", "9", "8", "9", "4", "K", "7", "10", "A", "4", "9", "5", "A", "Q", "Q", "3"]))
 ```
 
-#### Output 
+#### Output
 
 ```
 []
@@ -61,26 +61,26 @@ print(winners(
 def score(hand):
     score = sum(int(c) if c.isdigit() else 11 if c == 'A' else 10 for c in hand)
     aces = hand.count('A')
-    
-    for _ in range(aces): 
-        if score > 21: 
+
+    for _ in range(aces):
+        if score > 21:
             score -= 10
     return 'BJ' if score == 21 and len(hand) == 2 else score if score <= 21 else 0
 
 def winners(p1, p2, p3, dealer, deck):
     s1, s2, s3, sd = map(score, (p1, p2, p3, dealer))
-    
+
     res = []
     if sd == 'BJ':
         return res
-    
-    while 0 < sd < 17 and deck: 
+
+    while 0 < sd < 17 and deck:
         dealer.append(deck.pop(0))
         sd = score(dealer)
-    
-    if s1 == 'BJ' or s1 > sd: 
+
+    if s1 == 'BJ' or s1 > sd:
         res.append('Player 1')
-    if s2 == 'BJ' or s2 > sd: 
+    if s2 == 'BJ' or s2 > sd:
         res.append('Player 2')
     if s3 == 'BJ' or s3 > sd:
         res.append('Player 3')

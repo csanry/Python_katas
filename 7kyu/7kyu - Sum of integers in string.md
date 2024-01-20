@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Implement a function that calculates the sum of the integers inside a string. 
+- Implement a function that calculates the sum of the integers inside a string.
 
 - For example, in the string `"The30quick20brown10f0x1203jumps914ov3r1349the102l4zy dog"`, the sum of the integers is `3635`.
 
@@ -20,7 +20,7 @@ print(sum_of_integers_in_string("C4t5 are 4m4z1ng."))
 print(sum_of_integers_in_string("The30quick20brown10f0x1203jumps914ov3r1349the102l4zy dog"))
 ```
 
-#### Output 
+#### Output
 ```
 1
 3868

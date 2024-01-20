@@ -11,20 +11,20 @@ s = "abcd\nefgh\nijkl\nmnop"
 - We will study some transformations of this square of strings.
 
 ```
-Vertical mirror: vert_mirror 
+Vertical mirror: vert_mirror
 vert_mirror(s) => "dcba\nhgfe\nlkji\nponm"
-Horizontal mirror: hor_mirror 
+Horizontal mirror: hor_mirror
 hor_mirror(s) => "mnop\nijkl\nefgh\nabcd"
 ```
 
-- Or printed: 
+- Or printed:
 
 ```
-vertical mirror  |  horizontal mirror   
-abcd --> dcba    |  abcd --> mnop 
-efgh     hgfe    |  efgh     ijkl 
-ijkl     lkji    |  ijkl     efgh 
-mnop     ponm    |  mnop     abcd 
+vertical mirror  |  horizontal mirror
+abcd --> dcba    |  abcd --> mnop
+efgh     hgfe    |  efgh     ijkl
+ijkl     lkji    |  ijkl     efgh
+mnop     ponm    |  mnop     abcd
 ```
 
 - Write these two functions and a high-order function `oper(fct, s)` which applies either `vert_mirror` or `hor_mirror` on a string.
@@ -46,7 +46,7 @@ print(oper(hor_mirror, "lVHt\nJVhv\nCSbg\nyeCt"))
 print(oper(hor_mirror, "njMK\ndbrZ\nLPKo\ncEYz"))
 ```
 
-#### Output 
+#### Output
 
 ```
 "QHdgSh\noaMDnH\nXxNNlC\nHxxvRi\nAvVTqb\nuRySvw"

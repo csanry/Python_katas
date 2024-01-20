@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- You are given two sorted arrays that both only contain integers. 
+- You are given two sorted arrays that both only contain integers.
 
-- Your task is to find a way to merge them into a single one, sorted in asc order. 
+- Your task is to find a way to merge them into a single one, sorted in asc order.
 
 - `arr1` and `arr2` may have same integers. Remove duplicated in the returned result.
 
@@ -26,7 +26,7 @@ arr6 = [1, 2, 3, 4, 5, 10, 12]
 print(merge_arrays(arr5, arr6))
 ```
 
-#### Output 
+#### Output
 
 ```
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

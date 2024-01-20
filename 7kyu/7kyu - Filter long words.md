@@ -14,7 +14,7 @@
 filter_long_words("The quick brown fox jumps over the lazy dog", 4)
 ```
 
-#### Output 
+#### Output
 
 ```
 ['quick', 'brown', 'jumps']
@@ -25,7 +25,7 @@ filter_long_words("The quick brown fox jumps over the lazy dog", 4)
 #### Solution
 
 ```python
-def filter_long_words(sentence, n): 
+def filter_long_words(sentence, n):
     return [*filter(lambda x: len(x) > n, sentence.split())]
 ```
 

@@ -32,7 +32,7 @@ print(sequence_classifier([9,8]))
 print(sequence_classifier([9,9,9,8,8,8]))
 ```
 
-#### Output 
+#### Output
 ```
 0
 1
@@ -52,9 +52,9 @@ print(sequence_classifier([9,9,9,8,8,8]))
 
 ```python
 def sequence_classifier(arr):
-    if len(arr) == len(set(arr)): 
+    if len(arr) == len(set(arr)):
         return 1 if arr == sorted(arr) else 3 if arr == sorted(arr, reverse=True) else 0
-    else: 
+    else:
         return 5 if len(set(arr)) == 1 else 2 if arr == sorted(arr) else 4 if arr == sorted(arr, reverse=True) else 0
 ```
 

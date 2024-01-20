@@ -9,7 +9,7 @@
 ls = [0, 1, 3, 6, 10]
 ```
 
-- It's corresponding parts are: 
+- It's corresponding parts are:
 
 ```python
 ls = [0, 1, 3, 6, 10]
@@ -37,7 +37,7 @@ print(part_sums([1, 2, 3, 4, 5, 6]))
 print(part_sums([744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358]))
 ```
 
-#### Output 
+#### Output
 ```
 [0]
 [20, 20, 19, 16, 10, 0]

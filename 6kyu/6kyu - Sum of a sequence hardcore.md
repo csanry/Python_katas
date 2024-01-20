@@ -23,7 +23,7 @@ print(sequence_sum(780, 6851543, 5))
 print(sequence_sum(20, 673388797, 5))
 ```
 
-#### Output 
+#### Output
 ```
 -5
 4694363402480

@@ -3,8 +3,8 @@
 **Instructions**
 
 - Create a function that takes an integer n > 1 and returns an array with all of the integer's divisors (except for 1 and the number itself).
- 
-- Arrange the divisors from smallest to largest. 
+
+- Arrange the divisors from smallest to largest.
 
 - If the number is prime return the string '(integer) is prime'.
 
@@ -22,7 +22,7 @@ print(divisors(3))
 print(divisors(29))
 ```
 
-#### Output 
+#### Output
 ```
 [3, 5]
 [11, 23]

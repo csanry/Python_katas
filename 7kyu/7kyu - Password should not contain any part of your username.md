@@ -19,7 +19,7 @@ print(validate("MASH", "M*A*S*H"))
 print(validate("asdfghjkl", "lkjhgfdsa"))
 ```
 
-#### Output 
+#### Output
 ```
 False
 False

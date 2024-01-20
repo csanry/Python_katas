@@ -19,7 +19,7 @@ print(count_positives_sum_negatives([0,0,0,0,0,0,0,0,0]))
 print(count_positives_sum_negatives([]))
 ```
 
-#### Output 
+#### Output
 ```
 [10, -65]
 [8, -50]

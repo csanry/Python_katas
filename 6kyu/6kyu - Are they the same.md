@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Given two arrays a and b write a function that checks whether the two arrays have the "same" elements, with the same multiplicities (the multiplicity of a member is the number of times it appears). 
+- Given two arrays a and b write a function that checks whether the two arrays have the "same" elements, with the same multiplicities (the multiplicity of a member is the number of times it appears).
 
 - "Same" means, here, that the elements in `b` are the elements in `a` squared, regardless of the order.
 
@@ -23,7 +23,7 @@ print(comp(a3, a4))
 print(comp(a5, a6))
 ```
 
-#### Output 
+#### Output
 
 ```
 True
@@ -37,8 +37,8 @@ False
 
 ```python
 def comp(arr1, arr2):
-    if not arr1 or not arr2: 
-        return False 
+    if not arr1 or not arr2:
+        return False
     return sorted(i ** 2 for i in arr1) == sorted(arr2)
 ```
 

@@ -19,7 +19,7 @@ print(array_leaders([5,2]))
 print(array_leaders([0,-1,-29,3,2]))
 ```
 
-#### Output 
+#### Output
 ```
 [4]
 [17, 5, 2]

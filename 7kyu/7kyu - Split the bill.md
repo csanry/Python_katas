@@ -23,7 +23,7 @@ print(split_the_bill({'A': 20, 'B': 15, 'C': 10}))
 print(split_the_bill({'A': 40, 'B': 25, 'X': 10}))
 ```
 
-#### Output 
+#### Output
 
 ```
 {'A': 5.0, 'B': 0.0, 'C': -5.0}

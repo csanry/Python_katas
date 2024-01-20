@@ -20,7 +20,7 @@
 }
 ```
 
-- Whenever two keys share the same character, they should be compared numerically, and the larger key will keep that character. 
+- Whenever two keys share the same character, they should be compared numerically, and the larger key will keep that character.
 
 - That's why in the example above the array under the key "2" contains "A" and "B", as 2 > 1.
 
@@ -46,7 +46,7 @@ print(remove_duplicate_ids({
 }))
 ```
 
-#### Output 
+#### Output
 ```
 {
     "1": ["F", "G"],
@@ -71,8 +71,8 @@ def remove_duplicate_ids(obj):
     res, seen = {}, set()
     for k, v in sorted(obj.items(), key=lambda x: -int(x[0])):
         res[k] = []
-        for i in v: 
-            if i not in seen: 
+        for i in v:
+            if i not in seen:
                 seen.add(i)
                 res[k].append(i)
     return res

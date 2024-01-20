@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Given an array of numbers, return a new array of length `n` containing the last even numbers from the original array (in the same order). 
+- Given an array of numbers, return a new array of length `n` containing the last even numbers from the original array (in the same order).
 
 - The original array will be not empty and will contain at least `n` even numbers.
 
@@ -16,7 +16,7 @@ print(even_numbers([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))
 print(even_numbers([6, -25, 3, 7, 5, 5, 7, -3, 23], 1))
 ```
 
-#### Output 
+#### Output
 
 ```
 [4, 6, 8]

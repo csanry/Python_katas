@@ -17,7 +17,7 @@ print(ensure_question('No?'))
 print(ensure_question('Well??'))
 ```
 
-#### Output 
+#### Output
 
 ```
 ?

@@ -15,7 +15,7 @@ print(unlucky_days(2015))
 print(unlucky_days(1986))
 ```
 
-#### Output 
+#### Output
 ```
 3
 1
@@ -27,7 +27,7 @@ print(unlucky_days(1986))
 
 ```python
 def unlucky_days(year):
-    import datetime 
+    import datetime
     return sum(datetime.date(year, month, 13).weekday() == 4 for month in range(1, 13))
 ```
 

@@ -24,7 +24,7 @@ print(make_acronym('Please excuse my dear aunt Sally'))
 print(make_acronym('How much wood would a woodchuck chuck if a woodchuck could chuck wood'))
 ```
 
-#### Output 
+#### Output
 
 ```
 Not a string

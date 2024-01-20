@@ -11,9 +11,9 @@
 'abba' & 'abca' == false
 ```
 
-- Write a function that will find all the anagrams of a word from a list. You will be given two inputs: a word and an array with words. 
+- Write a function that will find all the anagrams of a word from a list. You will be given two inputs: a word and an array with words.
 
-- Return an array of all the anagrams of the word, or an empty array if there are none. 
+- Return an array of all the anagrams of the word, or an empty array if there are none.
 
 ---
 
@@ -24,7 +24,7 @@ print(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
 print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']))
 ```
 
-#### Output 
+#### Output
 ```
 ['aabb', 'bbaa']
 ['carer', 'racer']
@@ -37,7 +37,7 @@ print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']))
 ```python
 from collections import Counter
 
-def anagrams(word, words): 
+def anagrams(word, words):
     base = Counter(word)
     return [w for w in words if base == Counter(w)]
 ```

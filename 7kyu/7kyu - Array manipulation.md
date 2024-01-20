@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Given an array of positive integers, replace every element with the least greatest element to its right. 
+- Given an array of positive integers, replace every element with the least greatest element to its right.
 
-- If there is no greater element to its right, replace it with -1. 
+- If there is no greater element to its right, replace it with -1.
 
 - Return the resulting array.
 
@@ -17,7 +17,7 @@ print(array_manip([8, 58, 71, 18, 31, 32, 63, 92, 43, 3, 91, 93, 25, 80, 28]))
 print(array_manip([ 2, 4, 18, 16, 7, 3, 9, 13, 18, 10 ]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [18, 63, 80, 25, 32, 43, 80, 93, 80, 25, 93, -1, 28, -1, -1]

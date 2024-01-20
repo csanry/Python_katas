@@ -4,12 +4,12 @@
 
 - Implement a function that counts the number of "targets" in a sequence of digits.
 
-- Targets are stimuli that match the one from n steps earlier. 
+- Targets are stimuli that match the one from n steps earlier.
 
 - Your function will take 2 parameters:
-    
+
     - `n`, a positive integer equal to the number of steps to look back to find a match.
-    
+
     - `sequence` a sequence of digits contain 0 or more targets.
 
 ---
@@ -24,7 +24,7 @@ print(count_targets(2, [1, 2, 1, 2, 1]))
 print(count_targets(9, [1, 2, 3, 4, 5, 6, 7, 8, 9, 1]))
 ```
 
-#### Output 
+#### Output
 ```
 4
 3

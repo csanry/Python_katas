@@ -16,7 +16,7 @@ print(create_array_of_tiers(4020))
 print(create_array_of_tiers(80200))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['4', '42', '420']

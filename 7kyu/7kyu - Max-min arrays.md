@@ -22,7 +22,7 @@ print(solve([1,6,9,4,3,7,8,2]))
 print(solve([78,79,52,87,16,74,31,63,80]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [15, 7, 12, 10, 11]
@@ -41,7 +41,7 @@ print(solve([78,79,52,87,16,74,31,63,80]))
 from collections import deque
 def solve(arr):
     dq, res = deque(sorted(arr)), []
-    while dq: 
+    while dq:
         res.append(dq.pop())
         if dq:
             res.append(dq.popleft())

@@ -2,10 +2,10 @@
 
 **Instructions**
 
-- Remove words from the sentence if they contain exactly one exclamation mark. 
+- Remove words from the sentence if they contain exactly one exclamation mark.
 
 - Words are separated by a single space, without leading/trailing spaces.
-    
+
 ---
 
 #### Test cases
@@ -18,7 +18,7 @@ print(remove('!!!Hi !!hi!!! !hi'))
 print(remove('!Hi! ! !Hi!'))
 ```
 
-#### Output 
+#### Output
 
 ```
 Hi!!!
@@ -33,7 +33,7 @@ Hi!!!
 #### Solution
 
 ```python
-def remove(s): 
+def remove(s):
     return ' '.join(w for w in s.split() if w.count('!') != 1)
 ```
 

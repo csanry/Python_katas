@@ -19,7 +19,7 @@ print(divisible_by_three('88'))
 print(divisible_by_three('1'))
 ```
 
-#### Output 
+#### Output
 ```
 True
 True
@@ -33,7 +33,7 @@ False
 
 ```python
 def divisible_by_three(st):
-    while len(st) != 1: 
+    while len(st) != 1:
         st = str(sum(int(n) for n in st))
     return int(st) in [3, 6, 9]
 ```

@@ -12,7 +12,7 @@ flip_bit(15, 5) == 31 # 15 in binary is 1111, 5th bit is 0, after flipping, it b
 ```
 
 - Index number can be out of number's range.
- 
+
 - E.g. number is 3 (it has 2 bits) and index number is 8 -> result will be 131.
 
 ---
@@ -25,7 +25,7 @@ print(flip_bit((1<<31)-1, 31))
 print(flip_bit(127, 8))
 ```
 
-#### Output 
+#### Output
 
 ```
 32768

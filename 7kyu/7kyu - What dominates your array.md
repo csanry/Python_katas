@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- A zero-indexed array arr consisting of n integers is given. 
+- A zero-indexed array arr consisting of n integers is given.
 
 - The dominator of array arr is the value that occurs in more than half of the elements of arr.
 
@@ -10,7 +10,7 @@
 
 - The dominator of arr is 3 because it occurs in 5 out of 8 elements of arr and 5 is more than a half of 8.
 
-- Write a function such that, given a zero-indexed array arr consisting of n integers, returns the dominator of arr. The function should return −1 if array does not have a dominator. 
+- Write a function such that, given a zero-indexed array arr consisting of n integers, returns the dominator of arr. The function should return −1 if array does not have a dominator.
 
 - All values in arr will be >=0.
 
@@ -26,7 +26,7 @@ print(dominator([1,1,1,2,2,2,2]))
 print(dominator([]))
 ```
 
-#### Output 
+#### Output
 ```
 3
 -1

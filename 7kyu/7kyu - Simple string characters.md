@@ -5,7 +5,7 @@
 - Given a string, return a list of ints detailing the count of uppercase letters, lowercase, numbers and special characters, as follows.
 
 ```python
-solve("*'&ABCDabcde12345") = [4,5,5,3]. 
+solve("*'&ABCDabcde12345") = [4,5,5,3].
 # the order is: uppercase letters, lowercase, numbers and special characters.
 ```
 
@@ -22,7 +22,7 @@ print(solve("$Cnl)Sr<7bBW-&qLHI!mY41ODe"))
 print(solve("@mw>0=QD-iAx!rp9TaG?o&M%l$34L.nbft"))
 ```
 
-#### Output 
+#### Output
 ```
 [1, 18, 3, 2]
 [7, 6, 3, 2]
@@ -39,10 +39,10 @@ print(solve("@mw>0=QD-iAx!rp9TaG?o&M%l$34L.nbft"))
 ```python
 def solve(s):
     res = [0, 0, 0, 0]
-    for c in s: 
+    for c in s:
         i = 0 if c.isupper() else 1 if c.islower() else 2 if c.isdigit() else 3
         res[i] += 1
-    return res   
+    return res
 ```
 
 ---

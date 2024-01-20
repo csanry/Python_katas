@@ -16,7 +16,7 @@ print(power_of_4(256))
 print(power_of_4(True))
 ```
 
-#### Output 
+#### Output
 ```
 True
 False

@@ -42,7 +42,7 @@ print(machine.vend("A02", 0.40))
 print(machine.vend("B06", 4.60))
 ```
 
-#### Output 
+#### Output
 ```
 Vending Smarties
 Vending Smarties with 9.40 change.

@@ -4,12 +4,12 @@
 
 - Given a number N, fabricate two numbers NE and NO such as NE is formed by even digits of N and NO is formed by odd digits of N.
 
-- If there are no even or odd digits, return 0. 
+- If there are no even or odd digits, return 0.
 
 ```
 126453 -> NE = 264, NO = 153
 3012 -> NE = 2, NO = 31
-4628 -> NE = 4628, NO = 0 
+4628 -> NE = 4628, NO = 0
 ```
 
 ---
@@ -22,7 +22,7 @@ print(even_and_odd(3012))
 print(even_and_odd(4628))
 ```
 
-#### Output 
+#### Output
 
 ```
 (264, 153)

@@ -10,7 +10,7 @@
 
 - Your code must test that all array items are numbers and return `invalid array` if it finds that either item is not a number. The provided array will always contain 2 elements.
 
-- When the inputs are valid, they will always be integers, no floats will be passed. 
+- When the inputs are valid, they will always be integers, no floats will be passed.
 
 - However, you must take into account that the numbers will be of varying magnitude, between and within test cases.
 
@@ -28,7 +28,7 @@ print(noonerize(["pippi", 9999999]))
 print(noonerize(["pippi", "hello"]))
 ```
 
-#### Output 
+#### Output
 
 ```
 18
@@ -46,7 +46,7 @@ invalid array
 
 ```python
 def noonerize(numbers):
-    if all(isinstance(n, int) for n in numbers): 
+    if all(isinstance(n, int) for n in numbers):
         n1, n2 = map(str, numbers)
         new_n1 = int(n2[0] + n1[1:])
         new_n2 = int(n1[0] + n2[1:])

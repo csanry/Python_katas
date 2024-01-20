@@ -20,7 +20,7 @@
 print(fizzbuzz(10))
 ```
 
-#### Output 
+#### Output
 ```
 [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
 ```
@@ -30,7 +30,7 @@ print(fizzbuzz(10))
 #### Solution
 
 ```python
-def fizzbuzz(n: int): 
+def fizzbuzz(n: int):
     return ['Fizz'*(i%3==0) + 'Buzz'*(i%5==0) or i for i in range(1, n+1)]
 ```
 

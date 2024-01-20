@@ -4,7 +4,7 @@
 
 - Create a function to write out a math expression for you.
 
-- Operators to use are: 
+- Operators to use are:
 
 ```
 "+"   -->  "Plus"
@@ -36,7 +36,7 @@ print(expression_out('2 / 2'))
 print(expression_out('8 != 5'))
 ```
 
-#### Output 
+#### Output
 ```
 One Plus Three
 Two Minus Ten

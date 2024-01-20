@@ -21,7 +21,7 @@ print(remove_bmw("blablahblah"))
 print(remove_bmw(424))
 ```
 
-#### Output 
+#### Output
 ```
 volvo
 lalahlah

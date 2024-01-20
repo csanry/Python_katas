@@ -24,7 +24,7 @@ print(accum("EvidjUnokmM"))
 print(accum("HbideVbxncC"))
 ```
 
-#### Output 
+#### Output
 ```
 Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu
 N-Yy-Fff-Ffff-Sssss-Gggggg-Eeeeeee-Yyyyyyyy-Yyyyyyyyy-Llllllllll-Bbbbbbbbbbb

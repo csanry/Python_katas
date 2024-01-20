@@ -40,7 +40,7 @@ print(get_order("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza
 print(get_order("pizzachickenfriesburgercokemilkshakefriessandwich"))
 ```
 
-#### Output 
+#### Output
 ```
 "Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke"
 "Burger Fries Fries Chicken Pizza Sandwich Milkshake Coke"

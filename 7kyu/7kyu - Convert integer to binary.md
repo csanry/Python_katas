@@ -20,7 +20,7 @@ print(to_binary(-3))
 print(to_binary(0))
 ```
 
-#### Output 
+#### Output
 ```
 10
 11

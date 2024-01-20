@@ -26,7 +26,7 @@ list1 = [
 print(greet_developers(list1))
 ```
 
-#### Output 
+#### Output
 
 ```
 [{'firstName': 'Sofia', 'lastName': 'I.', 'country': 'Argentina', 'continent': 'Americas', 'age': 35,
@@ -48,8 +48,8 @@ print(greet_developers(list1))
 #### Solution
 
 ```python
-def greet_developers(lst): 
-    for d in lst: 
+def greet_developers(lst):
+    for d in lst:
         d['greeting'] = f'Hi {d["firstName"]}, what do you like the most about {d["language"]}?'
     return lst
 ```

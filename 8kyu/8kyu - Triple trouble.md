@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Create a function that will return a string that combines all of the letters of the three input strings in groups. 
+- Create a function that will return a string that combines all of the letters of the three input strings in groups.
 
 ```
 E.g. Input: "aa", "bb" , "cc" => Output: "abcabc"
@@ -19,7 +19,7 @@ print(triple_trouble("burn", "reds", "roll"))
 print(triple_trouble("Bm", "aa", "tn"))
 ```
 
-#### Output 
+#### Output
 
 ```
 abcabcabc

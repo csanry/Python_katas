@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Given a string that has lowercase letters and numbers, compare the number groupings and return the largest number. 
+- Given a string that has lowercase letters and numbers, compare the number groupings and return the largest number.
 
 - Numbers will not have leading zeros.
 
@@ -18,7 +18,7 @@ print(solve('f7g42g16hcu5'))
 print(solve('lu1j8qbbb85'))
 ```
 
-#### Output 
+#### Output
 ```
 695
 9
@@ -32,7 +32,7 @@ print(solve('lu1j8qbbb85'))
 #### Solution
 
 ```python
-import re 
+import re
 def solve(s):
     return max(map(int, re.findall(r'(\d+)', s)))
 ```

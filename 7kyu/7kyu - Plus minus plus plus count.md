@@ -15,7 +15,7 @@ print(catch_sign_change([]))
 print(catch_sign_change([-47,84,-30,-11,-5,74,77]))
 ```
 
-#### Output 
+#### Output
 ```
 0
 2

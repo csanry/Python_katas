@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- In a team meeting, a terrible person declares to the group that you aren't working. 
+- In a team meeting, a terrible person declares to the group that you aren't working.
 
 - You quickly have to gauge the feeling in the room to decide whether or not you should gather your things and leave.
 
@@ -23,7 +23,7 @@ outed({'tim':0, 'jim':2, 'randy':0, 'sandy':7, 'andy':0, 'katie':5,
        'laura':1, 'saajid':2, 'alex':3, 'john':2, 'mr':0}, 'laura')
 ```
 
-#### Output 
+#### Output
 ```
 Get Out Now!
 ```

@@ -29,7 +29,7 @@ print(mispelled('1versed','versed'))
 print(mispelled('versed','versed'))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

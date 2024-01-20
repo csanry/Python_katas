@@ -16,7 +16,7 @@ print(digitize(1230))
 print(digitize(8675309))
 ```
 
-#### Output 
+#### Output
 
 ```
 [1, 2, 3]
@@ -31,7 +31,7 @@ print(digitize(8675309))
 #### Solution
 
 ```python
-def digitize(n): 
+def digitize(n):
     return [*map(int, str(n))]
 ```
 

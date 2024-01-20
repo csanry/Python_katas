@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Given a rectangular `matrix` and integers `a and b`, consider the union of the ath row and the bth (both 0-based) column of the `matrix`. 
+- Given a rectangular `matrix` and integers `a and b`, consider the union of the ath row and the bth (both 0-based) column of the `matrix`.
 
 - Return sum of all elements of that union.
 
@@ -18,7 +18,7 @@ print(crossing_sum([[1,2,3,4,5]],0,0))
 print(crossing_sum([[1],[2],[3],[4],[5]],0,0))
 ```
 
-#### Output 
+#### Output
 
 ```
 12

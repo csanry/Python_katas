@@ -25,7 +25,7 @@ print(is_thue_morse([1]))
 print(is_thue_morse([0, 1, 0, 0]))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

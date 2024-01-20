@@ -16,7 +16,7 @@
 ["Eyes", "Glasses", "Monocles", "Telescopes"]
 ```
 
-- All of the strings in the array passed to your function will be different lengths. 
+- All of the strings in the array passed to your function will be different lengths.
 
 ---
 
@@ -29,7 +29,7 @@ print(sort_by_length(["short", "longer", "longest"]))
 print(sort_by_length(["a", "of", "dog", "food"]))
 ```
 
-#### Output 
+#### Output
 ```
 ['i', 'to', 'beg', 'life']
 ['', 'pizza', 'brains', 'moderately']

@@ -13,7 +13,7 @@ print(function(6, 8))
 print(function(2, 9))
 ```
 
-#### Output 
+#### Output
 
 ```
 [7]
@@ -25,7 +25,7 @@ print(function(2, 9))
 #### Solution
 
 ```python
-def function(start_num, end_num): 
+def function(start_num, end_num):
     return [*range(start_num+1, end_num)]
 ```
 

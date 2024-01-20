@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Given a sequence of items and a specific item in that sequence, return the item immediately following the item specified. If the item occurs more than once in a sequence, return the item after the first occurrence. 
+- Given a sequence of items and a specific item in that sequence, return the item immediately following the item specified. If the item occurs more than once in a sequence, return the item after the first occurrence.
 
 - This should work for a sequence of any type.
 
@@ -20,7 +20,7 @@ print(next_item('testing', 't'))
 print(next_item(iter(range(1, 30000)), 12))
 ```
 
-#### Output 
+#### Output
 ```
 6
 None

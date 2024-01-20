@@ -24,7 +24,7 @@
 meeting([["XXX", 3], ["XXXXX", 6], ["XXXXXX", 9], ["XXX", 2]], 4)
 ```
 
-#### Output 
+#### Output
 ```python
 [0, 1, 3]
 ```

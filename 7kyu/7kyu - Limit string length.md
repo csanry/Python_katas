@@ -17,7 +17,7 @@ print(solution('Test', 10))
 print(solution('Test', 4))
 ```
 
-#### Output 
+#### Output
 
 ```
 Tes...

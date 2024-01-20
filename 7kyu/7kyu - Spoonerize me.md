@@ -19,7 +19,7 @@ print(spoonerize("jelly beans"))
 print(spoonerize("pop corn"))
 ```
 
-#### Output 
+#### Output
 
 ```
 pit nicking

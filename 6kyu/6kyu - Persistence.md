@@ -15,10 +15,10 @@ persistence(999)  # returns 4, because 9*9*9=729 -> 7*2*9=126 -> 1*2*6=12 -> fin
 persistence(4)  # returns 0, because 4 is already a one-digit number
 ```
 
-#### Output 
+#### Output
 ```
-3 
-4 
+3
+4
 0
 ```
 
@@ -30,7 +30,7 @@ persistence(4)  # returns 0, because 4 is already a one-digit number
 from functools import reduce
 from operator import mul
 
-def persistence(num): 
+def persistence(num):
     count = 0
     while num >= 10:
         num = reduce(mul, map(int, str(num)))

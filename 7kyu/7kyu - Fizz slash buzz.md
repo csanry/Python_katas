@@ -7,7 +7,7 @@
 - `A` is the number of multiples of 3 (but not 5) below the given integer
 
 - `B` is the number of multiples of 5 (but not 3) below the given integer
- 
+
 - `C` is the number of multiples of 3 and 5 below the given integer.
 
 - For example, `solution(20)` should return `[5, 2, 1]`
@@ -24,12 +24,12 @@ print(solution(30))
 print(solution(141))
 ```
 
-#### Output 
+#### Output
 ```
 [5, 2, 1]
 [0, 0, 0]
 [4, 2, 0]
-[8, 4, 1] 
+[8, 4, 1]
 [37, 19, 9]
 ```
 

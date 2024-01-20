@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Refactor the following code so that it belongs to a Person class/object. Each Person instance will have a greet method. 
+- Refactor the following code so that it belongs to a Person class/object. Each Person instance will have a greet method.
 
 - The Person instance should be instantiated with a name so that it no longer has to be passed into each greet method call.
 
@@ -26,7 +26,7 @@ print(jack.greet('Jill'))
 print(jill.greet('Jack'))
 ```
 
-#### Output 
+#### Output
 ```
 Hello Jill, my name is Jack
 Hello Jack, my name is Jill
@@ -40,7 +40,7 @@ Hello Jack, my name is Jill
 class Person:
     def __init__(self, name):
         self.name = name
-        
+
     def greet(self, your_name):
         return f'Hello {your_name}, my name is {self.name}'
 ```

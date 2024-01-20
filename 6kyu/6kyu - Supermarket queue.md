@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- There is a queue for the self-checkout tills at the supermarket. 
+- There is a queue for the self-checkout tills at the supermarket.
 
 - Write a function to calculate the total time required for all the customers to check out.
 
@@ -25,7 +25,7 @@ print(queue_time([2, 2, 3, 3, 4, 4], 2))
 print(queue_time([2, 8, 16, 5, 8, 7, 17], 3))
 ```
 
-#### Output 
+#### Output
 
 ```
 9

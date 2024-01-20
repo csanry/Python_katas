@@ -20,7 +20,7 @@ print(partlist(["cdIw", "tzIy", "xDu", "rThG"]))
 print(partlist(["vJQ", "anj", "mQDq", "sOZ"]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [('I', "wish I hadn't come"), ('I wish', "I hadn't come"), ('I wish I', "hadn't come"), ("I wish I hadn't", 'come')]

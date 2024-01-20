@@ -6,7 +6,7 @@
 
 - In Chuck's code, 'A' can be any capital letter and '8' can be any number 0-9 and any %, - or . symbols must not be changed.
 
-- Your task is to use regex to verify if the number is a genuine Chuck score. 
+- Your task is to use regex to verify if the number is a genuine Chuck score.
 
 - Return true if the provided count passes, and false if it does not.
 
@@ -26,7 +26,7 @@ print(body_count('B2L4D0A8C6.-T%8.90'))
 print(body_count('B2L4D0AFC6.-T%8.90.'))
 ```
 
-#### Output 
+#### Output
 
 ```
 True
@@ -43,7 +43,7 @@ False
 #### Solution
 
 ```python
-import re 
+import re
 
 def body_count(code):
     return bool(re.search(r'([A-Z]\d){5}\.-[A-Z]%\d\.\d{2}\.', code))

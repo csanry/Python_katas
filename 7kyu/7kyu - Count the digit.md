@@ -19,7 +19,7 @@ print(nb_dig(12224, 8))
 print(nb_dig(11549, 1))
 ```
 
-#### Output 
+#### Output
 ```
 4700
 9481

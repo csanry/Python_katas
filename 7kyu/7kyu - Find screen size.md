@@ -16,7 +16,7 @@ print(find_screen_height(1280, "16:9"))
 print(find_screen_height(3840, "32:9"))
 ```
 
-#### Output 
+#### Output
 
 ```
 1024x768

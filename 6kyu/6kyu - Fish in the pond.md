@@ -2,11 +2,11 @@
 
 **Instructions**
 
-- In this Kata you are fish in a pond that needs to survive by eating other fish. 
+- In this Kata you are fish in a pond that needs to survive by eating other fish.
 
-- You can only eat fish that are the same size or smaller than yourself. 
+- You can only eat fish that are the same size or smaller than yourself.
 
-- You must create a function called fish that takes a shoal of fish as an input string. 
+- You must create a function called fish that takes a shoal of fish as an input string.
 
 - From this you must work out how many fish you can eat and ultimately the size you will grow to.
 
@@ -41,7 +41,7 @@ print(fish('151128241212192113722321331'))
 print(fish('111122223333'))
 ```
 
-#### Output 
+#### Output
 ```
 5
 5
@@ -55,7 +55,7 @@ print(fish('111122223333'))
 ```python
 def fish(shoal):
     size = 1; eaten = 0; tot = 1
-    
+
     for fish in sorted(map(int, shoal)):
         if fish <= size:
             eaten += fish

@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Given an integer, if the length of its digits is a perfect square, return a square block of sqroot(length) * sqroot(length). 
+- Given an integer, if the length of its digits is a perfect square, return a square block of sqroot(length) * sqroot(length).
 
 - If not, simply return "Not a perfect square!".
 
@@ -18,7 +18,7 @@ print(square_it(88989))
 print(square_it(112141568))
 ```
 
-#### Output 
+#### Output
 
 ```
 1
@@ -36,7 +36,7 @@ Not a perfect square!
 def square_it(digits):
     st = str(digits)
     root = int(len(st)**0.5)
-    
+
     if root**2 == len(st):
         return '\n'.join(st[i:i+root] for i in range(0, len(st), root))
     else:

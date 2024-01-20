@@ -2,13 +2,13 @@
 
 **Instructions**
 
-- It's your Birthday. The numbers of candles on the cake is provided (x). Please note this is not reality, and your age can be anywhere up to 1,000. 
+- It's your Birthday. The numbers of candles on the cake is provided (x). Please note this is not reality, and your age can be anywhere up to 1,000.
 
-- As a surprise, your colleagues have arranged for your friend to hide inside the cake and burst out. 
+- As a surprise, your colleagues have arranged for your friend to hide inside the cake and burst out.
 
 - When your friend jumps out of the cake, he/she will knock some of the candles to the floor. If the number of candles that fall is higher than 70% of total candles (x), the carpet will catch fire.
 
-- You will work out the number of candles that will fall from the provided string `y`. 
+- You will work out the number of candles that will fall from the provided string `y`.
 
 - You must add up the character ASCII code of each even indexed (assume a 0 based indexing) character in `y`, with the alphabetical position of each odd indexed character in `y` to give the string a total.
 
@@ -28,7 +28,7 @@ print(cake(333, 'jfmgklfhglbe'))
 print(cake(12, 'jaam'))
 ```
 
-#### Output 
+#### Output
 
 ```
 That was close!
@@ -45,10 +45,10 @@ Fire!
 ```python
 def cake(candles, debris):
     # even index -> get ascii code
-    # odd index -> get position 
-    
+    # odd index -> get position
+
     tot = sum(ord(v) - 96 if i & 1 else ord(v) for i, v in enumerate(debris))
-    if tot > candles * 0.7 and candles > 0: 
+    if tot > candles * 0.7 and candles > 0:
         return 'Fire!'
     return 'That was close!'
 ```

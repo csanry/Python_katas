@@ -15,7 +15,7 @@
 -1050 -> -105
 ```
 
-- Zero alone is fine, don't worry about it. 
+- Zero alone is fine, don't worry about it.
 
 ---
 
@@ -30,7 +30,7 @@ print(no_boring_zeros(0))
 print(no_boring_zeros(2016))
 ```
 
-#### Output 
+#### Output
 
 ```
 145

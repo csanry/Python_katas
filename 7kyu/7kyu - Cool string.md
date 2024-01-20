@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Let's call a string cool if it is formed only by Latin letters and no two lowercase and no two uppercase letters are in adjacent positions. 
+- Let's call a string cool if it is formed only by Latin letters and no two lowercase and no two uppercase letters are in adjacent positions.
 
 - Given a string, check if it is cool.
 
@@ -21,7 +21,7 @@ print(cool_string("aAaAaAa"))
 print(cool_string("    "))
 ```
 
-#### Output 
+#### Output
 ```
 True
 False
@@ -39,7 +39,7 @@ False
 
 ```python
 def cool_string(s):
-    if s.isalpha(): 
+    if s.isalpha():
         if len(s) == 1:
             return True
         elif s[0].islower():

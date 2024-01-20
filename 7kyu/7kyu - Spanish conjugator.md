@@ -40,7 +40,7 @@ print(conjugate("comer"))
 print(conjugate("vivir"))
 ```
 
-#### Output 
+#### Output
 ```
 {'caminar': ['camino', 'caminas', 'camina', 'caminamos', 'caminais', 'caminan']}
 {'comer': ['como', 'comes', 'come', 'comemos', 'comeis', 'comen']}
@@ -56,7 +56,7 @@ def conjugate(verb):
     s = {'ar': 'o as a amos ais an'.split(),
          'er': 'o es e emos eis en'.split(),
          'ir': 'o es e imos is en'.split()}
-    return {verb: [verb[:-2] + suffix for suffix in s[verb[-2:]]]}       
+    return {verb: [verb[:-2] + suffix for suffix in s[verb[-2:]]]}
 ```
 
 ---

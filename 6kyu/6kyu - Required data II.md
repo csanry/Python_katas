@@ -16,7 +16,7 @@
 
 - If there is a typing mistake in the third entry, the function will return `Valid entries: 'max' or 'min'`.
 
-- If the second entry is not a positive integer (k < 0), the function should output `Incorrect value for k`. 
+- If the second entry is not a positive integer (k < 0), the function should output `Incorrect value for k`.
 
 - The code should detect if `k` is a string, too, with the same result.
 
@@ -43,7 +43,7 @@ print(given_nth_value([3, 3, -1, 10, 6, 8, -5, 4, 22, 31], 2, 'mix'))
 print(given_nth_value([3, 3, -1, 10, 6, 8, -5, 4, 22, 31], 2, 'MaX'))
 ```
 
-#### Output 
+#### Output
 
 ```
 4

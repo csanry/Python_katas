@@ -31,7 +31,7 @@ print(count_developers(list1))
 print(count_developers(list2))
 ```
 
-#### Output 
+#### Output
 
 ```
 1

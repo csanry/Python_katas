@@ -21,7 +21,7 @@ meeting(['X', 'O', 'X', 'O'])
 meeting(['X', 'X', 'X', 'X'])
 ```
 
-#### Output 
+#### Output
 ```
 1
 None available!

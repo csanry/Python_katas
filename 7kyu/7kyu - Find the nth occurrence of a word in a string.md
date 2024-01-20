@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Implement a function `find_nth_occurrence` that returns the index of the nth occurrence of a substring within a string. 
+- Implement a function `find_nth_occurrence` that returns the index of the nth occurrence of a substring within a string.
 
-- Considering that those substring could overlap each others. 
+- Considering that those substring could overlap each others.
 
 - If there are less than n occurrences of the substring, return -1.
 
@@ -28,7 +28,7 @@ print(find_nth_occurrence("example", string, 3))
 print(find_nth_occurrence("example", string, 4))
 ```
 
-#### Output 
+#### Output
 
 ```
 11
@@ -44,7 +44,7 @@ print(find_nth_occurrence("example", string, 4))
 ```python
 def find_nth_occurrence(substring, string, occurrence=1):
     idx = -1
-    for _ in range(occurrence): 
+    for _ in range(occurrence):
         idx = string.find(substring, idx+1)
     return idx
 ```

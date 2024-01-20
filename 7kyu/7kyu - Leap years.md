@@ -19,7 +19,7 @@ print(is_leap_year(1234))
 print(is_leap_year(1100))
 ```
 
-#### Output 
+#### Output
 ```
 True
 True
@@ -34,7 +34,7 @@ False
 ```python
 import calendar
 
-def is_leap_year(year): 
+def is_leap_year(year):
     # if calendar is not available:
     # return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
     return calendar.isleap(year)

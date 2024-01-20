@@ -23,7 +23,7 @@ print(smallest(9))
 print(smallest(10))
 ```
 
-#### Output 
+#### Output
 
 ```
 1

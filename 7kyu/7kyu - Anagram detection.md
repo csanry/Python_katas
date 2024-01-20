@@ -19,7 +19,7 @@ print(is_anagram("ound", "round"))
 print(is_anagram("apple", "pale"))
 ```
 
-#### Output 
+#### Output
 ```
 True
 True

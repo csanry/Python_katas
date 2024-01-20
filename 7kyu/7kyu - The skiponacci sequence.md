@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Your task is to generate the Fibonacci sequence to n places, with each alternating value as `"skip"`. 
+- Your task is to generate the Fibonacci sequence to n places, with each alternating value as `"skip"`.
 
 - For example:
 
@@ -26,7 +26,7 @@ print(skiponacci(10))
 print(skiponacci(13))
 ```
 
-#### Output 
+#### Output
 ```
 1
 1 skip 2 skip 5
@@ -42,7 +42,7 @@ print(skiponacci(13))
 ```python
 def skiponacci(n):
     fib1, fib2, res = 1, 1, []
-    
+
     for i in range(n):
         res.append('skip' if i%2 else str(fib1))
         fib1, fib2 = fib2, fib1 + fib2

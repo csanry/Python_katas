@@ -11,7 +11,7 @@ solve("cODEWArs", 1,5) = "cAWEDOrs" -- to help visualize.
 
 - Input will be lowercase and uppercase letters only.
 
-- The first index a will always be lower that than the string length; the second index b can be greater than the string length. 
+- The first index a will always be lower that than the string length; the second index b can be greater than the string length.
 
 ---
 
@@ -25,7 +25,7 @@ print(solve("abcefghijklmnopqrstuvwxyz", 0, 20))
 print(solve("abcefghijklmnopqrstuvwxyz", 5, 20))
 ```
 
-#### Output 
+#### Output
 
 ```
 cawedors

@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Complete the function which returns your age in days. 
+- Complete the function which returns your age in days.
 
 - The birthday is given in the following order: year, month, day.
 
@@ -18,7 +18,7 @@ print(age_in_days(2021, 7, 19))
 print(age_in_days(2021, 6, 21))
 ```
 
-#### Output 
+#### Output
 ```
 You are 2 days old
 You are 30 days old

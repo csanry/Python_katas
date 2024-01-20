@@ -12,7 +12,7 @@
 
     - The number of red marbles pulled out so far (always lower than the starting number of red marbles).
 
-- Return the probability of drawing a blue marble, expressed as a float. 
+- Return the probability of drawing a blue marble, expressed as a float.
 
 - For example, `guess_blue(5, 5, 2, 3)` should return `0.6`.
 
@@ -26,7 +26,7 @@ print(guess_blue(5, 7, 4, 3))
 print(guess_blue(12, 18, 4, 6))
 ```
 
-#### Output 
+#### Output
 
 ```
 0.6

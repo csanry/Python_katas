@@ -9,10 +9,10 @@
 ```
 transpose_two_strings(['Hello','World']) returns
 
-H W  
-e o  
-l r  
-l l  
+H W
+e o
+l r
+l l
 o d
 ```
 
@@ -34,7 +34,7 @@ print(transpose_two_strings(["cat",""]))
 print(transpose_two_strings(["!a!a!","?b?b"]))
 ```
 
-#### Output 
+#### Output
 
 ```
 "H W\ne o\nl r\nl l\no d"

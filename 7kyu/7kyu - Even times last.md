@@ -20,7 +20,7 @@ print(even_last([59, -15, 70, 85, 42, 54]))
 print(even_last([41, -36, 71, -44, 67, 83]))
 ```
 
-#### Output 
+#### Output
 ```
 0
 30

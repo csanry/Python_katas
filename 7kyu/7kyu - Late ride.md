@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- One night you go for a ride on your motorcycle. At 00:00 you start your engine, and the built-in timer automatically begins counting the length of your ride, in minutes. 
+- One night you go for a ride on your motorcycle. At 00:00 you start your engine, and the built-in timer automatically begins counting the length of your ride, in minutes.
 
-- Given `n` as the minutes passed since 00:00, calculate the current time. 
+- Given `n` as the minutes passed since 00:00, calculate the current time.
 
 - Return an answer as the sum of digits that the digital timer in the format hh:mm would show.
 
@@ -21,7 +21,7 @@ print(late_ride(23))
 print(late_ride(8))
 ```
 
-#### Output 
+#### Output
 ```
 4
 14

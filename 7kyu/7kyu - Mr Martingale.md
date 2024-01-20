@@ -2,15 +2,15 @@
 
 **Instructions**
 
-- You will be given a starting cash balance and an array of binary digits to represent a win (1) or a loss (0). 
+- You will be given a starting cash balance and an array of binary digits to represent a win (1) or a loss (0).
 
 - Return your balance after playing all rounds, applying the Martingale strategy.
 
 **The Martingale strategy**
 
-- You start with a stake of 100 dollars. 
+- You start with a stake of 100 dollars.
 
-- If you lose a round, you lose the stake placed on that round and you double the stake for your next bet. 
+- If you lose a round, you lose the stake placed on that round and you double the stake for your next bet.
 
 - When you win, you win 100% of the stake and revert back to staking 100 dollars on your next bet.
 
@@ -26,7 +26,7 @@ print(martingale(5100, [1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0,
 print(martingale(-500, [1, 1, 0, 1, 0, 1, 0]))
 ```
 
-#### Output 
+#### Output
 
 ```
 500

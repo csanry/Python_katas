@@ -5,8 +5,8 @@
 - You are given an n by n ( square ) grid of characters, for example:
 
 ```python
-[['m', 'y', 'e'], 
- ['x', 'a', 'm'], 
+[['m', 'y', 'e'],
+ ['x', 'a', 'm'],
  ['p', 'l', 'e']]
 ```
 
@@ -19,8 +19,8 @@
 - Find the characters in these indexes of the grid if you think of the indexes as:
 
 ```python
-[[1, 2, 3], 
- [4, 5, 6], 
+[[1, 2, 3],
+ [4, 5, 6],
  [7, 8, 9]]
 ```
 
@@ -40,7 +40,7 @@ print(grid_index([['h', 'e', 'l', 'l'], ['o', 'c', 'o', 'd'], ['e', 'w', 'a', 'r
                       [5, 7, 9, 3, 6, 6, 8, 8, 16, 13]))
 ```
 
-#### Output 
+#### Output
 
 ```
 myexample

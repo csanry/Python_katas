@@ -21,7 +21,7 @@ print(solve(22, 5))
 print(solve(2, 10))
 ```
 
-#### Output 
+#### Output
 ```
 [6, 7]
 [0, 1]

@@ -15,7 +15,7 @@ print(factors(100))
 print(factors(320))
 ```
 
-#### Output 
+#### Output
 ```
 -1
 [54, 27, 18, 9, 6, 3, 2, 1]

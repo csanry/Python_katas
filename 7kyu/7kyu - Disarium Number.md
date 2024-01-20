@@ -4,7 +4,7 @@
 
 - A Disarium number is a number where the sum of its digits powered with their respective positions is equal to the number itself.
 
-- Number passed is always positive. 
+- Number passed is always positive.
 
 - Return `"Disarium !!"` if the number is Disarium else `"Not !!"`
 
@@ -18,7 +18,7 @@ print(disarium_number(518))
 print(disarium_number(1024))
 ```
 
-#### Output 
+#### Output
 ```
 Disarium !!
 Disarium !!

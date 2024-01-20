@@ -16,7 +16,7 @@ The left side letters and their power:
  s - 1
 ```
 
-The right side letters and their power: 
+The right side letters and their power:
 ```
  m - 4
  q - 3
@@ -29,13 +29,13 @@ The right side letters and their power:
 #### Test cases
 
 ```python
-print(alphabet_war("z"))       
-print(alphabet_war("zdqmwpbs")) 
-print(alphabet_war("zzzzs"))    
-print(alphabet_war("wwwwwwz"))  
+print(alphabet_war("z"))
+print(alphabet_war("zdqmwpbs"))
+print(alphabet_war("zzzzs"))
+print(alphabet_war("wwwwwwz"))
 ```
 
-#### Output 
+#### Output
 ```
 Right side wins!
 Let's fight again!
@@ -48,12 +48,12 @@ Left side wins!
 #### Solution
 
 ```python
-def alphabet_war(fight): 
+def alphabet_war(fight):
     d = {'w': 4, 'p': 3, 'b': 2, 's': 1,
          'm': -4, 'q': -3, 'd': -2, 'z': -1}
     res = sum(d[c] for c in fight if c in d.keys())
-    return {res == 0: "Let's fight again!", 
-            res > 0: "Left side wins!", 
+    return {res == 0: "Let's fight again!",
+            res > 0: "Left side wins!",
             res < 0: "Right side wins!"}[True]
 ```
 

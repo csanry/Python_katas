@@ -53,7 +53,7 @@ print(find_admin(list1, 'Ruby'))
 print(find_admin(list1, 'Python'))
 ```
 
-#### Output 
+#### Output
 
 ```
 [{'firstName': 'Harry', 'lastName': 'K.', 'country': 'Brazil', 'continent': 'Americas', 'age': 22, 'language': 'JavaScript', 'githubAdmin': 'yes'}, {'firstName': 'Jing', 'lastName': 'X.',

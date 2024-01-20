@@ -18,7 +18,7 @@ print(max_number(566797))
 print(max_number(1000000))
 ```
 
-#### Output 
+#### Output
 ```
 321
 9873

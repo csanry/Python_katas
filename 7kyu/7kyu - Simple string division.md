@@ -15,7 +15,7 @@ print(solve('1234', 2))
 print(solve('1234', 3))
 ```
 
-#### Output 
+#### Output
 
 ```
 23

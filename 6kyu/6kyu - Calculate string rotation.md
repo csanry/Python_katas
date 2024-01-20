@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Write a function that receives two strings and returns n. 
+- Write a function that receives two strings and returns n.
 
-- n is equal to the number of characters we should shift the first string forward to match the second. 
+- n is equal to the number of characters we should shift the first string forward to match the second.
 
 - The check should be case sensitive.
 
@@ -23,7 +23,7 @@ print(shifted_diff("moose", "Moose"))
 print(shifted_diff("dog", "god"))
 ```
 
-#### Output 
+#### Output
 ```
 2
 4
@@ -37,8 +37,8 @@ print(shifted_diff("dog", "god"))
 
 ```python
 def shifted_diff(first, second):
-    for i in range(len(first)): 
-        if first == second: 
+    for i in range(len(first)):
+        if first == second:
             return i
         first = first[-1] + first[:-1]
     return -1

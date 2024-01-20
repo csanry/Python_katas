@@ -13,7 +13,7 @@ print(chromosome_check('XY'))
 print(chromosome_check('XX'))
 ```
 
-#### Output 
+#### Output
 
 ```
 Congratulations! You're going to have a son.

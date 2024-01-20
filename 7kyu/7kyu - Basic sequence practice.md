@@ -22,7 +22,7 @@ print(sum_of_n(0))
 print(sum_of_n(-4))
 ```
 
-#### Output 
+#### Output
 
 ```
 [0, 1, 3, 6]

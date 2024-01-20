@@ -14,7 +14,7 @@ print(solution("camelCase"))
 print(solution("breakCamelCase"))
 ```
 
-#### Output 
+#### Output
 ```
 hello World
 camel Case
@@ -30,7 +30,7 @@ import re
 def solution(s):
     return re.sub(r'([A-Z])', r' \1', s)
 
-# def solution(s): 
+# def solution(s):
 #    return ''.join(f" {c}" if c.isupper() else c for c in s)
 ```
 

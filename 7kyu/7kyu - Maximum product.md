@@ -20,7 +20,7 @@ print(adjacent_element_product([5, 1, 2, 3, 1, 4]))
 print(adjacent_element_product([1, 2, 3, 0]))
 ```
 
-#### Output 
+#### Output
 ```
 48
 6

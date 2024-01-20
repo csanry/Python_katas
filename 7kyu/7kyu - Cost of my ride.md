@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Create a function that computes the cost of renting a car. 
+- Create a function that computes the cost of renting a car.
 
-- The function takes 3 arguments: the age of the renter, the size of the car, and the number days for the rental. 
+- The function takes 3 arguments: the age of the renter, the size of the car, and the number days for the rental.
 
 - Return an integer number of the calculated total cost of the rental.
 
@@ -35,7 +35,7 @@ print((insurance(21, "economy", -10))
 print((insurance(42, "my custom car", 7))
 ```
 
-#### Output 
+#### Output
 ```
 490
 1950

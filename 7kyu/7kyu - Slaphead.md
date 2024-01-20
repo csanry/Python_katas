@@ -2,15 +2,15 @@
 
 **Instructions**
 
-- Being a bald man myself, I know the feeling of needing to keep it clean shaven. 
+- Being a bald man myself, I know the feeling of needing to keep it clean shaven.
 
-- You will be given a string(x). Clean shaved head is shown as "-" and stray hairs are shown as "/". 
+- You will be given a string(x). Clean shaved head is shown as "-" and stray hairs are shown as "/".
 
 - Check the head for stray hairs and get rid of them.
 
-- You should return the original string, but with any stray hairs removed. 
+- You should return the original string, but with any stray hairs removed.
 
-- Based on the number of stray hairs removed, return: 
+- Based on the number of stray hairs removed, return:
 
 ```
 0 hairs --> "Clean!"
@@ -30,7 +30,7 @@ print(bald("/-----/-"))
 print(bald("--/--/---/-/---"))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['----------', 'Unicorn!']

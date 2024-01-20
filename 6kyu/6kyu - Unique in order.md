@@ -20,7 +20,7 @@ print(unique_in_order('AAAABBBCCDAABBB'))
 print(unique_in_order([1, 2, 3, 3, 3, 2]))
 ```
 
-#### Output 
+#### Output
 ```
 []
 ['A', 'B', 'C', 'c', 'A', 'D']

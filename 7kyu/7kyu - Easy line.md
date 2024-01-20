@@ -12,11 +12,11 @@
 
 ```python
 easyline(0)
-easyline(4) 
+easyline(4)
 easyline(11)
 ```
 
-#### Output 
+#### Output
 ```
 1
 70 # 1 + 16 + 36 + 16 + 1

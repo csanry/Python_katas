@@ -25,7 +25,7 @@ print(arrange(["1T"]))
 print(arrange([]))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['150G', '200G', '300G', '100KG']

@@ -4,7 +4,7 @@
 
 - Vectors are classified as orthogonal if their dot product equals zero.
 
-- Complete the function that accepts two sequences as inputs and returns true if the vectors are orthogonal, and false if they are not. 
+- Complete the function that accepts two sequences as inputs and returns true if the vectors are orthogonal, and false if they are not.
 
 - The sequences will always be correctly formatted and of the same length, so there is no need to check them first.
 
@@ -25,7 +25,7 @@ print(is_orthogonal([2,4,5,6,7], [-14,-12,0,8,4]))
 print(is_orthogonal([5,10,1,20,2], [-2,-20,-1,10,5]))
 ```
 
-#### Output 
+#### Output
 ```
 False
 True
@@ -44,9 +44,9 @@ False
 #### Solution
 
 ```python
-def is_orthogonal(u, v): 
+def is_orthogonal(u, v):
     # import numpy as np
-    # return np.dot(u, v) == 0 
+    # return np.dot(u, v) == 0
     return sum(i * j for i, j in zip(u, v)) == 0
 ```
 

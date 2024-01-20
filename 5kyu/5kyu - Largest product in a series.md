@@ -4,7 +4,7 @@
 
 - Complete the function so that it'll find the greatest product of five consecutive digits in the given string of digits.
 
-- The input string always has more than 5 digits 
+- The input string always has more than 5 digits
 
 ---
 
@@ -18,7 +18,7 @@ print(greatest_product("92494737828244222221111111532909999"))
 print(greatest_product("02494037820244202221011110532909999"))
 ```
 
-#### Output 
+#### Output
 ```
 3240
 3240
@@ -36,8 +36,8 @@ from functools import reduce
 from operator import mul
 
 def greatest_product(n):
-    prods = [] 
-    for i in range(len(n) - 4): 
+    prods = []
+    for i in range(len(n) - 4):
         prods.append(reduce(mul, map(int, n[i:i+5])))
     return max(prods)
 ```

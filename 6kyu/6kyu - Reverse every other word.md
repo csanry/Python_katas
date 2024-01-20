@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Reverse every other word in a given string, then return the string. 
+- Reverse every other word in a given string, then return the string.
 
-- Throw away any leading or trailing whitespace, while ensuring there is exactly one space between each word. 
+- Throw away any leading or trailing whitespace, while ensuring there is exactly one space between each word.
 
 - Punctuation marks should be treated as if they are a part of the word in this kata.
 
@@ -18,7 +18,7 @@ print(reverse_alternate("Reverse this string, please!"))
 print(reverse_alternate("Have a beer"))
 ```
 
-#### Output 
+#### Output
 ```
 I yllaer hope ti works siht time...
 Reverse siht string, !esaelp
@@ -31,7 +31,7 @@ Have a beer
 
 ```python
 def reverse_alternate(string):
-    return ' '.join(word[::-1] if i & 1 else word for i, word in enumerate(string.split())) 
+    return ' '.join(word[::-1] if i & 1 else word for i, word in enumerate(string.split()))
 ```
 
 ---

@@ -15,7 +15,7 @@ print(zeros(30))
 print(zeros(100))
 ```
 
-#### Output 
+#### Output
 
 ```
 0

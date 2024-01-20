@@ -14,7 +14,7 @@ print(sort_array([5, 3, 1, 8, 0]))
 print(sort_array([]))
 ```
 
-#### Output 
+#### Output
 
 ```
 [1, 3, 2, 8, 5, 4]

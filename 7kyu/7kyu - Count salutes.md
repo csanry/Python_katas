@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- There is a narrow hallway in which people can go right and left only. 
+- There is a narrow hallway in which people can go right and left only.
 
-- When two people meet in the hallway, by tradition they must salute each other. 
+- When two people meet in the hallway, by tradition they must salute each other.
 
 - People move at the same speed left and right.
 
@@ -12,7 +12,7 @@
 
 - Note: 2 salutes occur when people meet, one to the other and vice versa.
 
-- People moving right will be represented by >; people moving left will be represented by <. 
+- People moving right will be represented by >; people moving left will be represented by <.
 
 - An example input would be >--<--->->. The - character represents empty space.
 
@@ -26,7 +26,7 @@ print(count_salutes('<----<---<-->'))
 print(count_salutes('>-<->-<'))
 ```
 
-#### Output 
+#### Output
 
 ```
 8
@@ -39,17 +39,17 @@ print(count_salutes('>-<->-<'))
 #### Solution
 
 ```python
-# more efficient 
-def count_salutes(hallway): 
+# more efficient
+def count_salutes(hallway):
     right, salutes = 0, 0
-    for p in hallway: 
-        if p == '>': 
+    for p in hallway:
+        if p == '>':
             right += 1
         elif p == '<':
             salutes += 2 * right
     return salutes
 
-# one liner 
+# one liner
 def count_salutes(hallway):
     return sum(hallway[i:].count('<') for i in range(len(hallway)) if hallway[i] == '>') * 2
 ```

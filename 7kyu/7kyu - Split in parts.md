@@ -14,7 +14,7 @@ print(split_in_parts("HelloKata", 1))
 print(split_in_parts("HelloKata", 9))
 ```
 
-#### Output 
+#### Output
 
 ```
 sup erc ali fra gil ist ice xpi ali doc iou s
@@ -27,7 +27,7 @@ HelloKata
 #### Solution
 
 ```python
-def split_in_parts(s, pl): 
+def split_in_parts(s, pl):
     return ' '.join(s[i:i+pl] for i in range(0, len(s), pl))
 ```
 

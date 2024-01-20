@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Given the start number and the end number of a region, return the count of all numbers except numbers with a 5 in it. 
+- Given the start number and the end number of a region, return the count of all numbers except numbers with a 5 in it.
 
-- The start and the end number are both inclusive. 
+- The start and the end number are both inclusive.
 
 - The start number will always be smaller than the end number. Both numbers can be negative.
 
@@ -20,7 +20,7 @@ print(dont_give_me_five(-10, 10))
 print(dont_give_me_five(-50, -5))
 ```
 
-#### Output 
+#### Output
 
 ```
 8

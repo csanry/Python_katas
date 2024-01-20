@@ -21,7 +21,7 @@ print(kill_kth_bit(374823748,13))
 print(kill_kth_bit(1084197039,15))
 ```
 
-#### Output 
+#### Output
 
 ```
 33
@@ -38,7 +38,7 @@ print(kill_kth_bit(1084197039,15))
 
 ```python
 def kill_kth_bit(n, k):
-    if len(bin(n)) > k: 
+    if len(bin(n)) > k:
         return n if bin(n)[-k] == '0' else n - 2**(k-1)
     return n
 ```

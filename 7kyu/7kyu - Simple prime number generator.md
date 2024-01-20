@@ -3,7 +3,7 @@
 **Instructions**
 
 - Your task here is to generate a list of prime numbers, starting from 2 to `n`.
- 
+
 ---
 
 #### Test cases
@@ -14,7 +14,7 @@ print(generate_primes(55))
 print(generate_primes(150))
 ```
 
-#### Output 
+#### Output
 
 ```
 [2, 3, 5, 7, 11, 13, 17, 19, 23]

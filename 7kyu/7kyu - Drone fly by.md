@@ -2,15 +2,15 @@
 
 **Instructions**
 
-- You will be given two strings: `lamps` and `drone`. 
+- You will be given two strings: `lamps` and `drone`.
 
-- Lamps represents a row of lamps, currently off, each represented by `x`. 
+- Lamps represents a row of lamps, currently off, each represented by `x`.
 
 - When these lamps are on, they should be represented by `o`.
 
-- The `drone` string represents the position of the drone `T` and its flight path up until this point =. 
+- The `drone` string represents the position of the drone `T` and its flight path up until this point =.
 
-- The drone always flies left to right, and always begins at the start of the row of `lamps`. 
+- The drone always flies left to right, and always begins at the start of the row of `lamps`.
 
 - Anywhere the drone has flown, including its current position, will result in the lamp at that position switching on.
 
@@ -26,7 +26,7 @@ print(fly_by('xxxxxxxxx', '==T'))
 print(fly_by('xxxxxxxxxxxxxxx', '=========T'))
 ```
 
-#### Output 
+#### Output
 
 ```
 ooooox

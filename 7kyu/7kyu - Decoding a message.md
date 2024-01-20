@@ -27,13 +27,13 @@ print(decode(" "))
 print(decode(""))
 ```
 
-#### Output 
+#### Output
 ```
 hello
 i hope nobody decodes this message
 the eighth symphony was jean sibelius final major compositional project occupying him intermittently
 sfhyzmwh zhp ivkvzgvw ivhloevw yfg ozftsgvi wvyzgrmt
-" " 
+" "
 ""
 ```
 

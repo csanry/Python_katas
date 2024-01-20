@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Given an array of numbers (in string format), you must return a string. 
+- Given an array of numbers (in string format), you must return a string.
 
-- The numbers correspond to the letters of the alphabet in reverse order: a=26, z=1 etc. 
+- The numbers correspond to the letters of the alphabet in reverse order: a=26, z=1 etc.
 
 - You should also account for '!', '?' and ' ' that are represented by '27', '28' and '29' respectively.
 
@@ -22,7 +22,7 @@ print(switcher(['12']))
 print(switcher(['12' ,'28' ,'25' ,'21' ,'25' ,'7' ,'11' ,'22' ,'15']))
 ```
 
-#### Output 
+#### Output
 
 ```
 codewars
@@ -40,10 +40,10 @@ o?bfbtpel
 from string import ascii_lowercase
 
 def switcher(arr):
-    v = ' ?!' + ascii_lowercase 
+    v = ' ?!' + ascii_lowercase
     k = map(str, range(29, 0, -1))
     d = {k: v for (k,v) in zip(k, v)}
-    
+
     return ''.join(map(d.get, arr))
 ```
 

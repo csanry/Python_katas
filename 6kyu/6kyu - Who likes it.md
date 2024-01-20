@@ -4,7 +4,7 @@
 
 - You probably know the "like" system from Facebook and other pages.
 
-- Implement a function `likes`, which must take in input array, 
+- Implement a function `likes`, which must take in input array,
 containing the names of people who like an item.
 
 - It must return the display text as shown in the examples:
@@ -25,7 +25,7 @@ likes(["Alex", "Jacob", "Mark", "Max"])
 likes(["Max", "John", "Mark"])
 ```
 
-#### Output 
+#### Output
 ```
 Alex, Jacob and 2 like this
 Max, John and Mark like this

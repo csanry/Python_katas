@@ -17,7 +17,7 @@ print(distinct_digit_year(1060))
 print(distinct_digit_year(1823))
 ```
 
-#### Output 
+#### Output
 ```
 5860
 5160
@@ -32,7 +32,7 @@ print(distinct_digit_year(1823))
 ```python
 def distinct_digit_year(year):
     year += 1
-    while len(set(str(year))) != 4: 
+    while len(set(str(year))) != 4:
         year += 1
     return year
 ```

@@ -23,7 +23,7 @@ print(day_and_time(259180))
 print(day_and_time(-349000))
 ```
 
-#### Output 
+#### Output
 ```
 Sunday 00:00
 Saturday 23:57

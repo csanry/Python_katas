@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Complete the solution so that it returns a formatted string. 
+- Complete the solution so that it returns a formatted string.
 
 - The return value should equal "Value is VALUE" where value is a 5 digit padded number.
 
@@ -17,7 +17,7 @@ print(solution(109))
 print(solution(1204))
 ```
 
-#### Output 
+#### Output
 
 ```
 Value is 00000

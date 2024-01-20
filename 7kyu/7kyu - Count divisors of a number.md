@@ -15,7 +15,7 @@ print(divisors(338724))
 print(divisors(486666))
 ```
 
-#### Output 
+#### Output
 ```
 8
 16

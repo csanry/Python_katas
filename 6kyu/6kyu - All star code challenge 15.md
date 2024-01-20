@@ -19,7 +19,7 @@ print(rotate(""))
 print(rotate("123"))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['elloH', 'lloHe', 'loHel', 'oHell', 'Hello']
@@ -38,7 +38,7 @@ from collections import deque
 def rotate(st):
     dq = deque(st)
     res = []
-    for _ in range(len(st)): 
+    for _ in range(len(st)):
         dq.rotate(-1)
         res.append(''.join(dq))
     return res

@@ -6,7 +6,7 @@
 
 - To help confuse matters many airlines omit the letters 'I' and 'J' from their seat naming system.
 
-- The naming system consists of a number (in this case between 1-60) that denotes the section of the plane where the seat is (1-20 = front, 21-40 = middle, 40+ = back). 
+- The naming system consists of a number (in this case between 1-60) that denotes the section of the plane where the seat is (1-20 = front, 21-40 = middle, 40+ = back).
 
 - This number is followed by a letter, A-K with the exclusions mentioned above.
 
@@ -30,7 +30,7 @@ print(plane_seat('60D'))
 print(plane_seat('17K'))
 ```
 
-#### Output 
+#### Output
 
 ```
 Front-Left
@@ -47,15 +47,15 @@ Front-Right
 ```python
 def plane_seat(a):
     num, let = int(a[:-1]), a[-1]
-    num_dict = {1 <= num <= 20: 'Front', 
-                21 <= num <= 40: 'Middle', 
+    num_dict = {1 <= num <= 20: 'Front',
+                21 <= num <= 40: 'Middle',
                 40 < num <= 60: 'Back'}
-    let_dict = {let in 'ABC': 'Left', 
-                let in 'DEF': 'Middle', 
+    let_dict = {let in 'ABC': 'Left',
+                let in 'DEF': 'Middle',
                 let in 'GHK': 'Right'}
-    try: 
+    try:
         return f"{num_dict[True]}-{let_dict[True]}"
-    except: 
+    except:
         return "No Seat!!"
 ```
 

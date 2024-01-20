@@ -6,7 +6,7 @@
 
 - The first person goes into team 1, the second goes into team 2, the third goes into team 1, and so on.
 
-- Given an array of positive integers (the weights of the people), return a new array of two integers. 
+- Given an array of positive integers (the weights of the people), return a new array of two integers.
 
 - Where the first one is the total weight of team 1, and the second one is the total weight of team 2.
 
@@ -30,7 +30,7 @@ print(row_weights([39, 84, 74, 18, 59, 72, 35, 61]))
 print(row_weights([0, 1, 0]))
 ```
 
-#### Output 
+#### Output
 ```
 (80, 0)
 (100, 50)

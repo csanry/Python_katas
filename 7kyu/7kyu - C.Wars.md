@@ -16,7 +16,7 @@ print(initials('Julia Ygritte Isabella Rafael Griffin'))
 print(initials('Noah Michael Abigail Lucas Eduarda Parker'))
 ```
 
-#### Output 
+#### Output
 ```
 C.Wars
 B.H.Obama

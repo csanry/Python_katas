@@ -23,7 +23,7 @@ valid_parentheses("(())((()())())")
 valid_parentheses("hi(hi)()")
 ```
 
-#### Output 
+#### Output
 ```
 False
 True

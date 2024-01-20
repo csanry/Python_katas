@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. 
+- Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below.
 
-- For example, capitalize("abcdef") = ['AbCdEf', 'aBcDeF']. 
+- For example, capitalize("abcdef") = ['AbCdEf', 'aBcDeF'].
 
 - The input will be a lowercase string with no spaces.
 
@@ -19,7 +19,7 @@ print(capitalize("abracadabra"))
 print(capitalize("codewarriors"))
 ```
 
-#### Output 
+#### Output
 ```
 ['AbCdEf', 'aBcDeF']
 ['CoDeWaRs', 'cOdEwArS']

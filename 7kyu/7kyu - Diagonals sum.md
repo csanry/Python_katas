@@ -16,7 +16,7 @@ print(sum_diagonals( [
 ] ))
 ```
 
-#### Output 
+#### Output
 ```
 30 # 1 + 5 + 9 + 3 + 5 + 7
 ```
@@ -26,15 +26,15 @@ print(sum_diagonals( [
 #### Solution
 
 ```python
-import numpy as np 
+import numpy as np
 
 def sum_diagonals(matrix):
     return sum(np.diag(matrix) + np.diag(matrix[::-1]))
 
 # Non-numpy solution using indexing
 # def sum_diagonals(matrix):
-#     try: 
-#         return sum(matrix[i][i] + matrix[::-1][i][i] for i in range(len(matrix))) 
+#     try:
+#         return sum(matrix[i][i] + matrix[::-1][i][i] for i in range(len(matrix)))
 #     except:
 #         return 0
 ```

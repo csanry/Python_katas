@@ -2,13 +2,13 @@
 
 **Instructions**
 
-- Pete likes to bake some cakes. He has some recipes and ingredients. 
+- Pete likes to bake some cakes. He has some recipes and ingredients.
 
 - Help him to find out how many cakes he could bake considering his recipes.
 
-- Write a function which takes `recipe` and the `available` ingredients and returns the maximum number of cakes Pete can bake as an integer. 
+- Write a function which takes `recipe` and the `available` ingredients and returns the maximum number of cakes Pete can bake as an integer.
 
-- For simplicity there are no units for the amounts (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200). 
+- For simplicity there are no units for the amounts (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200).
 
 - Ingredients that are not present in the objects, can be considered as 0.
 
@@ -26,7 +26,7 @@ available_two = {"sugar": 500, "flour": 2000, "milk": 2000}
 print(cakes(recipe_two, available_two))
 ```
 
-#### Output 
+#### Output
 
 ```
 2

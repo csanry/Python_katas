@@ -3,7 +3,7 @@
 **Instructions**
 
 - Write a function, format_poem() that takes a one line string as an argument.
- 
+
 - Return a new string that is formatted across multiple lines with each new sentence starting on a new line when you print it out.
 
 ---
@@ -14,7 +14,7 @@
 print(format_poem('Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.'))
 ```
 
-#### Output 
+#### Output
 ```
 'Beautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.'
 ```

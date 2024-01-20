@@ -30,7 +30,7 @@ print(josephus_survivor(14, 2))
 print(josephus_survivor(100, 1))
 ```
 
-#### Output 
+#### Output
 
 ```
 4

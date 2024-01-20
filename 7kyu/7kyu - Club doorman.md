@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- The Club Doorman will give you a word. 
+- The Club Doorman will give you a word.
 
 - To enter the Club you need to provide the right number according to provided the word.
 
@@ -22,7 +22,7 @@ print(pass_the_door_man("hill"))
 print(pass_the_door_man("apple"))
 ```
 
-#### Output 
+#### Output
 
 ```
 60
@@ -35,7 +35,7 @@ print(pass_the_door_man("apple"))
 #### Solution
 
 ```python
-import re 
+import re
 def pass_the_door_man(word):
     let = re.search(r'(\w)\1', word).group(1)
     return 3 * (ord(let)-96)

@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Complete the function so that it converts dash/underscore delimited words into camel casing. 
+- Complete the function so that it converts dash/underscore delimited words into camel casing.
 
 - The first word within the output should be capitalized only if the original word was capitalized.
 
@@ -17,7 +17,7 @@ print(to_camel_case("The-Stealth-Warrior"))
 print(to_camel_case("A-B-C"))
 ```
 
-#### Output 
+#### Output
 ```
 ""
 theStealthWarrior
@@ -30,7 +30,7 @@ ABC
 #### Solution
 
 ```python
-import re 
+import re
 def to_camel_case(text):
     sp = re.split(r'[-_]', text)
     return ''.join(st if not sp.index(st) else st.capitalize() for st in sp)

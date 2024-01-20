@@ -4,10 +4,10 @@
 
 - There is a rectangular land and we need to plant trees on the edges of that land.
 
-- Given three parameters: 
+- Given three parameters:
 
     - `width` and `length`, two integers > 1 that represents the land's width and length.
-    
+
     - `gaps`, an integer >= 0, that is the distance between two trees.
 
 - Return how many trees have to be planted, if you can't achieve a symmetrical layout then return `0`.
@@ -46,7 +46,7 @@ print(sc(200,2,1))
 print(sc(2,200,1))
 ```
 
-#### Output 
+#### Output
 
 ```
 4
@@ -66,7 +66,7 @@ print(sc(2,200,1))
 #### Solution
 
 ```python
-def sc(width, length, gaps): 
+def sc(width, length, gaps):
     div, mod = divmod(2 * (width + length -2), gaps + 1)
     return 0 if mod else div
 ```

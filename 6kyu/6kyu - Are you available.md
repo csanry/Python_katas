@@ -8,7 +8,7 @@
 
 - `current_time` - is a string with specific time in hh:mm 24-h format for which the function will check availability based on the schedule.
 
-- If no appointments are scheduled for `current_time`, the function should return `True`. 
+- If no appointments are scheduled for `current_time`, the function should return `True`.
 
 - If there are no appointments for the day, the output should also be `True`
 
@@ -23,7 +23,7 @@ print(check_availability([['09:30', '10:15'], ['12:20', '15:50']], '10:00'))
 print(check_availability([['09:30', '10:15'], ['12:20', '15:50']], '11:00'))
 ```
 
-#### Output 
+#### Output
 ```
 10:15
 True

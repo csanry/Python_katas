@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Implement a function, multiples(m, n), which returns an array of the first `m` multiples of the real number `n`. 
+- Implement a function, multiples(m, n), which returns an array of the first `m` multiples of the real number `n`.
 
 - Assume that `m` is a positive integer.
 
@@ -16,7 +16,7 @@ print(multiples(1, 3.14))
 print(multiples(5, -1))
 ```
 
-#### Output 
+#### Output
 ```
 [5, 10, 15]
 [3.14]

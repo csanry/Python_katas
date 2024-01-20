@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- You will be given two inputs: a string of words and a letter. 
+- You will be given two inputs: a string of words and a letter.
 
 - For each string, return the alphabetic character after every instance of letter(case insensitive).
 
@@ -22,7 +22,7 @@ print(comes_after("p8tice makes pottery p0rfect!", 'p'))
 print(comes_after("nothing to be found here", 'z'))
 ```
 
-#### Output 
+#### Output
 
 ```
 arrrrrrrr
@@ -37,7 +37,7 @@ o
 #### Solution
 
 ```python
-def comes_after(st, l): 
+def comes_after(st, l):
     return ''.join(b for (a, b) in zip(st, st[1:]) if a.lower() == l.lower() and b.isalpha())
 ```
 

@@ -2,15 +2,15 @@
 
 **Instructions**
 
-- You are given two arrays `a1` and `a2` of strings. 
+- You are given two arrays `a1` and `a2` of strings.
 
-- Each string is composed with letters from a to z. 
+- Each string is composed with letters from a to z.
 
 - Let x be any string in the first array and y be any string in the second array.
 
 - Find `max(abs(length(x) − length(y)))`.
 
-- If `a1` or `a2` are empty return `-1`. 
+- If `a1` or `a2` are empty return `-1`.
 
 ---
 
@@ -22,7 +22,7 @@ s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]
 print(mxdiflg(s1, s2))
 ```
 
-#### Output 
+#### Output
 
 ```
 13
@@ -34,7 +34,7 @@ print(mxdiflg(s1, s2))
 
 ```python
 def mxdiflg(a1, a2):
-    return max(     
+    return max(
         len(max(a1, key=len)) - len(min(a2, key=len)),
         len(max(a2, key=len)) - len(min(a1, key=len))) if a1 and a2 else -1
 ```

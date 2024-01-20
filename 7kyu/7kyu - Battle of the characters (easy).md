@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Groups of characters decided to make a battle. Help them to figure out which group is more powerful. 
+- Groups of characters decided to make a battle. Help them to figure out which group is more powerful.
 
 - Create a function that will accept 2 variables and return the one who's stronger.
 
@@ -27,7 +27,7 @@ print(battle("ONE", "NEO"))
 print(battle("FOUR", "FIVE"))
 ```
 
-#### Output 
+#### Output
 ```
 Z
 TWO
@@ -43,7 +43,7 @@ FOUR
 from string import ascii_uppercase
 def battle(x, y):
     d = {k: v for v, k in enumerate(ascii_uppercase, 1)}
-    
+
     g1 = sum(d.get(c, 0) for c in x)
     g2 = sum(d.get(c, 0) for c in y)
     return {g1 > g2: x,

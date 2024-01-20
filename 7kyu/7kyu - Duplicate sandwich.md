@@ -22,7 +22,7 @@ print(duplicate_sandwich([True, False, True]))
 print(duplicate_sandwich(['e', 'x', 'a', 'm', 'p', 'l', 'e']))
 ```
 
-#### Output 
+#### Output
 ```
 [2, 3, 4, 5, 6]
 ['Hello', 'Example', 'hello']

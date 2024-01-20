@@ -21,7 +21,7 @@ print(reverse_bits(1024))
 print(reverse_bits(1023))
 ```
 
-#### Output 
+#### Output
 ```
 267
 417

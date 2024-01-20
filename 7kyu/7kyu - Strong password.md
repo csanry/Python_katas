@@ -2,14 +2,14 @@
 
 **Instructions**
 
-- Your users' passwords were all stolen in the Yahoo! hack, and it turns out they have been lax in creating secure passwords. 
+- Your users' passwords were all stolen in the Yahoo! hack, and it turns out they have been lax in creating secure passwords.
 
 - Create a function that checks their new password (passed as a string) to make sure it meets the following requirements:
-    
+
     - Between 8 - 20 characters
-    
+
     - Contains only the following characters (and at least one character from each category)
-    
+
     - uppercase letters, lowercase letters, digits, special characters from !@#$%^&*?
 
 - Return `valid` if passed or `not valid` otherwise.
@@ -27,7 +27,7 @@ print(check_password("P1@pP1@pP1@pP1@pP1@pP1@p"))
 print(check_password("Paaaaaa222!!!"))
 ```
 
-#### Output 
+#### Output
 
 ```
 not valid
@@ -46,7 +46,7 @@ valid
 from string import ascii_lowercase, ascii_uppercase
 def check_password(s):
     val = '!@#$%^&*?' + ascii_lowercase + ascii_uppercase + '1234567890'
-    return 'valid' if ( all(map(lambda x: x in val, s)) and 
+    return 'valid' if ( all(map(lambda x: x in val, s)) and
                         8 <= len(s) <= 20 and
                         any(map(str.islower, s)) and
                         any(map(str.isupper, s)) and

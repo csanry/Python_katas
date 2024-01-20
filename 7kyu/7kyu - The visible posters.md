@@ -2,22 +2,22 @@
 
 **Instructions**
 
-- The citizens of Bytetown, could not stand that the candidates in the mayoral election campaign have been placing their electoral posters at all places at their whim. 
+- The citizens of Bytetown, could not stand that the candidates in the mayoral election campaign have been placing their electoral posters at all places at their whim.
 
 - The city council has finally decided to build an electoral wall for placing the posters and introduce the following rules:
 
 ```
-Every candidate can place exactly one poster on the wall. 
+Every candidate can place exactly one poster on the wall.
 All posters are of the same height equal to the height of the wall;
 the width of a poster can be any integer number of bytes
-(byte is the unit of length in Bytetown). 
-The wall is divided into segments and the width of each segment is one byte. 
+(byte is the unit of length in Bytetown).
+The wall is divided into segments and the width of each segment is one byte.
 Each poster must completely cover a contiguous number of wall segments.
 ```
 
-- They have built a wall 1000 bytes long (such that there is enough place for all candidates). 
+- They have built a wall 1000 bytes long (such that there is enough place for all candidates).
 
-- When the electoral campaign was restarted, the candidates were placing their posters on the wall and their posters differed widely in width. 
+- When the electoral campaign was restarted, the candidates were placing their posters on the wall and their posters differed widely in width.
 
 - Moreover, the candidates started placing their posters on wall segments already occupied by other posters.
 
@@ -42,7 +42,7 @@ print(count_visible([(1, 3), (2, 4), (3, 5), (4, 6), (5, 7), (6, 8)]))
 print(count_visible([(1, 1000), (1, 2), (3, 999)]))
 ```
 
-#### Output 
+#### Output
 
 ```
 4

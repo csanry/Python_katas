@@ -30,7 +30,7 @@ print(human_years_cat_years_dog_years(2))
 print(human_years_cat_years_dog_years(10))
 ```
 
-#### Output 
+#### Output
 
 ```
 [1, 15, 15]

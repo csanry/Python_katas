@@ -22,7 +22,7 @@ print(solution(37278))
 print(solution(71980))
 ```
 
-#### Output 
+#### Output
 ```
 0
 0

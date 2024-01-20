@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Try to call `callme()` in a try block without the letter `r`. It means you cannot write the `try` keyword in your source because that contains letter `r`. 
+- Try to call `callme()` in a try block without the letter `r`. It means you cannot write the `try` keyword in your source because that contains letter `r`.
 
 - You cannot use the `=` symbol.
 

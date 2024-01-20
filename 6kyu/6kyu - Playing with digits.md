@@ -30,7 +30,7 @@ print(dig_pow(92, 1))
 print(dig_pow(46288, 3))
 ```
 
-#### Output 
+#### Output
 
 ```
 1

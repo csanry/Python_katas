@@ -36,7 +36,7 @@ print(complete_series([2,1]))
 print(complete_series([1,4,4,6]))
 ```
 
-#### Output 
+#### Output
 ```
 [0, 1]
 [0, 1, 2, 3, 4, 5, 6]

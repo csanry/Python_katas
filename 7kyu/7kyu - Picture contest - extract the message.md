@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Implement a function that takes out the hashtag from the posted message. 
+- Implement a function that takes out the hashtag from the posted message.
 
 - When multiple occurrences of the hashtag are found, delete only the first one.
 
@@ -25,7 +25,7 @@ print(omit_hashtag("#lta #picture_contest", "#lta"))
 print(omit_hashtag("#lta #picture_contest #lta", "#lta"))
 ```
 
-#### Output 
+#### Output
 
 ```
 Sunny day!  #vvv

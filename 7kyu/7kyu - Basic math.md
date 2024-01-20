@@ -16,7 +16,7 @@ print(calculate('1minus2minus3minus4'))
 print(calculate('1plus2plus3minus4'))
 ```
 
-#### Output 
+#### Output
 
 ```
 10
@@ -31,7 +31,7 @@ print(calculate('1plus2plus3minus4'))
 ```python
 def calculate(s):
     return str(sum(int(n) for n in s.replace("minus", "plus-").split("plus")))
-    
+
     # eval not recommended as best practice
     # return f"{eval(s.replace('plus', '+').replace('minus', '-'))}"
 ```

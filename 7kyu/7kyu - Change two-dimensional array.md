@@ -16,7 +16,7 @@ print(matrix([[-1, 4, -5, -9, 3],
               [-3, 2, 1, -5, 6]]))
 ```
 
-#### Output 
+#### Output
 ```
 [[0, 4, -5, -9, 3],
  [6, 0, -7, 4, -5],
@@ -30,8 +30,8 @@ print(matrix([[-1, 4, -5, -9, 3],
 #### Solution
 
 ```python
-def matrix(m): 
-    return [[v if i != j else int(v >= 0) for j, v in enumerate(r)] 
+def matrix(m):
+    return [[v if i != j else int(v >= 0) for j, v in enumerate(r)]
             for i, r in enumerate(m)]
 ```
 

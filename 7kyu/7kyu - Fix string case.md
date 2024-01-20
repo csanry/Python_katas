@@ -22,7 +22,7 @@ print(fix_case('CODEwarsTEST'))
 print(fix_case('codeWARS'))
 ```
 
-#### Output 
+#### Output
 
 ```
 code

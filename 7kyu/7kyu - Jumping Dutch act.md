@@ -43,7 +43,7 @@ print(sc(1))
 print(sc(-1))
 ```
 
-#### Output 
+#### Output
 
 ```
 Aa~ Pa! Aa!
@@ -60,7 +60,7 @@ Aa~ Aa~ Aa~ Aa~ Aa~ Aa~ Aa~ Aa~ Aa~ Pa!
 #### Solution
 
 ```python
-def sc(n): 
+def sc(n):
     return 'Aa~ ' * (n-1) + ('', 'Pa!')[n>1] + ('', ' Aa!')[1<n<7]
 ```
 

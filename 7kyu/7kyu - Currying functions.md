@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Make a function `multiply_all` which takes an array of integers as an argument. 
+- Make a function `multiply_all` which takes an array of integers as an argument.
 
 - This function must return another function, which takes a single integer as an argument and returns a new array.
 
@@ -19,7 +19,7 @@ print(multiply_all([1, 2, 3])(0))
 print(multiply_all([])(10))
 ```
 
-#### Output 
+#### Output
 
 ```
 [1, 2, 3]
@@ -33,8 +33,8 @@ print(multiply_all([])(10))
 #### Solution
 
 ```python
-def multiply_all(arr): 
-    def res(x): 
+def multiply_all(arr):
+    def res(x):
         return [x * i for i in arr]
     return res
 ```

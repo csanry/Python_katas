@@ -4,7 +4,7 @@
 
 - Every uppercase letter is Father, The corresponding lowercase letters is the Son.
 
-- Given a string s, If the father and son both exist, keep them. 
+- Given a string s, If the father and son both exist, keep them.
 
 - If it is a separate existence, delete them. Return the result.
 
@@ -21,7 +21,7 @@ print(sc("monkeyDONKEY"))
 print(sc("BANAna"))
 ```
 
-#### Output 
+#### Output
 ```
 Aa
 AabB

@@ -23,7 +23,7 @@ print(two_by_two(["dog", "cat", "dog", "cat", "beaver", "cat"]))
 print(two_by_two(["goat", "goat", "rabbit", "rabbit", "rabbit", "duck", "horse", "horse", "swan"]))
 ```
 
-#### Output 
+#### Output
 ```
 False
 {}

@@ -15,7 +15,7 @@ print(pig_it('Pig latin is cool'))
 print(pig_it('This is my string'))
 ```
 
-#### Output 
+#### Output
 
 ```
 igPay atinlay siay oolcay

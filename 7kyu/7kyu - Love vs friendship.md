@@ -22,7 +22,7 @@ print(words_to_marks('selfness'))
 print(words_to_marks('knowledge'))
 ```
 
-#### Output 
+#### Output
 ```
 100
 75

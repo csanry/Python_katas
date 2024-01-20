@@ -14,7 +14,7 @@ print(reject(['a', 'b', 3, 'd'], lambda x: type(x)==int))
 print(reject(['a', 'b', 3, 'd'], lambda x: type(x)==str))
 ```
 
-#### Output 
+#### Output
 ```
 [1, 3, 5]
 ['a', 'b', 'd']

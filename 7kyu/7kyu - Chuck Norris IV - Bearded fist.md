@@ -2,11 +2,11 @@
 
 **Instructions**
 
-- When shaving, Chuck accidentally punched himself in the face. 
+- When shaving, Chuck accidentally punched himself in the face.
 
 - Chuck can't remember a thing - he needs your help!!
 
-- Hidden within the provided sequence of sequences are numbers that represent the letters of the words for some of Chuck's favourite things! 
+- Hidden within the provided sequence of sequences are numbers that represent the letters of the words for some of Chuck's favourite things!
 
 - Your job is to translate them, and return the words so that Chuck can get back to the business of punching and kicking things.
 
@@ -19,7 +19,7 @@ print(fist_beard([[78], [117, 110, 99], [104, 117], [107, 115]]))
 print(fist_beard([[70, 97, 99], [101, 45, 75, 105, 99, 107]]))
 ```
 
-#### Output 
+#### Output
 
 ```
 Nunchuks
@@ -32,7 +32,7 @@ Face-Kick
 
 ```python
 from itertools import chain
-def fist_beard(arr): 
+def fist_beard(arr):
     return ''.join(map(chr, chain.from_iterable(arr)))
 ```
 

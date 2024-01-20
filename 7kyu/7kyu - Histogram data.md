@@ -19,7 +19,7 @@ print(histogram([], 1))
 print(histogram([8], 1))
 ```
 
-#### Output 
+#### Output
 ```
 [1, 3, 1, 1, 0, 0, 1]
 [4, 2, 0, 1]
@@ -33,10 +33,10 @@ print(histogram([8], 1))
 
 ```python
 def histogram(values, bin_width):
-    if not values: 
+    if not values:
         return []
     arr = [0] * (max(values) // bin_width + 1)
-    for v in values: 
+    for v in values:
         arr[v // bin_width] += 1
     return arr
 ```

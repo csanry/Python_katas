@@ -19,7 +19,7 @@ print(expression_matter(1, 6, 1))
 print(expression_matter(2, 6, 1))
 ```
 
-#### Output 
+#### Output
 
 ```
 8

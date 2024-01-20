@@ -20,7 +20,7 @@ I
 print(draw_stairs(3))
 ```
 
-#### Output 
+#### Output
 
 ```
 I\n I\n  I
@@ -31,7 +31,7 @@ I\n I\n  I
 #### Solution
 
 ```python
-def draw_stairs(n): 
+def draw_stairs(n):
     return '\n'.join(f'{i * " "}I' for i in range(n))
 ```
 

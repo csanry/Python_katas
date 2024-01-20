@@ -7,15 +7,15 @@
 - The required resources are:
 
     - 100 Gt of iron
-    
+
     - 75 Gt of steel
-    
+
     - 50 Gt of chromium
 
 - The input will consist of an array with 8 elements:
 
     - The first 7 elements are the shipments - 3-elements-long arrays where each number corresponds to the amount of material that was ordered (iron, steel, and chromium)
-    
+
     - The last element is a number representing the day of the rebel attack (0-indexed) - any materials which should have been delivered that day will be lost, and later shipments will be cancelled due to the trading route becoming unsafe
 
 - Output:
@@ -33,7 +33,7 @@ print(death_star([[100, 75, 49], [20, 15, 20], [10, 15, 10], [50, 50, 20], [20, 
 print(death_star([[20, 15, 10], [20, 15, 20], [10, 15, 10], [50, 50, 20], [20, 15, 10], [20, 15, 10], [20, 15, 10]], 5))
 ```
 
-#### Output 
+#### Output
 ```
 The station is destroyed! It needed 0 iron, 0 steel and 1 chromium for completion.
 The station is completed!
@@ -44,15 +44,15 @@ The station is completed!
 #### Solution
 
 ```python
-def death_star(week, attack): 
+def death_star(week, attack):
     day = 0
     t_i, t_s, t_c = 0, 0, 0
-    while day < attack: 
+    while day < attack:
         t_i += week[day][0]
         t_s += week[day][1]
         t_c += week[day][2]
         day += 1
-    return "The station is " + (f"destroyed! It needed {max(0, 100 - t_i)} iron, {max(0, 75 - t_s)} steel and {max(0, 50 - t_c)} chromium for completion.", "completed!")[all([t_i >= 100, t_s >= 75, t_c >= 50])] 
+    return "The station is " + (f"destroyed! It needed {max(0, 100 - t_i)} iron, {max(0, 75 - t_s)} steel and {max(0, 50 - t_c)} chromium for completion.", "completed!")[all([t_i >= 100, t_s >= 75, t_c >= 50])]
 ```
 
 ---

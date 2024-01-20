@@ -17,7 +17,7 @@ print(triple_x("soft kitty, warm kitty, xxxxx"))
 print(triple_x("softx kitty, warm kitty, xxxxx"))
 ```
 
-#### Output 
+#### Output
 
 ```
 False

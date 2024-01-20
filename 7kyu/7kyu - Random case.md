@@ -13,7 +13,7 @@ st = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
 print(random_case(st))
 ```
 
-#### Output 
+#### Output
 
 ```
 # random output

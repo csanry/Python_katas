@@ -14,7 +14,7 @@ Given number n, such that n > 1, find if its 2nd root, 4th root and 8th root are
 # 2nd root of 256 is 16
 # 4th root of 256 is 4
 # 8th root of 256 is 2
-perfect_roots(256) # returns True 
+perfect_roots(256) # returns True
 ```
 
 ---
@@ -27,7 +27,7 @@ print(perfect_roots(1000))
 print(perfect_roots(6561))
 ```
 
-#### Output 
+#### Output
 
 ```
 True

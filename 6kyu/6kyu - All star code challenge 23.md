@@ -39,7 +39,7 @@ print(scoring([]))
 print(scoring([p1, p3, p2]))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['JuanPablo']

@@ -4,7 +4,7 @@
 
 - Given a string of four words, turn them in to Gordon language.
 
-- Obviously the words should be caps. 
+- Obviously the words should be caps.
 
 - Every word should end with `!!!!`.
 
@@ -24,7 +24,7 @@ print(gordon('dont you talk tome'))
 print(gordon('how dare you feck'))
 ```
 
-#### Output 
+#### Output
 
 ```
 WH@T!!!! F*CK!!!! D@MN!!!! C@K*!!!!

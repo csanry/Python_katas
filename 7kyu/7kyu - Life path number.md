@@ -4,11 +4,11 @@
 
 - A person's Life Path Number is calculated by adding each individual number in that person's date of birth, until it is reduced to a single digit number.
 
-- Complete the function that accepts a date of birth (as a string) in the following format: `yyyy-mm-dd`. 
+- Complete the function that accepts a date of birth (as a string) in the following format: `yyyy-mm-dd`.
 
 - The function shall return a one digit integer between 1 and 9 which represents the Life Path Number of the given date of birth.
 
-- For example, Albert Einstein's birthday is March 14, 1879 `("1879-03-14")`. 
+- For example, Albert Einstein's birthday is March 14, 1879 `("1879-03-14")`.
 
 - The calculation of his Life Path Number would look like this:
 
@@ -28,7 +28,7 @@ print(life_path_number('1955-10-28'))
 print(life_path_number('1971-06-28'))
 ```
 
-#### Output 
+#### Output
 
 ```
 4

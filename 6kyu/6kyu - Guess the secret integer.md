@@ -11,15 +11,15 @@
 - `guess_bot` is a bit of an asshole and only returns the following strings when you call `guess_number(number)`:
 
     - `'Smaller'`: Your guess is too big
-    
+
     - `'Larger'`: Your guess is too small
-    
+
     - `'Correct'`: Your guess is correct
-    
+
     - `'You failed, you bring great shame to your family name'`: You ran out of tries
-    
+
     - `'What are you, deaf?'`: Returned if you continously call guess_number after you already guessed the correct number
-    
+
     - You only have log2(N) calls to guess_number before the bot starts calling you a failure. N is the number of possible integers in the [low, high] range.
 
 - 1 <= N <= 10^14
@@ -38,7 +38,7 @@ def find_secret_number(low, high, guess_bot):
         ans = guess_bot.guess_number(mid)
         if ans == 'Correct':
             return mid
-        elif ans == 'Larger': 
+        elif ans == 'Larger':
             start = mid + 1
         else:
             end = mid - 1

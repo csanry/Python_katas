@@ -17,7 +17,7 @@ print(initialize_names('Dimitri'))
 print(initialize_names('Alice Betty Catherine Davis'))
 ```
 
-#### Output 
+#### Output
 ```
 Jack Ryan
 Lois M. Lane

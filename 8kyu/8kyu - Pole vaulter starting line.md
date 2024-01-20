@@ -2,14 +2,14 @@
 
 **Instructions**
 
-- For a pole vaulter, it is very important to begin the approach run at the best possible starting mark. 
+- For a pole vaulter, it is very important to begin the approach run at the best possible starting mark.
 
 - There is a guideline that will help a beginning vaulter start at approximately the right location based on the vaulter's body height.
 
 - You are given the following two guidelines to begin with:
 
     - A vaulter with a height of 1.52 meters should start at 9.45 meters on the runway.
-    
+
     - A vaulter with a height of 1.83 meters should start at 10.67 meters on the runway.
 
 - You will receive a vaulter's height in meters.
@@ -34,7 +34,7 @@ starting_mark(1.98)
 starting_mark(2.01)
 ```
 
-#### Output 
+#### Output
 ```
 10.36
 10.67

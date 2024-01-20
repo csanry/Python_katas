@@ -2,13 +2,13 @@
 
 **Instructions**
 
-- A number m of the form 10x + y is divisible by 7 if and only if x − 2y is divisible by 7. 
+- A number m of the form 10x + y is divisible by 7 if and only if x − 2y is divisible by 7.
 
-- Continue to do this until a number known to be divisible by 7 is obtained. 
+- Continue to do this until a number known to be divisible by 7 is obtained.
 
 - The original number is divisible by 7 if and only if the last number obtained using this procedure is divisible by 7.
 
-- Your task is to return to the function seven(m) (m integer >= 0) a tuple of numbers. 
+- Your task is to return to the function seven(m) (m integer >= 0) a tuple of numbers.
 
 - The first being the last number m with at most 2 digits obtained by your function (this last m will be divisible or not by 7).
 
@@ -27,7 +27,7 @@ print(seven (483))
 print(seven(1021))
 ```
 
-#### Output 
+#### Output
 ```
 (7, 2)
 (35, 1)
@@ -40,8 +40,8 @@ print(seven(1021))
 #### Solution
 
 ```python
-def seven(m): 
-    res, counter = m, 0 
+def seven(m):
+    res, counter = m, 0
     while res > 99:
         q, r = divmod(res, 10)
         res = q - (2 * r)

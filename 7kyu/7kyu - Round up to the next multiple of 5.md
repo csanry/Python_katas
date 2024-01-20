@@ -33,7 +33,7 @@ print(round_to_next5(-2))
 print(round_to_next5(-5))
 ```
 
-#### Output 
+#### Output
 ```
 0
 5

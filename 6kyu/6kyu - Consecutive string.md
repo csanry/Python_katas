@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- You are given an array `strarr` of strings and an integer `k`. 
+- You are given an array `strarr` of strings and an integer `k`.
 
 - Your task is to return the first longest string consisting of `k` consecutive strings taken in the array.
 
@@ -17,7 +17,7 @@ longest_consec([], 3)
 longest_consec(["itvayloxrp","wkppqsztdkmvcuwvereiupccauycnjutlv","vweqilsfytihvrzlaodfixoyxvyuyvgpck"], 2)
 ```
 
-#### Output 
+#### Output
 ```
 abigailtheta
 oocccffuucccjjjkkkjyyyeehh
@@ -35,10 +35,10 @@ def longest_consec(strarr, k):
         return ''
     longest = current = sum(map(len, strarr[:k]))
     idx = 0
-    
-    for i in range(len(strarr) - k): 
+
+    for i in range(len(strarr) - k):
         current += len(strarr[i+k]) - len(strarr[i])
-        if current > longest: 
+        if current > longest:
             longest = current
             idx = i + 1
     return ''.join(strarr[idx:idx+k])

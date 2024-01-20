@@ -7,9 +7,9 @@
 - For example:
 
 ```python
-solve("xyab","xzca") = "ybzc" 
-# The first string has 'yb' which is not in the second string. 
-# The second string has 'zc' which is not in the first string. 
+solve("xyab","xzca") = "ybzc"
+# The first string has 'yb' which is not in the second string.
+# The second string has 'zc' which is not in the first string.
 ```
 
 - Return the characters from the 1st string concatenated with the 2nd string.
@@ -25,7 +25,7 @@ print(solve("abcd", "xyz"))
 print(solve("xxx", "xzca"))
 ```
 
-#### Output 
+#### Output
 ```
 ybzc
 ybbzc

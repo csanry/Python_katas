@@ -7,8 +7,8 @@
 ```
 sum_pairs([4, 3, 2, 3, 4],         6)
 #          ^-----^         4 + 2 = 6, indices: 0, 2 *
-#             ^-----^      3 + 3 = 6, indices: 1, 3 
-#                ^-----^   2 + 4 = 6, indices: 2, 4 
+#             ^-----^      3 + 3 = 6, indices: 1, 3
+#                ^-----^   2 + 4 = 6, indices: 2, 4
 #  * entire pair is earlier, and therefore is the correct answer
 == [4, 2]
 
@@ -40,7 +40,7 @@ print(sum_pairs([0, 2, 0], 0))
 print(sum_pairs([5, 9, 13, -3], 10))
 ```
 
-#### Output 
+#### Output
 
 ```
 [1, 7]
@@ -60,8 +60,8 @@ None
 ```python
 def sum_pairs(ints, s):
     sets = set()
-    for n in ints: 
-        if s - n in sets: 
+    for n in ints:
+        if s - n in sets:
             return [s - n, n]
         sets.add(n)
 ```

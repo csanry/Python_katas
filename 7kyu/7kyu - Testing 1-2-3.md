@@ -11,11 +11,11 @@
 #### Test cases
 
 ```python
-print(number([])) 
+print(number([]))
 print(number(["a", "b", "c"]))
 ```
 
-#### Output 
+#### Output
 ```
 []
 ["1: a", "2: b", "3: c"]

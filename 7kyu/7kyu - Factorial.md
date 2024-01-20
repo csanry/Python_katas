@@ -17,7 +17,7 @@ print(factorial(8))
 print(factorial(10))
 ```
 
-#### Output 
+#### Output
 ```
 1
 120
@@ -30,9 +30,9 @@ print(factorial(10))
 #### Solution
 
 ```python
-import math 
-def factorial(n): 
-    if n < 0 or n > 12: 
+import math
+def factorial(n):
+    if n < 0 or n > 12:
         raise ValueError
     return math.factorial(n)
 ```

@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Remove all consecutive duplicate words from a string, leaving only first words entries. 
+- Remove all consecutive duplicate words from a string, leaving only first words entries.
 
 **Example**
 
@@ -20,7 +20,7 @@ string = 'alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma ga
 print(remove_consecutive_duplicates(string))
 ```
 
-#### Output 
+#### Output
 
 ```
 alpha beta gamma delta alpha beta gamma delta

@@ -15,7 +15,7 @@ data = ["John","James","Smith","01-Jan-2000","M"]
 4 = M-Male or F-Female
 ```
 
-**Rules** 
+**Rules**
 
 ```
 1–5: The first five characters of the surname (padded with 9s if less than 5 characters)
@@ -41,7 +41,7 @@ print(driver(data2))
 print(driver(data3))
 ```
 
-#### Output 
+#### Output
 ```
 SMITH001010JJ9AA
 GIBBS862131J99AA

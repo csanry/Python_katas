@@ -22,11 +22,11 @@ print(narcissistic(153))
 print(narcissistic(1652))
 ```
 
-#### Output 
+#### Output
 
 ```
 True
-True 
+True
 False
 ```
 

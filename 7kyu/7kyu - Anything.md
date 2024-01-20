@@ -15,7 +15,7 @@ print(anything(80) > 81)
 print(anything(5) == ord)
 ```
 
-#### Output 
+#### Output
 ```
 True
 True
@@ -29,7 +29,7 @@ True
 
 ```python
 class anything(object):
-    def __init__(self, foo): 
+    def __init__(self, foo):
         pass
     def __eq__(self, other):
         return True

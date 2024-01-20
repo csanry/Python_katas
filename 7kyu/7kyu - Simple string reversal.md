@@ -8,10 +8,10 @@
 
 ```
 solve("our code") = "edo cruo"
-# Normal reversal without spaces is "edocruo". 
+# Normal reversal without spaces is "edocruo".
 # However, there is a space at index 3, so the string becomes "edo cruo"
 
-solve("your code rocks") = "skco redo cruoy". 
+solve("your code rocks") = "skco redo cruoy".
 solve("codewars") = "srawedoc"
 ```
 
@@ -28,7 +28,7 @@ print(solve("your code rocks"))
 print(solve("i love codewars"))
 ```
 
-#### Output 
+#### Output
 ```
 srawedoc
 edoc ruoy
@@ -41,7 +41,7 @@ s rawe docevoli
 #### Solution
 
 ```python
-def solve(s): 
+def solve(s):
     it = reversed(s.replace(' ', ''))
     return ''.join(c if c == ' ' else next(it) for c in s)
 ```

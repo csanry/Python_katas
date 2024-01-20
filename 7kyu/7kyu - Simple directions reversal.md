@@ -19,7 +19,7 @@ print(solve(["Begin on Road A","Right on Road B","Right on Road C","Left on Road
 print(solve(["Begin on Road A"]))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['Begin on 9th Dr', 'Right on First Road', 'Left on 3rd Blvd']

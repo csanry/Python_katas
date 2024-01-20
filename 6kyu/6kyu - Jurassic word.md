@@ -26,13 +26,13 @@ velociraptor = "vvvvv"
 triceratops = "uuVuu"
 ```
 
-- Although a dinosaur will be eating one of the three available foods, some dinosaurs will only eat certain items. 
+- Although a dinosaur will be eating one of the three available foods, some dinosaurs will only eat certain items.
 
-- For example, both the brachiosaurus and the triceratops are vegetarians and love to eat flowers, but only the brachiosaurus would be able to reach the leaves. 
+- For example, both the brachiosaurus and the triceratops are vegetarians and love to eat flowers, but only the brachiosaurus would be able to reach the leaves.
 
-- On the other hand, the T-Rex and the velociraptor would only want to eat dead dinos. 
+- On the other hand, the T-Rex and the velociraptor would only want to eat dead dinos.
 
-- Thus, if you see their bitemarks on a food that you know they wouldn't be eating, you must be mistaken and something else is feeding. 
+- Thus, if you see their bitemarks on a food that you know they wouldn't be eating, you must be mistaken and something else is feeding.
 
 - This is also true for bitemarks you have never seen before!
 
@@ -50,7 +50,7 @@ print(jw.lunch_time("|||uuVuu|||"))
 print(jw.lunch_time("_CVvVvVC}>"))
 ```
 
-#### Output 
+#### Output
 
 ```
 A T-Rex is eating a dead dino.
@@ -67,20 +67,20 @@ Something is eating a dead dino.
 
 ```python
 class JurassicWord(object):
-    
+
     @classmethod
     def lunch_time(self, scene):
-        dino_dict = {'vvvvv': 'A velociraptor', 'uuuuu': 'A brachiosaurus', 
+        dino_dict = {'vvvvv': 'A velociraptor', 'uuuuu': 'A brachiosaurus',
                      'VvvvV': 'A T-Rex', 'uuVuu': 'A triceratops'}
         food_dict = {'_CC}>': 'a dead dino.', 'iiiiii': 'flowers.', '||||||': 'leaves.'}
-        
+
         dino = dino_dict.get(scene[-8:-3], 'Something')
         food = food_dict.get(scene[:-8] + scene[-3:], 'something.')
         if (food == 'a dead dino.' and dino not in ('A T-Rex', 'A velociraptor')) or\
         (food == 'leaves.' and dino != 'A brachiosaurus') or\
         (food in ('leaves.', 'flowers.') and dino not in ('A brachiosaurus', 'A triceratops')):
             dino = 'Something'
-        
+
         return f'{dino} is eating {food}'
 ```
 

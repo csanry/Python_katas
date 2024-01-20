@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- A number is non consecutive if it is not exactly one larger than the previous element in the array. 
+- A number is non consecutive if it is not exactly one larger than the previous element in the array.
 
 - The first element gets a pass and is never considered non consecutive.
 
@@ -20,7 +20,7 @@
 print(all_non_consecutive([1,2,3,4,6,7,8,10]))
 ```
 
-#### Output 
+#### Output
 ```
 [{'i': 4, 'n': 6}, {'i': 7, 'n': 10}]
 ```

@@ -21,7 +21,7 @@ print(swap_vowel_case("to"))
 print(swap_vowel_case("The"))
 ```
 
-#### Output 
+#### Output
 
 ```
 

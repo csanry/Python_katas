@@ -2,7 +2,7 @@
 
 **Instructions**
 
-- Write a function that removes the spaces from the values and returns an array showing the space decreasing. 
+- Write a function that removes the spaces from the values and returns an array showing the space decreasing.
 
 - For example, running this function on the array `['i', 'have', 'no', 'space']` would produce `['i', 'ihave', 'ihaveno', 'ihavenospace']`.
 
@@ -15,7 +15,7 @@ print(spacey(['kevin', 'has','no','space']))
 print(spacey(['this','cheese','has','no','holes']))
 ```
 
-#### Output 
+#### Output
 
 ```
 ['kevin', 'kevinhas', 'kevinhasno', 'kevinhasnospace']

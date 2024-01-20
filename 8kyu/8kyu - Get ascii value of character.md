@@ -14,7 +14,7 @@ print(get_ascii(" "))
 print(get_ascii("!"))
 ```
 
-#### Output 
+#### Output
 
 ```
 65

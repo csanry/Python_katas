@@ -20,7 +20,7 @@ print(jumping_number(4343456))
 print(jumping_number(98789876))
 ```
 
-#### Output 
+#### Output
 ```
 Jumping!!
 Jumping!!

@@ -3,7 +3,7 @@
 **Instructions**
 
 - Given a fibonacci sequence as such:
- 
+
 ```python
 f0 = '0'
 f1 = '01'
@@ -27,7 +27,7 @@ print(solve(3))
 print(solve(5))
 ```
 
-#### Output 
+#### Output
 
 ```
 0
@@ -44,9 +44,9 @@ print(solve(5))
 ```python
 def solve(n):
     a, b = '01'
-    for _ in range(n): 
+    for _ in range(n):
         a, b = a + b, a
-    return a 
+    return a
 ```
 
 ---

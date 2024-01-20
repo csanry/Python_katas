@@ -26,7 +26,7 @@ print(move_vowels('clojure'))
 print(move_vowels('csharp'))
 ```
 
-#### Output 
+#### Output
 
 ```
 dya
@@ -47,7 +47,7 @@ cshrpa
 #### Solution
 
 ```python
-def move_vowels(input): 
+def move_vowels(input):
     return ''.join(sorted(input, key = lambda x: x in 'aeiou'))
 ```
 

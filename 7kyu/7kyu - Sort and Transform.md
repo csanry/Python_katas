@@ -43,7 +43,7 @@ print(sort_transform([66, 99, 88, 122, 123, 110]))
 print(sort_transform([66, 87, 98, 59, 57, 50, 51, 52]))
 ```
 
-#### Output 
+#### Output
 ```
 oprn-nors-sron-nors
 3>c~-3>d~-~d>3-3>d~
@@ -64,7 +64,7 @@ BW34-23Wb-bW32-23Wb
 #### Solution
 
 ```python
-def as_string(arr): 
+def as_string(arr):
     return ''.join(map(chr, arr[:2] + arr[-2:]))
 
 def sort_transform(arr):
@@ -72,8 +72,8 @@ def sort_transform(arr):
             as_string(arr),
             as_string(sorted(arr)),
             as_string(sorted(arr, reverse=True)),
-            as_string(sorted(arr))    
-            ])  
+            as_string(sorted(arr))
+            ])
 ```
 
 ---

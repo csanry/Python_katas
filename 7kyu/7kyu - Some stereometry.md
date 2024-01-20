@@ -2,18 +2,18 @@
 
 **Instructions**
 
-- You will be given a sphere with radius `r`. 
+- You will be given a sphere with radius `r`.
 
-- Imagine that sphere gets cut with flat surface, in this case the figure that is made with this cut is circle. 
+- Imagine that sphere gets cut with flat surface, in this case the figure that is made with this cut is circle.
 
 - You will also be given distance `h` between centres of sphere and circle.
 
-- Your task is to return: 
+- Your task is to return:
 
     - The area of the original sphere.
-    
+
     - Area of circle and perimeter of circle.
-    
+
     - All of them rounded to 3 decimal places.
 
 ---
@@ -28,7 +28,7 @@ print(stereometry(5, 4))
 print(stereometry(2.98, 1))
 ```
 
-#### Output 
+#### Output
 
 ```
 (50.265, 9.425, 10.883)
@@ -43,7 +43,7 @@ print(stereometry(2.98, 1))
 #### Solution
 
 ```python
-from math import pi 
+from math import pi
 def stereometry(r, h):
     area_of_sphere = round(4 * pi * r ** 2, 3)
     area_of_circle = round(pi * (r**2 - h**2), 3)

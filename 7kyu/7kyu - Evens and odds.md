@@ -17,7 +17,7 @@ print(evens_and_odds(2))
 print(evens_and_odds(13))
 ```
 
-#### Output 
+#### Output
 ```
 10
 d

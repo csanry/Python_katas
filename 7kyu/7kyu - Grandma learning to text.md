@@ -2,9 +2,9 @@
 
 **Instructions**
 
-- Write a function that replaces 'two', 'too' and 'to' with the number '2'. 
+- Write a function that replaces 'two', 'too' and 'to' with the number '2'.
 
-- Even if the sound is found mid word (like in octopus) or not in lowercase grandma still thinks that should be replaced with a 2. 
+- Even if the sound is found mid word (like in octopus) or not in lowercase grandma still thinks that should be replaced with a 2.
 
 - Note that 'too' should become '2', not '2o'.
 
@@ -20,7 +20,7 @@ print(textin('BECAUSE I WANT TO'))
 print(textin('TwO ToO tWo tOo'))
 ```
 
-#### Output 
+#### Output
 
 ```
 I love 2 text
