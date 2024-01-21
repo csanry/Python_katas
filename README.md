@@ -10,19 +10,18 @@
 
 <a name="toc"></a>
 
-## 📋 Table of Contents
-
-1. [Introduction](#intro)
-2. [8kyu katas](#8kyu)
-3. [7kyu katas](#7kyu)
-4. [6kyu katas](#6kyu)
-5. [5kyu katas](#5kyu)
+<details>
+<summary><h2>📋 Table of Contents</h2></summary>
+1. <a href="#intro">Introduction</a><br>
+2. <a href="#8kyu-katas">8kyu katas</a><br>
+3. <a href="#7kyu-katas">7kyu katas</a><br>
+4. <a href="#6kyu-katas">6kyu katas</a><br>
+5. <a href="#5kyu-katas">5kyu katas</a>
+</details>
 
 <br>
 
-## 👋 Introduction
-
-<a name="intro"></a>
+## <a name="intro"></a>👋 Introduction
 
 - Solutions to [Codewars](https://www.codewars.com/) problems, grouped by difficulty
 
@@ -32,7 +31,7 @@
 
 <br>
 
-### 8kyu
+### <a name="8kyu-katas"></a>8kyu
 
 | <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
@@ -71,7 +70,7 @@
 
 <br>
 
-### 7kyu
+### <a name="7kyu-katas"></a>7kyu
 
 | <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
@@ -334,7 +333,7 @@
 
 <br>
 
-### 6kyu
+### <a name="6kyu-katas"></a>6kyu
 
 | <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
@@ -417,7 +416,7 @@
 
 <br>
 
-### 5kyu
+### <a name="5kyu-katas"></a>5kyu
 
 | <div style="width:500px">🥷 Kata</div> | <div style="width:1000px">📒 Notes</div> | <div style="width:200px">🐍 Solution</div> |
 | :---: | --- | --- |
