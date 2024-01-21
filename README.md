@@ -12,11 +12,14 @@
 
 <details>
 <summary><h2>📋 Table of Contents</h2></summary>
-1. <a href="#intro">Introduction</a><br>
-2. <a href="#8kyu-katas">8kyu katas</a><br>
-3. <a href="#7kyu-katas">7kyu katas</a><br>
-4. <a href="#6kyu-katas">6kyu katas</a><br>
-5. <a href="#5kyu-katas">5kyu katas</a>
+
+<ol>
+  <li><a href="#intro">Introduction</a></li>
+  <li><a href="#8kyu-katas">8kyu katas</a></li>
+  <li><a href="#7kyu-katas">7kyu katas</a></li>
+  <li><a href="#6kyu-katas">6kyu katas</a></li>
+  <li><a href="#5kyu-katas">5kyu katas</a></li>
+</ol>
 </details>
 
 <br>
